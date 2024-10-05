@@ -2,6 +2,8 @@ let categories = [];
 let mcq_data = [];
 let filteredData = [];
 let filters = [];
+let lastTapTime = 0;
+
 
 // Function to populate the dropdown
 function populateDropdown() {
@@ -258,6 +260,23 @@ function optionProcesser(option) {
     return mergedSentence;
 
 }
+
+
+
+    const doubleTapArea = document.getElementById('output');
+
+    doubleTapArea.addEventListener('touchstart', function (event) {
+        const currentTime = new Date().getTime();
+        const tapLength = currentTime - lastTapTime;
+
+        // If the time between taps is less than 300ms, consider it a double tap
+        if (tapLength < 300 && tapLength > 0) {
+            // Execute your double-tap logic here
+            alert('Double tapped!');
+        }
+
+        lastTapTime = currentTime;
+    });
 
 
 
