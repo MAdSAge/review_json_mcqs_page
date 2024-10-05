@@ -310,7 +310,7 @@ document.addEventListener('mouseup', () => {
 
 function toggleButtonColor() {
     if (button.style.backgroundColor === "grey") {
-        button.style.backgroundColor = "white"; // Change back to original color
+        button.style.backgroundColor = "blue"; // Change back to original color
     } else {
         button.style.backgroundColor = "grey"; // Change to grey
     }
