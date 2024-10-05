@@ -318,5 +318,51 @@ function toggleButtonColor() {
 
 
 
+// Touch start event
+button.addEventListener('touchstart', (e) => {
+    isDragging = true; // Start dragging
+    const touch = e.touches[0]; // Get the first touch point
+    offsetX = touch.clientX - button.getBoundingClientRect().left; // Calculate offsetX
+    offsetY = touch.clientY - button.getBoundingClientRect().top; // Calculate offsetY
+});
+
+// Touch move event
+document.addEventListener('touchmove', (e) => {
+    if (isDragging) {
+        const touch = e.touches[0]; // Get the first touch point
+        const x = touch.clientX - offsetX; // Calculate new X position
+        const y = touch.clientY - offsetY; // Calculate new Y position
+        button.style.left = `${x}px`; // Set new left position
+        button.style.top = `${y}px`; // Set new top position
+    }
+});
+
+// Touch end event
+document.addEventListener('touchend', () => {
+    isDragging = false; // Stop dragging
+});
+
+// Optional: Mouse events for desktop compatibility
+button.addEventListener('mousedown', (e) => {
+    isDragging = true; // Start dragging
+    offsetX = e.clientX - button.getBoundingClientRect().left; // Calculate offsetX
+    offsetY = e.clientY - button.getBoundingClientRect().top; // Calculate offsetY
+});
+
+document.addEventListener('mousemove', (e) => {
+    if (isDragging) {
+        const x = e.clientX - offsetX; // Calculate new X position
+        const y = e.clientY - offsetY; // Calculate new Y position
+        button.style.left = `${x}px`; // Set new left position
+        button.style.top = `${y}px`; // Set new top position
+    }
+});
+
+document.addEventListener('mouseup', () => {
+    isDragging = false; // Stop dragging
+});
+
+
+
 
 
