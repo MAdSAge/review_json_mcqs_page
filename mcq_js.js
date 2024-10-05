@@ -285,8 +285,9 @@ const button = document.getElementById('floatingButton');
 let isDragging = false;
 let offsetX, offsetY;
 
-button.addEventListener('click', (e)=>{
-    toggleExplanations();
+button.addEventListener('click', (e) => {
+    // toggleExplanations();
+    toggleButtonColor()
 });
 
 button.addEventListener('mousedown', (e) => {
@@ -306,6 +307,14 @@ document.addEventListener('mouseup', () => {
     isDragging = false;
 });
 
+
+function toggleButtonColor() {
+    if (button.style.backgroundColor === "grey") {
+        button.style.backgroundColor = "white"; // Change back to original color
+    } else {
+        button.style.backgroundColor = "grey"; // Change to grey
+    }
+}
 
 
 
