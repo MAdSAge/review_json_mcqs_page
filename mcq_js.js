@@ -265,7 +265,7 @@ function optionProcesser(option) {
 
     const doubleTapArea = document.getElementById('output');
 
-    doubleTapArea.addEventListener('touchstart', function (event) {
+    doubleTapArea.addEventListener('dblclick', function (event) {
         const currentTime = new Date().getTime();
         const tapLength = currentTime - lastTapTime;
 
