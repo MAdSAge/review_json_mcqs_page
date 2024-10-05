@@ -1,5 +1,9 @@
 /* Reset some basic elements */
-body, h1, h2, h3, p {
+body,
+h1,
+h2,
+h3,
+p {
     margin: 0;
     padding: 0;
 }
@@ -15,7 +19,7 @@ body {
 /* Navbar styles */
 .navbar {
     background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
 }
 
@@ -98,7 +102,7 @@ input[type="file"] {
 }
 
 img {
-    width: 30%;
+    width: 50%;
     height: auto;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -126,7 +130,7 @@ img {
     .navbar-nav {
         flex-direction: column;
     }
-    
+
     .navbar-nav .nav-item {
         margin-bottom: 10px;
     }
