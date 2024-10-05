@@ -324,6 +324,7 @@ button.addEventListener('touchstart', (e) => {
     const touch = e.touches[0]; // Get the first touch point
     offsetX = touch.clientX - button.getBoundingClientRect().left; // Calculate offsetX
     offsetY = touch.clientY - button.getBoundingClientRect().top; // Calculate offsetY
+    button.style.position = "fixed";
 });
 
 // Touch move event
@@ -347,6 +348,8 @@ button.addEventListener('mousedown', (e) => {
     isDragging = true; // Start dragging
     offsetX = e.clientX - button.getBoundingClientRect().left; // Calculate offsetX
     offsetY = e.clientY - button.getBoundingClientRect().top; // Calculate offsetY
+    button.style.position = 'fixed'; // Change position to fixed when dragging starts
+
 });
 
 document.addEventListener('mousemove', (e) => {

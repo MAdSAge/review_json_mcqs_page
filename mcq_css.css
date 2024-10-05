@@ -12,22 +12,25 @@ p {
 
 /*floating button*/
 #floatingButton {
-    bottom: 450px; /* 20 pixels from the bottom */
-    right: 20px;
-    position: absolute;
-    width: 60px; /* Set width and height equal for a circular shape */
-    height: 60px;
-    background-color: #f4f4ff;
-    color: white;
-    border: none;
-    border-radius: 50%; /* Make the button round */
-    cursor: pointer;
-    font-size: 16px;
-    display: flex; /* Center the text */
-    justify-content: center; /* Center horizontally */
+    position: sticky; /* Keep button sticky */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    width: 50px; /* Button width */
+    height: 50px; /* Button height */
+    border-radius: 50%; /* Makes the button round */
+    display: flex; /* Centers the emoji */
     align-items: center; /* Center vertically */
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-    outline: none; /* Remove outline on focus */
+    justify-content: center; /* Center horizontally */
+    font-size: 24px; /* Emoji size */
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    cursor: pointer; /* Change cursor on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+#floatingButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
 /* Body styles */
 body {
@@ -142,7 +145,7 @@ img {
 }
 
 .explanation:hover {
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
