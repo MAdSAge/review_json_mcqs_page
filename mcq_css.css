@@ -12,6 +12,8 @@ p {
 
 /*floating button*/
 #floatingButton {
+    bottom: 450px; /* 20 pixels from the bottom */
+    right: 20px;
     position: absolute;
     width: 60px; /* Set width and height equal for a circular shape */
     height: 60px;
