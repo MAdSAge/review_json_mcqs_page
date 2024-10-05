@@ -98,6 +98,12 @@ function populateMcqs(data) {
         // Create a base structure of MCQ
         const mcq = document.createElement("div");
         mcq.className = 'mcq';
+        mcq.id = `mcq${i}`;
+
+        mcq.addEventListener("click", () =>{
+        
+            toggleExplanations(`explanation${i}`)
+        })
 
         const question = document.createElement("div");
         question.className = 'question';
@@ -115,6 +121,7 @@ function populateMcqs(data) {
         });
 
         const explanation = document.createElement("div");
+        explanation.id = 'explanation${i}';
         explanation.className = 'explanation';
         explanation.innerHTML = currentMCq['explanation'] || 'No explanation provided.';
 
@@ -126,6 +133,7 @@ function populateMcqs(data) {
         mcqView.appendChild(mcq);
         customHR = document.createElement('hr');
         customHR.className = 'custom-hr';
+        customHR.id=`custom-hr${i}`;
         mcqView.appendChild(customHR);
     }
 }
@@ -227,21 +235,64 @@ function displayData(data) {
 
 
 function toggleExplanations() {
+    const question = document.getElementById('floatingButton');
+
+    // Get all hr elements in the content
+    const hrs = document.querySelectorAll('hr');
+    
+    // Get the initial position of the question relative to the viewport
+    const initialRect = question.getBoundingClientRect();
+
+    // Find the nearest upper and lower hr elements
+    let upperHr = null;
+    let lowerHr = null;
+
+    hrs.forEach(hr => {
+        const hrRect = hr.getBoundingClientRect();
+        if (hrRect.bottom < initialRect.top) {
+            upperHr = hr; // Found upper hr
+        } else if (hrRect.top > initialRect.bottom && !lowerHr) {
+            lowerHr = hr; // Found lower hr
+        }
+    });
+
+    // Get the initial position of the upper and lower hr elements
+    const upperHrInitialTop = upperHr ? upperHr.getBoundingClientRect().top : null;
+    const lowerHrInitialTop = lowerHr ? lowerHr.getBoundingClientRect().top : null;
+
     const explanations = document.querySelectorAll('.explanation');
     const checkbox = document.getElementById('toggleAnswer');
 
     const choices = document.querySelectorAll('.choice');
     choices.forEach(function (choice) {
-        // hide or unhide chooice class
+        // hide or unhide choice class
         choice.style.display = checkbox.checked ? 'inline' : 'none'; // Show if checked, hide if unchecked
-
     });
 
     explanations.forEach(explanation => {
         explanation.style.display = checkbox.checked ? 'block' : 'none'; // Show if checked, hide if unchecked
     });
 
+    const newQuestionTop = question.getBoundingClientRect().top;
+    const scrollAdjustment = newQuestionTop - (upperHrInitialTop + lowerHrInitialTop) / 2;
 
+    // Use setTimeout to allow the layout to settle after the display toggle
+    setTimeout(() => {
+        // Get the new positions of the upper and lower hr elements after the toggle
+        const upperHrNewTop = upperHr ? upperHr.getBoundingClientRect().top : null;
+        const lowerHrNewTop = lowerHr ? lowerHr.getBoundingClientRect().top : null;
+
+        // Calculate the distance to scroll for upper and lower hr elements
+        const scrollDistanceToUpper = upperHrInitialTop !== null ? upperHrNewTop - upperHrInitialTop : 0;
+        const scrollDistanceToLower = lowerHrInitialTop !== null ? lowerHrNewTop - lowerHrInitialTop : 0;
+
+        // Determine the scroll distance to apply based on which hr is closer
+        if (Math.abs(scrollDistanceToUpper) < Math.abs(scrollDistanceToLower)) {
+            window.scrollTo(0, window.scrollY + scrollDistanceToUpper); // Instant scroll to upper HR
+        } else {
+            window.scrollTo(0, window.scrollY + scrollDistanceToLower); // Instant scroll to lower HR
+        }
+    }, 0);
 }
 
 // Add an event listener to call readJSON when a file is selected
@@ -365,6 +416,16 @@ document.addEventListener('mouseup', () => {
     isDragging = false; // Stop dragging
 });
 
+
+
+function toggleVisibility(itemId) {
+    const item = document.getElementById(itemId);
+    
+    if (item) {
+        // Toggle the display property
+        item.style.display = item.style.display === "none" ? "block" : "none";
+    }
+}
 
 
 
