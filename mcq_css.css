@@ -8,6 +8,25 @@ p {
     padding: 0;
 }
 
+
+
+/*floating button*/
+#floatingButton {
+    position: absolute;
+    width: 60px; /* Set width and height equal for a circular shape */
+    height: 60px;
+    background-color: #f4f4ff;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Make the button round */
+    cursor: pointer;
+    font-size: 16px;
+    display: flex; /* Center the text */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    outline: none; /* Remove outline on focus */
+}
 /* Body styles */
 body {
     font-family: 'Roboto', Arial, sans-serif;

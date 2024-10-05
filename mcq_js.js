@@ -46,19 +46,19 @@ function fullPopulate() {
 
 function filterPopulate() {
 
-    
+
     dropdown = document.getElementById('category-select');
-    selectedValue = dropdown.options[dropdown.selectedIndex].text; 
+    selectedValue = dropdown.options[dropdown.selectedIndex].text;
     console.log('selectedValue', selectedValue);
     checkboxR.checked = true;
 
 
-    daata = filterDataFromList(mcq_data,"subject",selectedValue);
+    daata = filterDataFromList(mcq_data, "subject", selectedValue);
     console.log(daata);
-    megaData=[];
+    megaData = [];
 
-    if(selectedValue === "All"){
-        daata=mcq_data;
+    if (selectedValue === "All") {
+        daata = mcq_data;
     }
 
 
@@ -76,8 +76,8 @@ function filterPopulate() {
     }
     if (SkippedList.checked) {
         megaData = megaData.concat(filterDataFromList(daata, "stauts", "Skipped"));
-    }if (megaData.length === 0) {
-        
+    } if (megaData.length === 0) {
+
     }
 
     console.log(megaData);
@@ -254,29 +254,60 @@ function optionProcesser(option) {
     words = newSentence.split(' '); // Split by spaces
 
     // Create a merged sentence without the symbols
-    let mergedSentence = words.join(' ') 
+    let mergedSentence = words.join(' ')
 
-    
+
     return mergedSentence;
 
 }
 
 
 
-    const doubleTapArea = document.getElementById('output');
+const doubleTapArea = document.getElementById('output');
 
-    doubleTapArea.addEventListener('dblclick', function (event) {
-        const currentTime = new Date().getTime();
-        const tapLength = currentTime - lastTapTime;
+doubleTapArea.addEventListener('dblclick', function (event) {
+    const currentTime = new Date().getTime();
+    const tapLength = currentTime - lastTapTime;
 
-        // If the time between taps is less than 300ms, consider it a double tap
-        if (tapLength < 300 && tapLength > 0) {
-            // Execute your double-tap logic here
-            alert('Double tapped!');
-        }
+    // If the time between taps is less than 300ms, consider it a double tap
+    if (tapLength < 300 && tapLength > 0) {
+        // Execute your double-tap logic here
+        alert('Double tapped!');
+    }
 
-        lastTapTime = currentTime;
-    });
+    lastTapTime = currentTime;
+});
+
+
+//floating buttton
+const button = document.getElementById('floatingButton');
+
+let isDragging = false;
+let offsetX, offsetY;
+
+button.addEventListener('click', (e)=>{
+    toggleExplanations();
+});
+
+button.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    offsetX = e.clientX - button.getBoundingClientRect().left;
+    offsetY = e.clientY - button.getBoundingClientRect().top;
+});
+
+document.addEventListener('mousemove', (e) => {
+    if (isDragging) {
+        button.style.left = `${e.clientX - offsetX}px`;
+        button.style.top = `${e.clientY - offsetY}px`;
+    }
+});
+
+document.addEventListener('mouseup', () => {
+    isDragging = false;
+});
+
+
+
 
 
 
