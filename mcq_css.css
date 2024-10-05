@@ -15,8 +15,8 @@ p {
     position: sticky; /* Keep button sticky */
     bottom: 20px; /* Distance from the bottom */
     right: 20px; /* Distance from the right */
-    width: 50px; /* Button width */
-    height: 50px; /* Button height */
+    width: 60px; /* Button width */
+    height: 60px; /* Button height */
     border-radius: 50%; /* Makes the button round */
     display: flex; /* Centers the emoji */
     align-items: center; /* Center vertically */
