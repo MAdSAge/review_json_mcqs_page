@@ -141,10 +141,10 @@ function populateMcqs(data) {
         customHR.className = 'custom-hr';
         customHR.id=`custom-hr${i}`;
         mcqView.appendChild(customHR);
-        
-        options.addEventListener("click", () =>{
+
+        options.addEventListener("dblclick", () =>{
             console.log(`MCQ ${i} clicked`); // Debugging
-            toggleExplanations(`explanation${i}`)
+            toggleVisibility(`exp${i}`)
         })
     }
 }
