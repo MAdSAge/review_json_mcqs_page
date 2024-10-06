@@ -9,19 +9,56 @@ let lastTapTime = 0;
 //service worker
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('sw.js')
-            .then(registration => {
+        navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
                 console.log('Service Worker registered with scope:', registration.scope);
 
-                // Check for background sync support
-                if ('SyncManager' in window) {
-                    registration.sync.register('sync-updates');
-                }
+                // Check for updates
+                registration.onupdatefound = () => {
+                    const installingWorker = registration.installing;
+                    installingWorker.onstatechange = () => {
+                        if (installingWorker.state === 'installed') {
+                            if (navigator.serviceWorker.controller) {
+                                // A new version is available
+                                showUpdateNotification();
+                            }
+                        }
+                    };
+                };
             })
-            .catch(error => {
+            .catch((error) => {
                 console.error('Service Worker registration failed:', error);
             });
+
+        // Listen for messages from the service worker
+        navigator.serviceWorker.addEventListener('message', (event) => {
+            if (event.data && event.data.type === 'NEW_VERSION_AVAILABLE') {
+                showUpdateNotification();
+            }
+        });
     });
+}
+
+// Function to show update notification
+function showUpdateNotification() {
+    const notification = document.createElement('div');
+    notification.innerText = 'A new version of this application is available. Refreshing to latest version';
+    notification.style.position = 'fixed';
+    notification.style.bottom = '20px';
+    notification.style.right = '20px';
+    notification.style.backgroundColor = '#f8d7da';
+    notification.style.color = '#721c24';
+    notification.style.padding = '10px';
+    notification.style.border = '1px solid #f5c6cb';
+    notification.style.zIndex = '1000';
+    notification.style.cursor = 'pointer';
+
+    // Add an event listener to refresh on click
+    notification.onclick = () => {
+        window.location.reload(); // Refresh the page
+    };
+
+    document.body.appendChild(notification);
 }
 
 // Function to populate the dropdown
