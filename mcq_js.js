@@ -499,5 +499,41 @@ function toggleVisibilityAnswers(itemId) {
 }
 
 
+const api_url = "https://zenquotes.io/api/quotes/";
+let quotesArray = [];
+
+// Fetch the quotes from the API and store them
+async function getapi(url) {
+  try {
+    const response = await fetch(url);
+    const quotes = await response.json();
+    quotesArray = quotes;
+    displayRandomQuote();
+  } catch (error) {
+    console.error("Failed to fetch quotes:", error);
+  }
+}
+
+// Display a random quote from the stored quotes
+function displayRandomQuote() {
+  if (quotesArray.length > 0) {
+    const randomIndex = Math.floor(Math.random() * quotesArray.length);
+    const randomQuote = quotesArray[randomIndex];
+    const quoteText = document.getElementById('quoteText');
+    const quoteAuthor = document.getElementById('quoteAuthor');
+
+    quoteText.innerHTML = `&ldquo;${randomQuote.q}&rdquo;`;
+    quoteAuthor.innerHTML = `&mdash; ${randomQuote.a}`;
+  } else {
+    console.log("No quotes available to display.");
+  }
+}
+
+// Add event listener to the button to get a new random quote
+document.getElementById('newQuoteBtn').addEventListener('click', displayRandomQuote);
+
+// Load the quotes on page load
+getapi(api_url);
+
 
 

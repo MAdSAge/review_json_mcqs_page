@@ -278,3 +278,41 @@ tbody tr:hover {
 
 
 
+
+  .quote-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #333;
+  }
+  
+  footer {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .quote-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    blockquote {
+      font-size: 1.2rem;
+    }
+  
+    footer {
+      font-size: 1rem;
+    }
+  }
+  
