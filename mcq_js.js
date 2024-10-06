@@ -145,8 +145,8 @@ function populateMcqs(data) {
         options.addEventListener("dblclick", () =>{
             console.log(`MCQ ${i} clicked`); // Debugging
             toggleVisibility(`exp${i}`)
-            toggleVisibility(`ids${i}w`)
-            toggleVisibility(`ids${i}r`)
+            toggleVisibility(`${i}w`)
+            toggleVisibility(`${i}r`)
         })
     }
 }
