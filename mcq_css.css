@@ -277,42 +277,41 @@ tbody tr:hover {
 }
 
 
-
-
+/*Quote styles*/
+  
   .quote-container {
-    text-align: center;
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    width: 60%;
-    margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
   }
   
   blockquote {
-    font-size: 1.5rem;
-    font-style: italic;
+    font-size: 1.5em;
+    margin: 0;
     color: #333;
   }
   
   footer {
-    font-size: 1.2rem;
-    color: #555;
     margin-top: 10px;
+    font-size: 1.2em;
+    color: #666;
   }
   
-  @media (max-width: 768px) {
-    .quote-container {
-      width: 90%;
-      padding: 15px;
-    }
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
   
-    blockquote {
-      font-size: 1.2rem;
-    }
-  
-    footer {
-      font-size: 1rem;
-    }
+  button:hover {
+    background-color: #0056b3;
   }
   

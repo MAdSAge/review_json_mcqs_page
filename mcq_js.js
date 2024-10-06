@@ -4,8 +4,6 @@ let filteredData = [];
 let filters = [];
 let lastTapTime = 0;
 
-
-
 //service worker
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
@@ -52,7 +50,7 @@ function showUpdateNotification() {
     notification.style.border = '1px solid #c3e6cb'; // Green border color
     notification.style.zIndex = '1000';
     notification.style.cursor = 'pointer';
-    
+
 
     // Add an event listener to refresh on click
     notification.onclick = () => {
@@ -157,7 +155,7 @@ function populateMcqs(data) {
         mcq.className = 'mcq';
         mcq.id = `mcq${i}`;
 
-        
+
 
         const question = document.createElement("div");
         question.className = 'question';
@@ -171,7 +169,7 @@ function populateMcqs(data) {
         ['optionA', 'optionB', 'optionC', 'optionD'].forEach(optionKey => {
             const option = document.createElement("div");
             option.className = 'option';
-            option.innerHTML = optionProcesser(i,currentMCq[optionKey]); // Set option text
+            option.innerHTML = optionProcesser(i, currentMCq[optionKey]); // Set option text
             options.appendChild(option); // Append option to the options container
         });
 
@@ -188,10 +186,10 @@ function populateMcqs(data) {
         mcqView.appendChild(mcq);
         customHR = document.createElement('hr');
         customHR.className = 'custom-hr';
-        customHR.id=`custom-hr${i}`;
+        customHR.id = `custom-hr${i}`;
         mcqView.appendChild(customHR);
 
-        options.addEventListener("dblclick", () =>{
+        options.addEventListener("dblclick", () => {
             console.log(`MCQ ${i} clicked`); // Debugging
             toggleVisibility(`exp${i}`)
             toggleVisibilityAnswers(`${i}w`)
@@ -301,7 +299,7 @@ function toggleExplanations() {
 
     // Get all hr elements in the content
     const hrs = document.querySelectorAll('hr');
-    
+
     // Get the initial position of the question relative to the viewport
     const initialRect = question.getBoundingClientRect();
 
@@ -360,7 +358,7 @@ function toggleExplanations() {
 // Add an event listener to call readJSON when a file is selected
 
 
-function optionProcesser(ids,option) {
+function optionProcesser(ids, option) {
 
     let newSentence = option.replace("Incorrect", `<span id="${ids}w" class='choice'>❌</span>`);
     newSentence = newSentence.replace("Correct", `<span id="${ids}r" class='choice'>✅</span>`);
@@ -482,7 +480,7 @@ document.addEventListener('mouseup', () => {
 
 function toggleVisibility(itemId) {
     const item = document.getElementById(itemId);
-    
+
     if (item) {
         // Toggle the display property
         item.style.display = item.style.display === "none" ? "block" : "none";
@@ -491,7 +489,7 @@ function toggleVisibility(itemId) {
 
 function toggleVisibilityAnswers(itemId) {
     const item = document.getElementById(itemId);
-    
+
     if (item) {
         // Toggle the display property
         item.style.display = item.style.display === "none" ? "inline" : "none";
@@ -499,41 +497,56 @@ function toggleVisibilityAnswers(itemId) {
 }
 
 
-const api_url = "https://zenquotes.io/api/quotes/";
-let quotesArray = [];
+
 
 // Fetch the quotes from the API and store them
+// Fetch the quotes from the API and store them
 async function getapi(url) {
-  try {
-    const response = await fetch(url);
-    const quotes = await response.json();
-    quotesArray = quotes;
-    displayRandomQuote();
-  } catch (error) {
-    console.error("Failed to fetch quotes:", error);
-  }
+    try {
+        const response = await fetch(url);
+        const quotes = await response.json();
+        quotesArray = quotes;
+        displayRandomQuote();
+    } catch (error) {
+        console.error("Failed to fetch quotes:", error);
+    }
 }
 
 // Display a random quote from the stored quotes
-function displayRandomQuote() {
-  if (quotesArray.length > 0) {
-    const randomIndex = Math.floor(Math.random() * quotesArray.length);
-    const randomQuote = quotesArray[randomIndex];
-    const quoteText = document.getElementById('quoteText');
-    const quoteAuthor = document.getElementById('quoteAuthor');
+let quotes = [];
 
-    quoteText.innerHTML = `&ldquo;${randomQuote.q}&rdquo;`;
-    quoteAuthor.innerHTML = `&mdash; ${randomQuote.a}`;
-  } else {
-    console.log("No quotes available to display.");
-  }
+// Fetch quotes from the JSON file
+async function fetchQuotes() {
+    try {
+        const response = await fetch('quotes.json'); // Adjust the path if necessary
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        quotes = await response.json();
+        displayRandomQuote(); // Display a random quote after fetching
+    } catch (error) {
+        console.error('Error fetching quotes:', error);
+    }
 }
 
-// Add event listener to the button to get a new random quote
-document.getElementById('newQuoteBtn').addEventListener('click', displayRandomQuote);
+// Display a random quote
+function displayRandomQuote() {
+    const quoteElement = document.getElementById('output');
 
-// Load the quotes on page load
-getapi(api_url);
+    if (quotes.length > 0) {
+        // Randomly select a quote from the array
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        const randomQuote = quotes[randomIndex]["h"];
+        quoteElement.innerHTML = `<span style="font-size: 24px; color: #333; font-family: 'Arial', sans-serif; text-align: right;">${randomQuote}</span>`;
+    } else {
+        quoteElement.innerHTML = "No quotes available.";
+    }
+}
+
+// Fetch the quotes and display a random one when the page loads
+window.onload = () => {
+    fetchQuotes(); // Fetch quotes when the page loads
+};
 
 
 
