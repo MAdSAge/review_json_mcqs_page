@@ -145,8 +145,8 @@ function populateMcqs(data) {
         options.addEventListener("dblclick", () =>{
             console.log(`MCQ ${i} clicked`); // Debugging
             toggleVisibility(`exp${i}`)
-            toggleVisibility(`${i}w`)
-            toggleVisibility(`${i}r`)
+            toggleVisibilityAnswers(`${i}w`)
+            toggleVisibilityAnswers(`${i}r`)
         })
     }
 }
@@ -432,6 +432,15 @@ document.addEventListener('mouseup', () => {
 
 
 function toggleVisibility(itemId) {
+    const item = document.getElementById(itemId);
+    
+    if (item) {
+        // Toggle the display property
+        item.style.display = item.style.display === "none" ? "block" : "none";
+    }
+}
+
+function toggleVisibilityAnswers(itemId) {
     const item = document.getElementById(itemId);
     
     if (item) {
