@@ -264,7 +264,7 @@ function readJSON(event) {
         populateDropdown(); // Populate the dropdown with the subjects
         fullPopulate(); // Perform any other necessary updates
 
-        console.log(mcq_data); // Log the combined MCQ data from all files
+        // console.log(mcq_data); // Log the combined MCQ data from all files
     };
 
     processAllFiles(); // Start processing the files
