@@ -20,6 +20,14 @@ module.exports = {
           maxAgeSeconds: 30 * 24 * 60 * 60,  // Cache images for 30 days
         }
       }
-    }]
+    }],
+    // Add this section for Background Sync
+    backgroundSync: {
+      // Name of the sync registration
+      name: 'mySyncQueue',
+      options: {
+        maxRetentionTime: 24 * 60, // Retain sync tasks for 24 hours
+      },
+    },
   };
   
