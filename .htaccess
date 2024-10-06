@@ -1,0 +1,6 @@
+# Prevent caching for service-worker.js and manifest.json
+<FilesMatch "(\.json|service-worker\.js)$">
+    Header set Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+</FilesMatch>
