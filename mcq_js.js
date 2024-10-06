@@ -122,7 +122,7 @@ function populateMcqs(data) {
         ['optionA', 'optionB', 'optionC', 'optionD'].forEach(optionKey => {
             const option = document.createElement("div");
             option.className = 'option';
-            option.innerHTML = optionProcesser(currentMCq[optionKey]); // Set option text
+            option.innerHTML = optionProcesser(i,currentMCq[optionKey]); // Set option text
             options.appendChild(option); // Append option to the options container
         });
 
@@ -145,6 +145,8 @@ function populateMcqs(data) {
         options.addEventListener("dblclick", () =>{
             console.log(`MCQ ${i} clicked`); // Debugging
             toggleVisibility(`exp${i}`)
+            toggleVisibility(`ids${i}w`)
+            toggleVisibility(`ids${i}r`)
         })
     }
 }
@@ -309,10 +311,10 @@ function toggleExplanations() {
 // Add an event listener to call readJSON when a file is selected
 
 
-function optionProcesser(option) {
+function optionProcesser(ids,option) {
 
-    newSentence = option.replace("Incorrect", "<span class='choice'>❌</span>"); // Replace "fox" with "cat"
-    newSentence = newSentence.replace("Correct", "<span class='choice'>✅</span>");
+    let newSentence = option.replace("Incorrect", `<span id="${ids}w" class='choice'>❌</span>`);
+    newSentence = newSentence.replace("Correct", `<span id="${ids}r" class='choice'>✅</span>`);
     words = newSentence.split(' '); // Split by spaces
 
     // Create a merged sentence without the symbols
