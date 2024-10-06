@@ -14,7 +14,7 @@ p {
 #floatingButton {
     position: sticky;
     /* Keep button sticky */
-    bottom: 20px;
+    bottom: 350px;
     /* Distance from the bottom */
     right: 20px;
     /* Distance from the right */
