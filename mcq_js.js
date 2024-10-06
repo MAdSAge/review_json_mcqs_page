@@ -436,7 +436,7 @@ function toggleVisibility(itemId) {
     
     if (item) {
         // Toggle the display property
-        item.style.display = item.style.display === "none" ? "block" : "none";
+        item.style.display = item.style.display === "none" ? "inline" : "none";
     }
 }
 
