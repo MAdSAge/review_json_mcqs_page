@@ -7,11 +7,22 @@ let lastTapTime = 0;
 
 
 //service worker
-if ("serviceWorker" in navigator) {
-    // register service worker
-    navigator.serviceWorker.register("service-worker.js");
-  }
-  
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+            .then(registration => {
+                console.log('Service Worker registered with scope:', registration.scope);
+
+                // Check for background sync support
+                if ('SyncManager' in window) {
+                    registration.sync.register('sync-updates');
+                }
+            })
+            .catch(error => {
+                console.error('Service Worker registration failed:', error);
+            });
+    });
+}
 
 // Function to populate the dropdown
 function populateDropdown() {
