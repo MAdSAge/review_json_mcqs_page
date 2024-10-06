@@ -5,6 +5,14 @@ let filters = [];
 let lastTapTime = 0;
 
 
+
+//service worker
+if ("serviceWorker" in navigator) {
+    // register service worker
+    navigator.serviceWorker.register("service-worker.js");
+  }
+  
+
 // Function to populate the dropdown
 function populateDropdown() {
     const selectElement = document.getElementById('category-select');
