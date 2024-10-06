@@ -108,16 +108,14 @@ function populateMcqs(data) {
         mcq.className = 'mcq';
         mcq.id = `mcq${i}`;
 
-        mcq.addEventListener("click", () =>{
         
-            toggleExplanations(`explanation${i}`)
-        })
 
         const question = document.createElement("div");
         question.className = 'question';
         question.innerHTML = currentMCq['question_title'] + currentMCq['question_ADD'] + currentMCq['question_imag'];
 
         const options = document.createElement("div");
+        options.id = `options${i}`;
         options.className = 'options';
 
         // Assuming options are stored as optionA, optionB, etc.
@@ -129,7 +127,7 @@ function populateMcqs(data) {
         });
 
         const explanation = document.createElement("div");
-        explanation.id = 'explanation${i}';
+        explanation.id = `exp${i}`;
         explanation.className = 'explanation';
         explanation.innerHTML = currentMCq['explanation'] || 'No explanation provided.';
 
@@ -143,6 +141,10 @@ function populateMcqs(data) {
         customHR.className = 'custom-hr';
         customHR.id=`custom-hr${i}`;
         mcqView.appendChild(customHR);
+        options.addEventListener("click", () =>{
+            console.log(`MCQ ${i} clicked`); // Debugging
+            toggleExplanations(`explanation${i}`)
+        })
     }
 }
 

@@ -189,22 +189,13 @@ img {
 
 
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f2f5;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
 
 table {
     border-collapse: collapse;
     margin: 25px 0;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     width: 100%;
-    min-width: 400px;
+    /* min-width: 400px; */
     text-align: left;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -212,7 +203,7 @@ table {
 }
 
 thead tr {
-    background-color: #009879;
+    background-color: #007bff;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -231,21 +222,59 @@ tbody tr:nth-of-type(even) {
 }
 
 tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid #0056b3;
 }
 
 tbody tr:hover {
-    background-color: #f1f1f1;
+    background-color: lightsteelblue;
     transition: background-color 0.2s ease;
 }
 
-/* Optional: Responsive Design */
-@media (max-width: 600px) {
-    table {
-        font-size: 0.9em;
-    }
-    
-    th, td {
-        padding: 10px 8px;
-    }
+/* styling teh lsist*/
+
+.question ul, .explanation ul {
+    list-style-type: none;  /* Remove default bullet points */
+    padding: 0;
+    margin: 20px 0;
+    background-color: #ffffff;  /* Lighter, clean background for clarity */
+    border-radius: 12px;  /* Slightly rounder corners for a softer look */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);  /* More defined shadow for depth */
+    max-width: 100%;
+    font-family: 'Arial', sans-serif;
+    padding: 15px 20px;  /* Adjusted padding for cleaner layout */
+    transition: all 0.3s ease;  /* Smooth transition for any style changes */
 }
+
+.question ul li, .explanation ul li {
+    padding: 12px 20px;  /* More balanced padding inside each list item */
+    border-bottom: 1px solid #eee;  /* Softer separator between items */
+    /* font-size: 1.2em;  Slightly larger font for readability */
+    color: #333;  /* Ensure text color is consistent */
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;  /* Smooth hover transitions */
+}
+
+.question ul li:last-child, .explanation ul li:last-child {
+    border-bottom: none;  /* Remove the bottom border for the last item */
+}
+
+.question ul li::before, .explanation ul li::before {
+    content: '•';  /* Custom bullet point */
+    /* font-size: 1.5em; */
+    color: #009879;  /* Greenish color for bullet */
+    margin-right: 15px;  /* More spacing between bullet and text */
+}
+
+.question ul li:hover, .explanation ul li:hover {
+    background-color: #f0f7f5;  /* Softer, warmer background color on hover */
+    cursor: pointer;  /* Pointer cursor on hover */
+    transform: scale(1.02);  /* Slightly scale the item for interaction feedback */
+}
+
+.question ul li:hover::before, .explanation ul li:hover::before {
+    color: #007b65;  /* Darken bullet color on hover for better contrast */
+}
+
+
+
