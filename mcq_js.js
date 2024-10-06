@@ -42,16 +42,17 @@ if ('serviceWorker' in navigator) {
 // Function to show update notification
 function showUpdateNotification() {
     const notification = document.createElement('div');
-    notification.innerText = 'A new version of this application is available. Refreshing to latest version';
+    notification.innerText = 'A new version of this application is available. Get latest  🎁';
     notification.style.position = 'fixed';
     notification.style.bottom = '20px';
     notification.style.right = '20px';
-    notification.style.backgroundColor = '#f8d7da';
-    notification.style.color = '#721c24';
+    notification.style.backgroundColor = '#d4edda';  // Light green background
+    notification.style.color = '#155724';            // Dark green text color
     notification.style.padding = '10px';
-    notification.style.border = '1px solid #f5c6cb';
+    notification.style.border = '1px solid #c3e6cb'; // Green border color
     notification.style.zIndex = '1000';
     notification.style.cursor = 'pointer';
+    
 
     // Add an event listener to refresh on click
     notification.onclick = () => {
