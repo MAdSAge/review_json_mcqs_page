@@ -12,26 +12,43 @@ p {
 
 /*floating button*/
 #floatingButton {
-    position: sticky; /* Keep button sticky */
-    bottom: 20px; /* Distance from the bottom */
-    right: 20px; /* Distance from the right */
-    width: 60px; /* Button width */
-    height: 60px; /* Button height */
-    border-radius: 50%; /* Makes the button round */
-    display: flex; /* Centers the emoji */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    font-size: 24px; /* Emoji size */
-    background-color: #007bff; /* Button color */
-    color: white; /* Text color */
-    cursor: pointer; /* Change cursor on hover */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
-    transition: background-color 0.3s; /* Smooth transition */
+    position: sticky;
+    /* Keep button sticky */
+    bottom: 20px;
+    /* Distance from the bottom */
+    right: 20px;
+    /* Distance from the right */
+    width: 60px;
+    /* Button width */
+    height: 60px;
+    /* Button height */
+    border-radius: 50%;
+    /* Makes the button round */
+    display: flex;
+    /* Centers the emoji */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    font-size: 24px;
+    /* Emoji size */
+    background-color: #007bff;
+    /* Button color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Change cursor on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Optional shadow */
+    transition: background-color 0.3s;
+    /* Smooth transition */
 }
 
 #floatingButton:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
+    /* Darker blue on hover */
 }
+
 /* Body styles */
 body {
     font-family: 'Roboto', Arial, sans-serif;
@@ -167,5 +184,67 @@ img {
     .btn-group .btn {
         margin-right: 0;
         margin-bottom: 5px;
+    }
+}
+
+
+
+
+.table-container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.2em;
+    width: 100%;
+    min-width: 400px;
+    text-align: left;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.2s ease;
+}
+
+/* Optional: Responsive Design */
+@media (max-width: 600px) {
+    .styled-table {
+        font-size: 0.9em;
+    }
+    
+    .styled-table th, 
+    .styled-table td {
+        padding: 10px 8px;
     }
 }
