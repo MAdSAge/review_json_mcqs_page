@@ -14,7 +14,7 @@ p {
 #floatingButton {
     position: sticky;
     /* Keep button sticky */
-    bottom: 350px;
+    bottom: 100px;
     /* Distance from the bottom */
     right: 20px;
     /* Distance from the right */
@@ -318,4 +318,71 @@ tbody tr:hover {
   pearl-bookmark{
     display: none !important;
   }
+
+  /*form css*/
+  #fileSelectionForm {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#fileSelectionForm div {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#fileSelectionForm input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#fileSelectionForm label {
+    margin-right: 15px;
+    flex-grow: 1;
+}
+
+#fileSelectionForm input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#fileSelectionForm button {
+    padding: 8px 12px;
+    margin-right:2px ;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#fileSelectionForm button:hover {
+    background-color: #007BFF;
+}
+
+#fileSelectionForm button[onclick^="delete"] {
+    background-color: #f44336;
+}
+
+#fileSelectionForm button[onclick^="delete"]:hover {
+    background-color: #d32f2f;
+}
+
+#fileSelectionForm > button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+}
   
