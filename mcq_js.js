@@ -141,6 +141,8 @@ function filterPopulate() {
 
 }
 
+
+
 function populateMcqs(data) {
     let mcqView = document.getElementById("output");
     mcqView.innerHTML = ''; // Clear previous output
@@ -188,6 +190,8 @@ function populateMcqs(data) {
         customHR.className = 'custom-hr';
         customHR.id = `custom-hr${i}`;
         mcqView.appendChild(customHR);
+        addClickHandlerForListItem();
+        
 
         options.addEventListener("dblclick", () => {
             console.log(`MCQ ${i} clicked`); // Debugging
@@ -753,3 +757,37 @@ function loadSelectedFiles() {
             console.error("Error loading files:", error);
         });
 }
+
+
+
+
+async function addClickHandlerForListItem(){
+
+    listItems = document.querySelectorAll('.explanation li');
+
+
+    listItems.forEach(item => {
+        let clickCount = 0; // To track the number of clicks
+        let clickTimeout; // To reset click count
+    
+        item.addEventListener('click', () => {
+            clickCount++;
+    
+            // Reset click count after 400 milliseconds
+            clearTimeout(clickTimeout);
+            clickTimeout = setTimeout(() => {
+                clickCount = 0;
+            }, 400);
+    
+            // Check for triple click
+            if (clickCount === 3) {
+                item.innerHTML = item.textContent; // Change inner HTML to plain text
+                item.classList.add('clicked'); // Add class for styling if needed
+                clickCount = 0; // Reset click count
+            }
+        });
+    });
+    
+
+}
+
