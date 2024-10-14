@@ -111,7 +111,7 @@ function filterPopulate() {
 
 
     daata = filterDataFromList(mcq_data, "subject", selectedValue);
-    console.log(daata);
+    // console.log(daata);
     megaData = [];
 
     if (selectedValue === "All") {
@@ -143,7 +143,7 @@ function filterPopulate() {
 
     }
 
-    console.log(megaData);
+    // console.log(megaData);
 
     populateMcqs(megaData);
 
@@ -205,7 +205,7 @@ function populateMcqs(data) {
 
 
         options.addEventListener("dblclick", () => {
-            console.log(`MCQ ${i} clicked`); // Debugging
+            // console.log(`MCQ ${i} clicked`); // Debugging
             toggleVisibility(`exp${i}`)
             toggleVisibilityAnswers(`${i}w`)
             toggleVisibilityAnswers(`${i}r`)
@@ -752,7 +752,7 @@ function loadSelectedFiles() {
             request.onsuccess = function (event) {
                 let fileData = event.target.result;
                 if (fileData) {
-                    console.log(`Loaded file: ${fileData.name}`, fileData.content);
+                    // console.log(`Loaded file: ${fileData.name}`, fileData.content);
                     const data = JSON.parse(fileData.content);
                     mcq_data.push(...data);
                     resolve();
@@ -772,7 +772,7 @@ function loadSelectedFiles() {
     Promise.all(fileLoadPromises)
         .then(() => {
             console.log("All files loaded successfully");
-            console.log(mcq_data);
+            // console.log(mcq_data);
 
             fullPopulate();
 
