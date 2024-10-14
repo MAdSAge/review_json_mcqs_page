@@ -312,6 +312,7 @@ tbody tr:hover {
     border-radius: 4px;
 }
 
+
 #fileSelectionForm button {
     padding: 8px 12px;
     margin-right:2px ;
@@ -328,11 +329,19 @@ tbody tr:hover {
 }
 
 #fileSelectionForm button[onclick^="delete"] {
-    background-color: #f44336;
+    background-color: white;
 }
 
 #fileSelectionForm button[onclick^="delete"]:hover {
-    background-color: #d32f2f;
+    background-color: white;
+}
+
+#fileSelectionForm button[onclick^="rename"] {
+    background-color: white;
+}
+
+#fileSelectionForm button[onclick^="rename"]:hover {
+    background-color: white;
 }
 
 #fileSelectionForm > button {
@@ -341,6 +350,7 @@ tbody tr:hover {
     margin-top: 20px;
     font-size: 16px;
 }
+
 
 
 .mat-badge-content {
@@ -6863,4 +6873,86 @@ body.dark-theme {
     .agree-modal .modal-content button {
         font-size: 20px
     }
+}
+
+/*butotn css*/
+
+/* Base styles for the file container */
+.file-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f0f4ff; /* Light blue background */
+    border: 1px solid #b3c7e6; /* Soft blue border */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkbox styling */
+.file-checkbox {
+    margin-right: 10px;
+}
+
+/* File label styling */
+.file-label {
+    flex: 1;
+    font-size: 16px;
+    color: #333; /* Dark text color */
+}
+
+/* Rename input styling */
+.rename-input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #007BFF; /* Blue border */
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+/* Focus effect for the input field */
+.rename-input:focus {
+    border-color: #0056b3; /* Darker blue on focus */
+    outline: none;
+}
+
+/* Icon button base styles */
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.2s;
+}
+
+/* Icon image styles */
+.icon-button img {
+    width: 24px; /* Adjust icon size */
+    height: 24px; /* Adjust icon size */
+}
+
+/* Hover effect for buttons */
+.icon-button:hover {
+    transform: scale(1.1);
+}
+
+/* Rename button color */
+.rename-button {
+    color: #28a745; /* Green color for rename */
+}
+
+/* Delete button color */
+.delete-button {
+    color: #dc3545; /* Red color for delete */
+}
+
+/* Button hover effects */
+.rename-button:hover {
+    color: #218838; /* Darker green on hover */
+}
+
+.delete-button:hover {
+    color: #c82333; /* Darker red on hover */
 }

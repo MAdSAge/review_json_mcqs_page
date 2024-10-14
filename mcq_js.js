@@ -89,11 +89,13 @@ function fullPopulate() {
     IncorrectList = document.getElementById('btncheck2');
     SkippedList = document.getElementById('btncheck3');
     checkboxR = document.getElementById('toggleAnswer');
+    imgaeQ = document.getElementById('btncheck4');
 
 
     CorrectList.checked = true;
     IncorrectList.checked = true;
     SkippedList.checked = true;
+    imgaeQ.checked = false;
     checkboxR.checked = true;
 
 
@@ -122,6 +124,7 @@ function filterPopulate() {
     CorrectList = document.getElementById('btncheck1');
     IncorrectList = document.getElementById('btncheck2');
     SkippedList = document.getElementById('btncheck3');
+    imageQ = document.getElementById('btncheck4');
 
     if (CorrectList.checked) {
         megaData = megaData.concat(filterDataFromList(daata, "stauts", "Correct"));
@@ -131,7 +134,12 @@ function filterPopulate() {
     }
     if (SkippedList.checked) {
         megaData = megaData.concat(filterDataFromList(daata, "stauts", "Skipped"));
-    } if (megaData.length === 0) {
+    } 
+    if(imageQ.checked){
+        megaData = filterDataByImages(megaData, "question_imag", "");
+
+    }
+    if (megaData.length === 0) {
 
     }
 
@@ -146,6 +154,9 @@ function filterPopulate() {
 function populateMcqs(data) {
     let mcqView = document.getElementById("output");
     mcqView.innerHTML = ''; // Clear previous output
+    flotingBtn = document.getElementById("floatingButton");
+    flotingBtn.innerText = ''; // Clear previous floating button
+    flotingBtn.innerText = '' + data.length
 
 
 
@@ -191,7 +202,7 @@ function populateMcqs(data) {
         customHR.id = `custom-hr${i}`;
         mcqView.appendChild(customHR);
         addClickHandlerForListItem();
-        
+
 
         options.addEventListener("dblclick", () => {
             console.log(`MCQ ${i} clicked`); // Debugging
@@ -276,6 +287,14 @@ function readJSON(event) {
 // Function to filter data by a key-value pair
 function filterDataFromList(data, key, value) {
     return data.filter(item => item[key] && item[key].toLowerCase() === value.toLowerCase());
+}
+//filter data by images
+function filterDataByImages(data, key, value){
+
+        return data.filter(item => item[key] && item[key] !== "");
+    
+    
+
 }
 
 // Function to display the filtered data
@@ -627,18 +646,26 @@ function displayStoredFilesForSelection() {
         let fileSelectionForm = '<form id="fileSelectionForm">';
         files.forEach(file => {
             fileSelectionForm += `
-                        <div>
-                            <input type="checkbox" id="${file.name}" name="fileSelect" value="${file.name}">
-                            <label for="${file.name}">${file.name}</label>
-                            <input type="text" id="rename-${file.name}" placeholder="New name" />
-                            <button type="button" onclick="renameFile('${file.name}', document.getElementById('rename-${file.name}').value)">Rename</button>
-                            <button type="button" onclick="deleteFile('${file.name}')">Delete</button>
-                        </div>
+                        <div class="file-container">
+    <input type="checkbox" id="${file.name}" name="fileSelect" value="${file.name}" class="file-checkbox" aria-label="Select ${file.name}">
+    <label for="${file.name}" class="file-label">${file.name}</label>
+    
+    <input type="text" id="rename-${file.name}" placeholder="New name" class="rename-input" aria-label="Rename ${file.name}" />
+    
+    <button class="icon-button rename-button" type="button" 
+            onclick="renameFile('${file.name}', document.getElementById('rename-${file.name}').value)">
+        <img class=".rename-button" src="icons/edit.png" alt="Rename ${file.name}" />
+    </button>
+    
+    <button class="icon-button delete-button" type="button" onclick="deleteFile('${file.name}')" aria-label="Delete ${file.name}">
+        <img class=".delete-button" src="icons/delete.png" alt="Delete" />
+    </button>
+</div>
                     `;
         });
         fileSelectionForm += `<button type="button" onclick="loadSelectedFiles()">Load Selected Files</button></form>`;
         output.innerHTML += fileSelectionForm;
-         // Display a random quote after fetching
+        // Display a random quote after fetching
 
     };
 
@@ -746,9 +773,9 @@ function loadSelectedFiles() {
         .then(() => {
             console.log("All files loaded successfully");
             console.log(mcq_data);
-            
+
             fullPopulate();
-            
+
             subjects = getSubjects();
             categories.push(...subjects);
             populateDropdown();
@@ -761,7 +788,7 @@ function loadSelectedFiles() {
 
 
 
-async function addClickHandlerForListItem(){
+async function addClickHandlerForListItem() {
 
     listItems = document.querySelectorAll('.explanation li');
 
@@ -769,16 +796,16 @@ async function addClickHandlerForListItem(){
     listItems.forEach(item => {
         let clickCount = 0; // To track the number of clicks
         let clickTimeout; // To reset click count
-    
+
         item.addEventListener('click', () => {
             clickCount++;
-    
+
             // Reset click count after 400 milliseconds
             clearTimeout(clickTimeout);
             clickTimeout = setTimeout(() => {
                 clickCount = 0;
             }, 400);
-    
+
             // Check for triple click
             if (clickCount === 3) {
                 item.innerHTML = item.textContent; // Change inner HTML to plain text
@@ -787,7 +814,7 @@ async function addClickHandlerForListItem(){
             }
         });
     });
-    
+
 
 }
 
