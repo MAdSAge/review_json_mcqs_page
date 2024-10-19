@@ -209,7 +209,8 @@ thead tr {
     font-weight: bold;
 }
 
-th, td {
+th,
+td {
     padding: 12px 15px;
 }
 
@@ -234,29 +235,29 @@ tbody tr:hover {
 
 
 /*Quote styles*/
-  
-  .quote-container {
+
+.quote-container {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 500px;
-  }
-  
-  blockquote {
+}
+
+blockquote {
     font-size: 1.5em;
     margin: 0;
     color: #333;
-  }
-  
-  footer {
+}
+
+footer {
     margin-top: 10px;
     font-size: 1.2em;
     color: #666;
-  }
-  
-  button {
+}
+
+button {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1em;
@@ -265,18 +266,18 @@ tbody tr:hover {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #0056b3;
-  }
+}
 
-  pearl-bookmark{
+pearl-bookmark {
     display: none !important;
-  }
+}
 
-  /*form css*/
-  #fileSelectionForm {
+/*form css*/
+#fileSelectionForm {
     font-family: Arial, sans-serif;
     max-width: 100%;
     margin: 20px auto;
@@ -315,7 +316,7 @@ tbody tr:hover {
 
 #fileSelectionForm button {
     padding: 8px 12px;
-    margin-right:2px ;
+    margin-right: 2px;
     background-color: #007BFF;
     color: white;
     border: none;
@@ -344,7 +345,7 @@ tbody tr:hover {
     background-color: white;
 }
 
-#fileSelectionForm > button {
+#fileSelectionForm>button {
     display: block;
     width: 100%;
     margin-top: 20px;
@@ -356,7 +357,7 @@ tbody tr:hover {
 .mat-badge-content {
     font-weight: 600;
     font-size: 12px;
-    font-family: Roboto,Helvetica Neue,sans-serif
+    font-family: Roboto, Helvetica Neue, sans-serif
 }
 
 .mat-badge-small .mat-badge-content {
@@ -367,96 +368,141 @@ tbody tr:hover {
     font-size: 24px
 }
 
-.mat-h1,.mat-headline,.mat-typography .mat-h1,.mat-typography .mat-headline,.mat-typography h1 {
-    font: 400 24px/32px Roboto,Helvetica Neue,sans-serif;
+.mat-h1,
+.mat-headline,
+.mat-typography .mat-h1,
+.mat-typography .mat-headline,
+.mat-typography h1 {
+    font: 400 24px/32px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal;
     margin: 0 0 16px
 }
 
-.mat-h2,.mat-title,.mat-typography .mat-h2,.mat-typography .mat-title,.mat-typography h2 {
-    font: 500 20px/32px Roboto,Helvetica Neue,sans-serif;
+.mat-h2,
+.mat-title,
+.mat-typography .mat-h2,
+.mat-typography .mat-title,
+.mat-typography h2 {
+    font: 500 20px/32px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal;
     margin: 0 0 16px
 }
 
-.mat-h3,.mat-subheading-2,.mat-typography .mat-h3,.mat-typography .mat-subheading-2,.mat-typography h3 {
-    font: 400 16px/28px Roboto,Helvetica Neue,sans-serif;
+.mat-h3,
+.mat-subheading-2,
+.mat-typography .mat-h3,
+.mat-typography .mat-subheading-2,
+.mat-typography h3 {
+    font: 400 16px/28px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal;
     margin: 0 0 16px
 }
 
-.mat-h4,.mat-subheading-1,.mat-typography .mat-h4,.mat-typography .mat-subheading-1,.mat-typography h4 {
-    font: 400 15px/24px Roboto,Helvetica Neue,sans-serif;
+.mat-h4,
+.mat-subheading-1,
+.mat-typography .mat-h4,
+.mat-typography .mat-subheading-1,
+.mat-typography h4 {
+    font: 400 15px/24px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal;
     margin: 0 0 16px
 }
 
-.mat-h5,.mat-typography .mat-h5,.mat-typography h5 {
-    font: 400 11.62px/20px Roboto,Helvetica Neue,sans-serif;
+.mat-h5,
+.mat-typography .mat-h5,
+.mat-typography h5 {
+    font: 400 11.62px/20px Roboto, Helvetica Neue, sans-serif;
     margin: 0 0 12px
 }
 
-.mat-h6,.mat-typography .mat-h6,.mat-typography h6 {
-    font: 400 9.38px/20px Roboto,Helvetica Neue,sans-serif;
+.mat-h6,
+.mat-typography .mat-h6,
+.mat-typography h6 {
+    font: 400 9.38px/20px Roboto, Helvetica Neue, sans-serif;
     margin: 0 0 12px
 }
 
-.mat-body-strong,.mat-body-2,.mat-typography .mat-body-strong,.mat-typography .mat-body-2 {
-    font: 500 14px/24px Roboto,Helvetica Neue,sans-serif;
+.mat-body-strong,
+.mat-body-2,
+.mat-typography .mat-body-strong,
+.mat-typography .mat-body-2 {
+    font: 500 14px/24px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal
 }
 
-.mat-body,.mat-body-1,.mat-typography .mat-body,.mat-typography .mat-body-1,.mat-typography {
-    font: 400 14px/20px Roboto,Helvetica Neue,sans-serif;
+.mat-body,
+.mat-body-1,
+.mat-typography .mat-body,
+.mat-typography .mat-body-1,
+.mat-typography {
+    font: 400 14px/20px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal
 }
 
-.mat-body p,.mat-body-1 p,.mat-typography .mat-body p,.mat-typography .mat-body-1 p,.mat-typography p {
+.mat-body p,
+.mat-body-1 p,
+.mat-typography .mat-body p,
+.mat-typography .mat-body-1 p,
+.mat-typography p {
     margin: 0 0 12px
 }
 
-.mat-small,.mat-caption,.mat-typography .mat-small,.mat-typography .mat-caption {
-    font: 400 12px/20px Roboto,Helvetica Neue,sans-serif;
+.mat-small,
+.mat-caption,
+.mat-typography .mat-small,
+.mat-typography .mat-caption {
+    font: 400 12px/20px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal
 }
 
-.mat-display-4,.mat-typography .mat-display-4 {
-    font: 300 112px/112px Roboto,Helvetica Neue,sans-serif;
+.mat-display-4,
+.mat-typography .mat-display-4 {
+    font: 300 112px/112px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: -.05em;
     margin: 0 0 56px
 }
 
-.mat-display-3,.mat-typography .mat-display-3 {
-    font: 400 56px/56px Roboto,Helvetica Neue,sans-serif;
+.mat-display-3,
+.mat-typography .mat-display-3 {
+    font: 400 56px/56px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: -.02em;
     margin: 0 0 64px
 }
 
-.mat-display-2,.mat-typography .mat-display-2 {
-    font: 400 45px/48px Roboto,Helvetica Neue,sans-serif;
+.mat-display-2,
+.mat-typography .mat-display-2 {
+    font: 400 45px/48px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: -.005em;
     margin: 0 0 64px
 }
 
-.mat-display-1,.mat-typography .mat-display-1 {
-    font: 400 34px/40px Roboto,Helvetica Neue,sans-serif;
+.mat-display-1,
+.mat-typography .mat-display-1 {
+    font: 400 34px/40px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal;
     margin: 0 0 64px
 }
 
 .mat-bottom-sheet-container {
-    font: 400 14px/20px Roboto,Helvetica Neue,sans-serif;
+    font: 400 14px/20px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal
 }
 
-.mat-button,.mat-raised-button,.mat-icon-button,.mat-stroked-button,.mat-flat-button,.mat-fab,.mat-mini-fab {
-    font-family: Roboto,Helvetica Neue,sans-serif;
+.mat-button,
+.mat-raised-button,
+.mat-icon-button,
+.mat-stroked-button,
+.mat-flat-button,
+.mat-fab,
+.mat-mini-fab {
+    font-family: Roboto, Helvetica Neue, sans-serif;
     font-size: 14px;
     font-weight: 500
 }
 
-.mat-button-toggle,.mat-card {
-    font-family: Roboto,Helvetica Neue,sans-serif
+.mat-button-toggle,
+.mat-card {
+    font-family: Roboto, Helvetica Neue, sans-serif
 }
 
 .mat-card-title {
@@ -468,12 +514,13 @@ tbody tr:hover {
     font-size: 20px
 }
 
-.mat-card-subtitle,.mat-card-content {
+.mat-card-subtitle,
+.mat-card-content {
     font-size: 14px
 }
 
 .mat-checkbox {
-    font-family: Roboto,Helvetica Neue,sans-serif
+    font-family: Roboto, Helvetica Neue, sans-serif
 }
 
 .mat-checkbox-layout .mat-checkbox-label {
@@ -485,12 +532,13 @@ tbody tr:hover {
     font-weight: 500
 }
 
-.mat-chip .mat-chip-trailing-icon.mat-icon,.mat-chip .mat-chip-remove.mat-icon {
+.mat-chip .mat-chip-trailing-icon.mat-icon,
+.mat-chip .mat-chip-remove.mat-icon {
     font-size: 18px
 }
 
 .mat-table {
-    font-family: Roboto,Helvetica Neue,sans-serif
+    font-family: Roboto, Helvetica Neue, sans-serif
 }
 
 .mat-header-cell {
@@ -498,19 +546,21 @@ tbody tr:hover {
     font-weight: 500
 }
 
-.mat-cell,.mat-footer-cell {
+.mat-cell,
+.mat-footer-cell {
     font-size: 14px
 }
 
 .mat-calendar {
-    font-family: Roboto,Helvetica Neue,sans-serif
+    font-family: Roboto, Helvetica Neue, sans-serif
 }
 
 .mat-calendar-body {
     font-size: 13px
 }
 
-.mat-calendar-body-label,.mat-calendar-period-button {
+.mat-calendar-body-label,
+.mat-calendar-period-button {
     font-size: 14px;
     font-weight: 500
 }
@@ -521,18 +571,18 @@ tbody tr:hover {
 }
 
 .mat-dialog-title {
-    font: 500 20px/32px Roboto,Helvetica Neue,sans-serif;
+    font: 500 20px/32px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal
 }
 
 .mat-expansion-panel-header {
-    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-family: Roboto, Helvetica Neue, sans-serif;
     font-size: 15px;
     font-weight: 400
 }
 
 .mat-expansion-panel-content {
-    font: 400 14px/20px Roboto,Helvetica Neue,sans-serif;
+    font: 400 14px/20px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal
 }
 
@@ -540,7 +590,7 @@ tbody tr:hover {
     font-size: inherit;
     font-weight: 400;
     line-height: 1.125;
-    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-family: Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal
 }
 
@@ -548,17 +598,20 @@ tbody tr:hover {
     padding-bottom: 1.34375em
 }
 
-.mat-form-field-prefix .mat-icon,.mat-form-field-suffix .mat-icon {
+.mat-form-field-prefix .mat-icon,
+.mat-form-field-suffix .mat-icon {
     font-size: 150%;
     line-height: 1.125
 }
 
-.mat-form-field-prefix .mat-icon-button,.mat-form-field-suffix .mat-icon-button {
+.mat-form-field-prefix .mat-icon-button,
+.mat-form-field-suffix .mat-icon-button {
     height: 1.5em;
     width: 1.5em
 }
 
-.mat-form-field-prefix .mat-icon-button .mat-icon,.mat-form-field-suffix .mat-icon-button .mat-icon {
+.mat-form-field-prefix .mat-icon-button .mat-icon,
+.mat-form-field-suffix .mat-icon-button .mat-icon {
     height: 1.125em;
     line-height: 1.125
 }
@@ -568,7 +621,8 @@ tbody tr:hover {
     border-top: .84375em solid transparent
 }
 
-.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
+.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,
+.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
     transform: translateY(-1.34375em) scale(.75);
     width: 133.3333333333%
 }
@@ -605,7 +659,8 @@ tbody tr:hover {
     padding: .4375em 0
 }
 
-.mat-form-field-appearance-legacy.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,.mat-form-field-appearance-legacy.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
+.mat-form-field-appearance-legacy.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,
+.mat-form-field-appearance-legacy.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
     transform: translateY(-1.28125em) scale(.75) perspective(100px) translateZ(.001px);
     width: 133.3333333333%
 }
@@ -634,7 +689,9 @@ tbody tr:hover {
 }
 
 @media print {
-    .mat-form-field-appearance-legacy.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,.mat-form-field-appearance-legacy.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
+
+    .mat-form-field-appearance-legacy.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,
+    .mat-form-field-appearance-legacy.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
         transform: translateY(-1.28122em) scale(.75)
     }
 
@@ -656,7 +713,8 @@ tbody tr:hover {
     margin-top: -.5em
 }
 
-.mat-form-field-appearance-fill.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,.mat-form-field-appearance-fill.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
+.mat-form-field-appearance-fill.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,
+.mat-form-field-appearance-fill.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
     transform: translateY(-.59375em) scale(.75);
     width: 133.3333333333%
 }
@@ -675,7 +733,8 @@ tbody tr:hover {
     margin-top: -.25em
 }
 
-.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,.mat-form-field-appearance-outline.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
+.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,
+.mat-form-field-appearance-outline.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
     transform: translateY(-1.59375em) scale(.75);
     width: 133.3333333333%
 }
@@ -685,11 +744,13 @@ tbody tr:hover {
     width: 133.3333433333%
 }
 
-.mat-grid-tile-header,.mat-grid-tile-footer {
+.mat-grid-tile-header,
+.mat-grid-tile-footer {
     font-size: 14px
 }
 
-.mat-grid-tile-header .mat-line,.mat-grid-tile-footer .mat-line {
+.mat-grid-tile-header .mat-line,
+.mat-grid-tile-footer .mat-line {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -697,7 +758,8 @@ tbody tr:hover {
     box-sizing: border-box
 }
 
-.mat-grid-tile-header .mat-line:nth-child(n+2),.mat-grid-tile-footer .mat-line:nth-child(n+2) {
+.mat-grid-tile-header .mat-line:nth-child(n+2),
+.mat-grid-tile-footer .mat-line:nth-child(n+2) {
     font-size: 12px
 }
 
@@ -706,18 +768,20 @@ input.mat-input-element {
 }
 
 .mat-menu-item {
-    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-family: Roboto, Helvetica Neue, sans-serif;
     font-size: 14px;
     font-weight: 400
 }
 
-.mat-paginator,.mat-paginator-page-size .mat-select-trigger {
-    font-family: Roboto,Helvetica Neue,sans-serif;
+.mat-paginator,
+.mat-paginator-page-size .mat-select-trigger {
+    font-family: Roboto, Helvetica Neue, sans-serif;
     font-size: 12px
 }
 
-.mat-radio-button,.mat-select {
-    font-family: Roboto,Helvetica Neue,sans-serif
+.mat-radio-button,
+.mat-select {
+    font-family: Roboto, Helvetica Neue, sans-serif
 }
 
 .mat-select-trigger {
@@ -725,17 +789,18 @@ input.mat-input-element {
 }
 
 .mat-slide-toggle-content {
-    font-family: Roboto,Helvetica Neue,sans-serif
+    font-family: Roboto, Helvetica Neue, sans-serif
 }
 
 .mat-slider-thumb-label-text {
-    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-family: Roboto, Helvetica Neue, sans-serif;
     font-size: 12px;
     font-weight: 500
 }
 
-.mat-stepper-vertical,.mat-stepper-horizontal {
-    font-family: Roboto,Helvetica Neue,sans-serif
+.mat-stepper-vertical,
+.mat-stepper-horizontal {
+    font-family: Roboto, Helvetica Neue, sans-serif
 }
 
 .mat-step-label {
@@ -757,23 +822,30 @@ input.mat-input-element {
 }
 
 .mat-tab-group {
-    font-family: Roboto,Helvetica Neue,sans-serif
+    font-family: Roboto, Helvetica Neue, sans-serif
 }
 
-.mat-tab-label,.mat-tab-link {
-    font-family: Roboto,Helvetica Neue,sans-serif;
+.mat-tab-label,
+.mat-tab-link {
+    font-family: Roboto, Helvetica Neue, sans-serif;
     font-size: 14px;
     font-weight: 500
 }
 
-.mat-toolbar,.mat-toolbar h1,.mat-toolbar h2,.mat-toolbar h3,.mat-toolbar h4,.mat-toolbar h5,.mat-toolbar h6 {
-    font: 500 20px/32px Roboto,Helvetica Neue,sans-serif;
+.mat-toolbar,
+.mat-toolbar h1,
+.mat-toolbar h2,
+.mat-toolbar h3,
+.mat-toolbar h4,
+.mat-toolbar h5,
+.mat-toolbar h6 {
+    font: 500 20px/32px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal;
     margin: 0
 }
 
 .mat-tooltip {
-    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-family: Roboto, Helvetica Neue, sans-serif;
     font-size: 10px;
     padding-top: 6px;
     padding-bottom: 6px
@@ -785,8 +857,9 @@ input.mat-input-element {
     padding-bottom: 8px
 }
 
-.mat-list-item,.mat-list-option {
-    font-family: Roboto,Helvetica Neue,sans-serif
+.mat-list-item,
+.mat-list-option {
+    font-family: Roboto, Helvetica Neue, sans-serif
 }
 
 .mat-list-base .mat-list-item {
@@ -822,7 +895,7 @@ input.mat-input-element {
 }
 
 .mat-list-base .mat-subheader {
-    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-family: Roboto, Helvetica Neue, sans-serif;
     font-size: 14px;
     font-weight: 500
 }
@@ -860,23 +933,23 @@ input.mat-input-element {
 }
 
 .mat-list-base[dense] .mat-subheader {
-    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-family: Roboto, Helvetica Neue, sans-serif;
     font-size: 12px;
     font-weight: 500
 }
 
 .mat-option {
-    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-family: Roboto, Helvetica Neue, sans-serif;
     font-size: 16px
 }
 
 .mat-optgroup-label {
-    font: 500 14px/24px Roboto,Helvetica Neue,sans-serif;
+    font: 500 14px/24px Roboto, Helvetica Neue, sans-serif;
     letter-spacing: normal
 }
 
 .mat-simple-snackbar {
-    font-family: Roboto,Helvetica Neue,sans-serif;
+    font-family: Roboto, Helvetica Neue, sans-serif;
     font-size: 14px
 }
 
@@ -888,10 +961,11 @@ input.mat-input-element {
 }
 
 .mat-tree {
-    font-family: Roboto,Helvetica Neue,sans-serif
+    font-family: Roboto, Helvetica Neue, sans-serif
 }
 
-.mat-tree-node,.mat-nested-tree-node {
+.mat-tree-node,
+.mat-nested-tree-node {
     font-weight: 400;
     font-size: 14px
 }
@@ -913,7 +987,7 @@ input.mat-input-element {
     position: absolute;
     border-radius: 50%;
     pointer-events: none;
-    transition: opacity,transform 0ms cubic-bezier(0,0,.2,1);
+    transition: opacity, transform 0ms cubic-bezier(0, 0, .2, 1);
     transform: scale(0)
 }
 
@@ -942,7 +1016,8 @@ input.mat-input-element {
     right: 0
 }
 
-.cdk-overlay-container,.cdk-global-overlay-wrapper {
+.cdk-overlay-container,
+.cdk-global-overlay-wrapper {
     pointer-events: none;
     top: 0;
     left: 0;
@@ -984,7 +1059,7 @@ input.mat-input-element {
     z-index: 1000;
     pointer-events: auto;
     -webkit-tap-highlight-color: transparent;
-    transition: opacity .4s cubic-bezier(.25,.8,.25,1);
+    transition: opacity .4s cubic-bezier(.25, .8, .25, 1);
     opacity: 0
 }
 
@@ -997,11 +1072,11 @@ input.mat-input-element {
 }
 
 .cdk-overlay-dark-backdrop {
-    background: rgba(0,0,0,.32)
+    background: rgba(0, 0, 0, .32)
 }
 
 .cdk-overlay-transparent-backdrop {
-    transition: visibility 1ms linear,opacity 1ms linear;
+    transition: visibility 1ms linear, opacity 1ms linear;
     visibility: hidden;
     opacity: 1
 }
@@ -1031,29 +1106,25 @@ textarea.cdk-textarea-autosize {
 }
 
 textarea.cdk-textarea-autosize-measuring {
-    padding: 2px 0!important;
-    box-sizing: content-box!important;
-    height: auto!important;
-    overflow: hidden!important
+    padding: 2px 0 !important;
+    box-sizing: content-box !important;
+    height: auto !important;
+    overflow: hidden !important
 }
 
 textarea.cdk-textarea-autosize-measuring-firefox {
-    padding: 2px 0!important;
-    box-sizing: content-box!important;
-    height: 0!important
+    padding: 2px 0 !important;
+    box-sizing: content-box !important;
+    height: 0 !important
 }
 
-@-webkit-keyframes cdk-text-field-autofill-start {
-}
+@-webkit-keyframes cdk-text-field-autofill-start {}
 
-@keyframes cdk-text-field-autofill-start {
-}
+@keyframes cdk-text-field-autofill-start {}
 
-@-webkit-keyframes cdk-text-field-autofill-end {
-}
+@-webkit-keyframes cdk-text-field-autofill-end {}
 
-@keyframes cdk-text-field-autofill-end {
-}
+@keyframes cdk-text-field-autofill-end {}
 
 .cdk-text-field-autofill-monitored:-webkit-autofill {
     -webkit-animation: cdk-text-field-autofill-start 0s 1ms;
@@ -1065,7 +1136,8 @@ textarea.cdk-textarea-autosize-measuring-firefox {
     animation: cdk-text-field-autofill-end 0s 1ms
 }
 
-.mat-focus-indicator,.mat-mdc-focus-indicator {
+.mat-focus-indicator,
+.mat-mdc-focus-indicator {
     position: relative
 }
 
@@ -1077,16 +1149,17 @@ textarea.cdk-textarea-autosize-measuring-firefox {
     color: #000000de
 }
 
-.mat-option:hover:not(.mat-option-disabled),.mat-option:focus:not(.mat-option-disabled) {
-    background: rgba(0,0,0,.04)
+.mat-option:hover:not(.mat-option-disabled),
+.mat-option:focus:not(.mat-option-disabled) {
+    background: rgba(0, 0, 0, .04)
 }
 
 .mat-option.mat-selected:not(.mat-option-multiple):not(.mat-option-disabled) {
-    background: rgba(0,0,0,.04)
+    background: rgba(0, 0, 0, .04)
 }
 
 .mat-option.mat-active {
-    background: rgba(0,0,0,.04);
+    background: rgba(0, 0, 0, .04);
     color: #000000de
 }
 
@@ -1126,19 +1199,25 @@ textarea.cdk-textarea-autosize-measuring-firefox {
     color: #b0b0b0
 }
 
-.mat-primary .mat-pseudo-checkbox-checked,.mat-primary .mat-pseudo-checkbox-indeterminate {
+.mat-primary .mat-pseudo-checkbox-checked,
+.mat-primary .mat-pseudo-checkbox-indeterminate {
     background: #673ab7
 }
 
-.mat-pseudo-checkbox-checked,.mat-pseudo-checkbox-indeterminate,.mat-accent .mat-pseudo-checkbox-checked,.mat-accent .mat-pseudo-checkbox-indeterminate {
+.mat-pseudo-checkbox-checked,
+.mat-pseudo-checkbox-indeterminate,
+.mat-accent .mat-pseudo-checkbox-checked,
+.mat-accent .mat-pseudo-checkbox-indeterminate {
     background: #ffd740
 }
 
-.mat-warn .mat-pseudo-checkbox-checked,.mat-warn .mat-pseudo-checkbox-indeterminate {
+.mat-warn .mat-pseudo-checkbox-checked,
+.mat-warn .mat-pseudo-checkbox-indeterminate {
     background: #f44336
 }
 
-.mat-pseudo-checkbox-checked.mat-pseudo-checkbox-disabled,.mat-pseudo-checkbox-indeterminate.mat-pseudo-checkbox-disabled {
+.mat-pseudo-checkbox-checked.mat-pseudo-checkbox-disabled,
+.mat-pseudo-checkbox-indeterminate.mat-pseudo-checkbox-disabled {
     background: #b0b0b0
 }
 
@@ -1148,103 +1227,103 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 }
 
 .mat-elevation-z0 {
-    box-shadow: 0 0 #0003,0 0 #00000024,0 0 #0000001f
+    box-shadow: 0 0 #0003, 0 0 #00000024, 0 0 #0000001f
 }
 
 .mat-elevation-z1 {
-    box-shadow: 0 2px 1px -1px #0003,0 1px 1px #00000024,0 1px 3px #0000001f
+    box-shadow: 0 2px 1px -1px #0003, 0 1px 1px #00000024, 0 1px 3px #0000001f
 }
 
 .mat-elevation-z2 {
-    box-shadow: 0 3px 1px -2px #0003,0 2px 2px #00000024,0 1px 5px #0000001f
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f
 }
 
 .mat-elevation-z3 {
-    box-shadow: 0 3px 3px -2px #0003,0 3px 4px #00000024,0 1px 8px #0000001f
+    box-shadow: 0 3px 3px -2px #0003, 0 3px 4px #00000024, 0 1px 8px #0000001f
 }
 
 .mat-elevation-z4 {
-    box-shadow: 0 2px 4px -1px #0003,0 4px 5px #00000024,0 1px 10px #0000001f
+    box-shadow: 0 2px 4px -1px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f
 }
 
 .mat-elevation-z5 {
-    box-shadow: 0 3px 5px -1px #0003,0 5px 8px #00000024,0 1px 14px #0000001f
+    box-shadow: 0 3px 5px -1px #0003, 0 5px 8px #00000024, 0 1px 14px #0000001f
 }
 
 .mat-elevation-z6 {
-    box-shadow: 0 3px 5px -1px #0003,0 6px 10px #00000024,0 1px 18px #0000001f
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f
 }
 
 .mat-elevation-z7 {
-    box-shadow: 0 4px 5px -2px #0003,0 7px 10px 1px #00000024,0 2px 16px 1px #0000001f
+    box-shadow: 0 4px 5px -2px #0003, 0 7px 10px 1px #00000024, 0 2px 16px 1px #0000001f
 }
 
 .mat-elevation-z8 {
-    box-shadow: 0 5px 5px -3px #0003,0 8px 10px 1px #00000024,0 3px 14px 2px #0000001f
+    box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f
 }
 
 .mat-elevation-z9 {
-    box-shadow: 0 5px 6px -3px #0003,0 9px 12px 1px #00000024,0 3px 16px 2px #0000001f
+    box-shadow: 0 5px 6px -3px #0003, 0 9px 12px 1px #00000024, 0 3px 16px 2px #0000001f
 }
 
 .mat-elevation-z10 {
-    box-shadow: 0 6px 6px -3px #0003,0 10px 14px 1px #00000024,0 4px 18px 3px #0000001f
+    box-shadow: 0 6px 6px -3px #0003, 0 10px 14px 1px #00000024, 0 4px 18px 3px #0000001f
 }
 
 .mat-elevation-z11 {
-    box-shadow: 0 6px 7px -4px #0003,0 11px 15px 1px #00000024,0 4px 20px 3px #0000001f
+    box-shadow: 0 6px 7px -4px #0003, 0 11px 15px 1px #00000024, 0 4px 20px 3px #0000001f
 }
 
 .mat-elevation-z12 {
-    box-shadow: 0 7px 8px -4px #0003,0 12px 17px 2px #00000024,0 5px 22px 4px #0000001f
+    box-shadow: 0 7px 8px -4px #0003, 0 12px 17px 2px #00000024, 0 5px 22px 4px #0000001f
 }
 
 .mat-elevation-z13 {
-    box-shadow: 0 7px 8px -4px #0003,0 13px 19px 2px #00000024,0 5px 24px 4px #0000001f
+    box-shadow: 0 7px 8px -4px #0003, 0 13px 19px 2px #00000024, 0 5px 24px 4px #0000001f
 }
 
 .mat-elevation-z14 {
-    box-shadow: 0 7px 9px -4px #0003,0 14px 21px 2px #00000024,0 5px 26px 4px #0000001f
+    box-shadow: 0 7px 9px -4px #0003, 0 14px 21px 2px #00000024, 0 5px 26px 4px #0000001f
 }
 
 .mat-elevation-z15 {
-    box-shadow: 0 8px 9px -5px #0003,0 15px 22px 2px #00000024,0 6px 28px 5px #0000001f
+    box-shadow: 0 8px 9px -5px #0003, 0 15px 22px 2px #00000024, 0 6px 28px 5px #0000001f
 }
 
 .mat-elevation-z16 {
-    box-shadow: 0 8px 10px -5px #0003,0 16px 24px 2px #00000024,0 6px 30px 5px #0000001f
+    box-shadow: 0 8px 10px -5px #0003, 0 16px 24px 2px #00000024, 0 6px 30px 5px #0000001f
 }
 
 .mat-elevation-z17 {
-    box-shadow: 0 8px 11px -5px #0003,0 17px 26px 2px #00000024,0 6px 32px 5px #0000001f
+    box-shadow: 0 8px 11px -5px #0003, 0 17px 26px 2px #00000024, 0 6px 32px 5px #0000001f
 }
 
 .mat-elevation-z18 {
-    box-shadow: 0 9px 11px -5px #0003,0 18px 28px 2px #00000024,0 7px 34px 6px #0000001f
+    box-shadow: 0 9px 11px -5px #0003, 0 18px 28px 2px #00000024, 0 7px 34px 6px #0000001f
 }
 
 .mat-elevation-z19 {
-    box-shadow: 0 9px 12px -6px #0003,0 19px 29px 2px #00000024,0 7px 36px 6px #0000001f
+    box-shadow: 0 9px 12px -6px #0003, 0 19px 29px 2px #00000024, 0 7px 36px 6px #0000001f
 }
 
 .mat-elevation-z20 {
-    box-shadow: 0 10px 13px -6px #0003,0 20px 31px 3px #00000024,0 8px 38px 7px #0000001f
+    box-shadow: 0 10px 13px -6px #0003, 0 20px 31px 3px #00000024, 0 8px 38px 7px #0000001f
 }
 
 .mat-elevation-z21 {
-    box-shadow: 0 10px 13px -6px #0003,0 21px 33px 3px #00000024,0 8px 40px 7px #0000001f
+    box-shadow: 0 10px 13px -6px #0003, 0 21px 33px 3px #00000024, 0 8px 40px 7px #0000001f
 }
 
 .mat-elevation-z22 {
-    box-shadow: 0 10px 14px -6px #0003,0 22px 35px 3px #00000024,0 8px 42px 7px #0000001f
+    box-shadow: 0 10px 14px -6px #0003, 0 22px 35px 3px #00000024, 0 8px 42px 7px #0000001f
 }
 
 .mat-elevation-z23 {
-    box-shadow: 0 11px 14px -7px #0003,0 23px 36px 3px #00000024,0 9px 44px 8px #0000001f
+    box-shadow: 0 11px 14px -7px #0003, 0 23px 36px 3px #00000024, 0 9px 44px 8px #0000001f
 }
 
 .mat-elevation-z24 {
-    box-shadow: 0 11px 15px -7px #0003,0 24px 38px 3px #00000024,0 9px 46px 8px #0000001f
+    box-shadow: 0 11px 15px -7px #0003, 0 24px 38px 3px #00000024, 0 9px 46px 8px #0000001f
 }
 
 .mat-theme-loaded-marker {
@@ -1257,7 +1336,7 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 }
 
 .mat-autocomplete-panel:not([class*=mat-elevation-z]) {
-    box-shadow: 0 2px 4px -1px #0003,0 4px 5px #00000024,0 1px 10px #0000001f
+    box-shadow: 0 2px 4px -1px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f
 }
 
 .mat-autocomplete-panel .mat-option.mat-selected:not(.mat-active):not(:hover) {
@@ -1293,7 +1372,8 @@ textarea.cdk-textarea-autosize-measuring-firefox {
     pointer-events: none
 }
 
-.ng-animate-disabled .mat-badge-content,.mat-badge-content._mat-animation-noopable {
+.ng-animate-disabled .mat-badge-content,
+.mat-badge-content._mat-animation-noopable {
     transition: none
 }
 
@@ -1477,49 +1557,78 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 }
 
 .mat-bottom-sheet-container {
-    box-shadow: 0 8px 10px -5px #0003,0 16px 24px 2px #00000024,0 6px 30px 5px #0000001f;
+    box-shadow: 0 8px 10px -5px #0003, 0 16px 24px 2px #00000024, 0 6px 30px 5px #0000001f;
     background: #fff;
     color: #000000de
 }
 
-.mat-button,.mat-icon-button,.mat-stroked-button {
+.mat-button,
+.mat-icon-button,
+.mat-stroked-button {
     color: inherit;
     background: transparent
 }
 
-.mat-button.mat-primary,.mat-icon-button.mat-primary,.mat-stroked-button.mat-primary {
+.mat-button.mat-primary,
+.mat-icon-button.mat-primary,
+.mat-stroked-button.mat-primary {
     color: #673ab7
 }
 
-.mat-button.mat-accent,.mat-icon-button.mat-accent,.mat-stroked-button.mat-accent {
+.mat-button.mat-accent,
+.mat-icon-button.mat-accent,
+.mat-stroked-button.mat-accent {
     color: #ffd740
 }
 
-.mat-button.mat-warn,.mat-icon-button.mat-warn,.mat-stroked-button.mat-warn {
+.mat-button.mat-warn,
+.mat-icon-button.mat-warn,
+.mat-stroked-button.mat-warn {
     color: #f44336
 }
 
-.mat-button.mat-primary.mat-button-disabled,.mat-button.mat-accent.mat-button-disabled,.mat-button.mat-warn.mat-button-disabled,.mat-button.mat-button-disabled.mat-button-disabled,.mat-icon-button.mat-primary.mat-button-disabled,.mat-icon-button.mat-accent.mat-button-disabled,.mat-icon-button.mat-warn.mat-button-disabled,.mat-icon-button.mat-button-disabled.mat-button-disabled,.mat-stroked-button.mat-primary.mat-button-disabled,.mat-stroked-button.mat-accent.mat-button-disabled,.mat-stroked-button.mat-warn.mat-button-disabled,.mat-stroked-button.mat-button-disabled.mat-button-disabled {
+.mat-button.mat-primary.mat-button-disabled,
+.mat-button.mat-accent.mat-button-disabled,
+.mat-button.mat-warn.mat-button-disabled,
+.mat-button.mat-button-disabled.mat-button-disabled,
+.mat-icon-button.mat-primary.mat-button-disabled,
+.mat-icon-button.mat-accent.mat-button-disabled,
+.mat-icon-button.mat-warn.mat-button-disabled,
+.mat-icon-button.mat-button-disabled.mat-button-disabled,
+.mat-stroked-button.mat-primary.mat-button-disabled,
+.mat-stroked-button.mat-accent.mat-button-disabled,
+.mat-stroked-button.mat-warn.mat-button-disabled,
+.mat-stroked-button.mat-button-disabled.mat-button-disabled {
     color: #00000042
 }
 
-.mat-button.mat-primary .mat-button-focus-overlay,.mat-icon-button.mat-primary .mat-button-focus-overlay,.mat-stroked-button.mat-primary .mat-button-focus-overlay {
+.mat-button.mat-primary .mat-button-focus-overlay,
+.mat-icon-button.mat-primary .mat-button-focus-overlay,
+.mat-stroked-button.mat-primary .mat-button-focus-overlay {
     background-color: #673ab7
 }
 
-.mat-button.mat-accent .mat-button-focus-overlay,.mat-icon-button.mat-accent .mat-button-focus-overlay,.mat-stroked-button.mat-accent .mat-button-focus-overlay {
+.mat-button.mat-accent .mat-button-focus-overlay,
+.mat-icon-button.mat-accent .mat-button-focus-overlay,
+.mat-stroked-button.mat-accent .mat-button-focus-overlay {
     background-color: #ffd740
 }
 
-.mat-button.mat-warn .mat-button-focus-overlay,.mat-icon-button.mat-warn .mat-button-focus-overlay,.mat-stroked-button.mat-warn .mat-button-focus-overlay {
+.mat-button.mat-warn .mat-button-focus-overlay,
+.mat-icon-button.mat-warn .mat-button-focus-overlay,
+.mat-stroked-button.mat-warn .mat-button-focus-overlay {
     background-color: #f44336
 }
 
-.mat-button.mat-button-disabled .mat-button-focus-overlay,.mat-icon-button.mat-button-disabled .mat-button-focus-overlay,.mat-stroked-button.mat-button-disabled .mat-button-focus-overlay {
+.mat-button.mat-button-disabled .mat-button-focus-overlay,
+.mat-icon-button.mat-button-disabled .mat-button-focus-overlay,
+.mat-stroked-button.mat-button-disabled .mat-button-focus-overlay {
     background-color: transparent
 }
 
-.mat-button .mat-ripple-element,.mat-icon-button .mat-ripple-element,.mat-stroked-button .mat-ripple-element {
+.mat-button .mat-ripple-element,
+.mat-icon-button .mat-ripple-element,
+.mat-stroked-button .mat-ripple-element {
     opacity: .1;
     background-color: currentColor
 }
@@ -1532,88 +1641,154 @@ textarea.cdk-textarea-autosize-measuring-firefox {
     border-color: #0000001f
 }
 
-.mat-flat-button,.mat-raised-button,.mat-fab,.mat-mini-fab {
+.mat-flat-button,
+.mat-raised-button,
+.mat-fab,
+.mat-mini-fab {
     color: #000000de;
     background-color: #fff
 }
 
-.mat-flat-button.mat-primary,.mat-raised-button.mat-primary,.mat-fab.mat-primary,.mat-mini-fab.mat-primary {
+.mat-flat-button.mat-primary,
+.mat-raised-button.mat-primary,
+.mat-fab.mat-primary,
+.mat-mini-fab.mat-primary {
     color: #fff
 }
 
-.mat-flat-button.mat-accent,.mat-raised-button.mat-accent,.mat-fab.mat-accent,.mat-mini-fab.mat-accent {
+.mat-flat-button.mat-accent,
+.mat-raised-button.mat-accent,
+.mat-fab.mat-accent,
+.mat-mini-fab.mat-accent {
     color: #000000de
 }
 
-.mat-flat-button.mat-warn,.mat-raised-button.mat-warn,.mat-fab.mat-warn,.mat-mini-fab.mat-warn {
+.mat-flat-button.mat-warn,
+.mat-raised-button.mat-warn,
+.mat-fab.mat-warn,
+.mat-mini-fab.mat-warn {
     color: #fff
 }
 
-.mat-flat-button.mat-primary.mat-button-disabled,.mat-flat-button.mat-accent.mat-button-disabled,.mat-flat-button.mat-warn.mat-button-disabled,.mat-flat-button.mat-button-disabled.mat-button-disabled,.mat-raised-button.mat-primary.mat-button-disabled,.mat-raised-button.mat-accent.mat-button-disabled,.mat-raised-button.mat-warn.mat-button-disabled,.mat-raised-button.mat-button-disabled.mat-button-disabled,.mat-fab.mat-primary.mat-button-disabled,.mat-fab.mat-accent.mat-button-disabled,.mat-fab.mat-warn.mat-button-disabled,.mat-fab.mat-button-disabled.mat-button-disabled,.mat-mini-fab.mat-primary.mat-button-disabled,.mat-mini-fab.mat-accent.mat-button-disabled,.mat-mini-fab.mat-warn.mat-button-disabled,.mat-mini-fab.mat-button-disabled.mat-button-disabled {
+.mat-flat-button.mat-primary.mat-button-disabled,
+.mat-flat-button.mat-accent.mat-button-disabled,
+.mat-flat-button.mat-warn.mat-button-disabled,
+.mat-flat-button.mat-button-disabled.mat-button-disabled,
+.mat-raised-button.mat-primary.mat-button-disabled,
+.mat-raised-button.mat-accent.mat-button-disabled,
+.mat-raised-button.mat-warn.mat-button-disabled,
+.mat-raised-button.mat-button-disabled.mat-button-disabled,
+.mat-fab.mat-primary.mat-button-disabled,
+.mat-fab.mat-accent.mat-button-disabled,
+.mat-fab.mat-warn.mat-button-disabled,
+.mat-fab.mat-button-disabled.mat-button-disabled,
+.mat-mini-fab.mat-primary.mat-button-disabled,
+.mat-mini-fab.mat-accent.mat-button-disabled,
+.mat-mini-fab.mat-warn.mat-button-disabled,
+.mat-mini-fab.mat-button-disabled.mat-button-disabled {
     color: #00000042
 }
 
-.mat-flat-button.mat-primary,.mat-raised-button.mat-primary,.mat-fab.mat-primary,.mat-mini-fab.mat-primary {
+.mat-flat-button.mat-primary,
+.mat-raised-button.mat-primary,
+.mat-fab.mat-primary,
+.mat-mini-fab.mat-primary {
     background-color: #673ab7
 }
 
-.mat-flat-button.mat-accent,.mat-raised-button.mat-accent,.mat-fab.mat-accent,.mat-mini-fab.mat-accent {
+.mat-flat-button.mat-accent,
+.mat-raised-button.mat-accent,
+.mat-fab.mat-accent,
+.mat-mini-fab.mat-accent {
     background-color: #ffd740
 }
 
-.mat-flat-button.mat-warn,.mat-raised-button.mat-warn,.mat-fab.mat-warn,.mat-mini-fab.mat-warn {
+.mat-flat-button.mat-warn,
+.mat-raised-button.mat-warn,
+.mat-fab.mat-warn,
+.mat-mini-fab.mat-warn {
     background-color: #f44336
 }
 
-.mat-flat-button.mat-primary.mat-button-disabled,.mat-flat-button.mat-accent.mat-button-disabled,.mat-flat-button.mat-warn.mat-button-disabled,.mat-flat-button.mat-button-disabled.mat-button-disabled,.mat-raised-button.mat-primary.mat-button-disabled,.mat-raised-button.mat-accent.mat-button-disabled,.mat-raised-button.mat-warn.mat-button-disabled,.mat-raised-button.mat-button-disabled.mat-button-disabled,.mat-fab.mat-primary.mat-button-disabled,.mat-fab.mat-accent.mat-button-disabled,.mat-fab.mat-warn.mat-button-disabled,.mat-fab.mat-button-disabled.mat-button-disabled,.mat-mini-fab.mat-primary.mat-button-disabled,.mat-mini-fab.mat-accent.mat-button-disabled,.mat-mini-fab.mat-warn.mat-button-disabled,.mat-mini-fab.mat-button-disabled.mat-button-disabled {
+.mat-flat-button.mat-primary.mat-button-disabled,
+.mat-flat-button.mat-accent.mat-button-disabled,
+.mat-flat-button.mat-warn.mat-button-disabled,
+.mat-flat-button.mat-button-disabled.mat-button-disabled,
+.mat-raised-button.mat-primary.mat-button-disabled,
+.mat-raised-button.mat-accent.mat-button-disabled,
+.mat-raised-button.mat-warn.mat-button-disabled,
+.mat-raised-button.mat-button-disabled.mat-button-disabled,
+.mat-fab.mat-primary.mat-button-disabled,
+.mat-fab.mat-accent.mat-button-disabled,
+.mat-fab.mat-warn.mat-button-disabled,
+.mat-fab.mat-button-disabled.mat-button-disabled,
+.mat-mini-fab.mat-primary.mat-button-disabled,
+.mat-mini-fab.mat-accent.mat-button-disabled,
+.mat-mini-fab.mat-warn.mat-button-disabled,
+.mat-mini-fab.mat-button-disabled.mat-button-disabled {
     background-color: #0000001f
 }
 
-.mat-flat-button.mat-primary .mat-ripple-element,.mat-raised-button.mat-primary .mat-ripple-element,.mat-fab.mat-primary .mat-ripple-element,.mat-mini-fab.mat-primary .mat-ripple-element {
+.mat-flat-button.mat-primary .mat-ripple-element,
+.mat-raised-button.mat-primary .mat-ripple-element,
+.mat-fab.mat-primary .mat-ripple-element,
+.mat-mini-fab.mat-primary .mat-ripple-element {
     background-color: #ffffff1a
 }
 
-.mat-flat-button.mat-accent .mat-ripple-element,.mat-raised-button.mat-accent .mat-ripple-element,.mat-fab.mat-accent .mat-ripple-element,.mat-mini-fab.mat-accent .mat-ripple-element {
+.mat-flat-button.mat-accent .mat-ripple-element,
+.mat-raised-button.mat-accent .mat-ripple-element,
+.mat-fab.mat-accent .mat-ripple-element,
+.mat-mini-fab.mat-accent .mat-ripple-element {
     background-color: #0000001a
 }
 
-.mat-flat-button.mat-warn .mat-ripple-element,.mat-raised-button.mat-warn .mat-ripple-element,.mat-fab.mat-warn .mat-ripple-element,.mat-mini-fab.mat-warn .mat-ripple-element {
+.mat-flat-button.mat-warn .mat-ripple-element,
+.mat-raised-button.mat-warn .mat-ripple-element,
+.mat-fab.mat-warn .mat-ripple-element,
+.mat-mini-fab.mat-warn .mat-ripple-element {
     background-color: #ffffff1a
 }
 
-.mat-stroked-button:not([class*=mat-elevation-z]),.mat-flat-button:not([class*=mat-elevation-z]) {
-    box-shadow: 0 0 #0003,0 0 #00000024,0 0 #0000001f
+.mat-stroked-button:not([class*=mat-elevation-z]),
+.mat-flat-button:not([class*=mat-elevation-z]) {
+    box-shadow: 0 0 #0003, 0 0 #00000024, 0 0 #0000001f
 }
 
 .mat-raised-button:not([class*=mat-elevation-z]) {
-    box-shadow: 0 3px 1px -2px #0003,0 2px 2px #00000024,0 1px 5px #0000001f
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f
 }
 
 .mat-raised-button:not(.mat-button-disabled):active:not([class*=mat-elevation-z]) {
-    box-shadow: 0 5px 5px -3px #0003,0 8px 10px 1px #00000024,0 3px 14px 2px #0000001f
+    box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f
 }
 
 .mat-raised-button.mat-button-disabled:not([class*=mat-elevation-z]) {
-    box-shadow: 0 0 #0003,0 0 #00000024,0 0 #0000001f
+    box-shadow: 0 0 #0003, 0 0 #00000024, 0 0 #0000001f
 }
 
-.mat-fab:not([class*=mat-elevation-z]),.mat-mini-fab:not([class*=mat-elevation-z]) {
-    box-shadow: 0 3px 5px -1px #0003,0 6px 10px #00000024,0 1px 18px #0000001f
+.mat-fab:not([class*=mat-elevation-z]),
+.mat-mini-fab:not([class*=mat-elevation-z]) {
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f
 }
 
-.mat-fab:not(.mat-button-disabled):active:not([class*=mat-elevation-z]),.mat-mini-fab:not(.mat-button-disabled):active:not([class*=mat-elevation-z]) {
-    box-shadow: 0 7px 8px -4px #0003,0 12px 17px 2px #00000024,0 5px 22px 4px #0000001f
+.mat-fab:not(.mat-button-disabled):active:not([class*=mat-elevation-z]),
+.mat-mini-fab:not(.mat-button-disabled):active:not([class*=mat-elevation-z]) {
+    box-shadow: 0 7px 8px -4px #0003, 0 12px 17px 2px #00000024, 0 5px 22px 4px #0000001f
 }
 
-.mat-fab.mat-button-disabled:not([class*=mat-elevation-z]),.mat-mini-fab.mat-button-disabled:not([class*=mat-elevation-z]) {
-    box-shadow: 0 0 #0003,0 0 #00000024,0 0 #0000001f
+.mat-fab.mat-button-disabled:not([class*=mat-elevation-z]),
+.mat-mini-fab.mat-button-disabled:not([class*=mat-elevation-z]) {
+    box-shadow: 0 0 #0003, 0 0 #00000024, 0 0 #0000001f
 }
 
-.mat-button-toggle-standalone:not([class*=mat-elevation-z]),.mat-button-toggle-group:not([class*=mat-elevation-z]) {
-    box-shadow: 0 3px 1px -2px #0003,0 2px 2px #00000024,0 1px 5px #0000001f
+.mat-button-toggle-standalone:not([class*=mat-elevation-z]),
+.mat-button-toggle-group:not([class*=mat-elevation-z]) {
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f
 }
 
-.mat-button-toggle-standalone.mat-button-toggle-appearance-standard:not([class*=mat-elevation-z]),.mat-button-toggle-group-appearance-standard:not([class*=mat-elevation-z]) {
+.mat-button-toggle-standalone.mat-button-toggle-appearance-standard:not([class*=mat-elevation-z]),
+.mat-button-toggle-group-appearance-standard:not([class*=mat-elevation-z]) {
     box-shadow: none
 }
 
@@ -1671,7 +1846,8 @@ textarea.cdk-textarea-autosize-measuring-firefox {
     background-color: #bdbdbd
 }
 
-.mat-button-toggle-standalone.mat-button-toggle-appearance-standard,.mat-button-toggle-group-appearance-standard {
+.mat-button-toggle-standalone.mat-button-toggle-appearance-standard,
+.mat-button-toggle-group-appearance-standard {
     border: solid 1px #e0e0e0
 }
 
@@ -1685,11 +1861,11 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 }
 
 .mat-card:not([class*=mat-elevation-z]) {
-    box-shadow: 0 2px 1px -1px #0003,0 1px 1px #00000024,0 1px 3px #0000001f
+    box-shadow: 0 2px 1px -1px #0003, 0 1px 1px #00000024, 0 1px 3px #0000001f
 }
 
 .mat-card.mat-card-flat:not([class*=mat-elevation-z]) {
-    box-shadow: 0 0 #0003,0 0 #00000024,0 0 #0000001f
+    box-shadow: 0 0 #0003, 0 0 #00000024, 0 0 #0000001f
 }
 
 .mat-card-subtitle {
@@ -1705,26 +1881,30 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 }
 
 .mat-checkbox-checkmark-path {
-    stroke: #fafafa!important
+    stroke: #fafafa !important
 }
 
 .mat-checkbox-mixedmark {
     background-color: #fafafa
 }
 
-.mat-checkbox-indeterminate.mat-primary .mat-checkbox-background,.mat-checkbox-checked.mat-primary .mat-checkbox-background {
+.mat-checkbox-indeterminate.mat-primary .mat-checkbox-background,
+.mat-checkbox-checked.mat-primary .mat-checkbox-background {
     background-color: #673ab7
 }
 
-.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background,.mat-checkbox-checked.mat-accent .mat-checkbox-background {
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background,
+.mat-checkbox-checked.mat-accent .mat-checkbox-background {
     background-color: #ffd740
 }
 
-.mat-checkbox-indeterminate.mat-warn .mat-checkbox-background,.mat-checkbox-checked.mat-warn .mat-checkbox-background {
+.mat-checkbox-indeterminate.mat-warn .mat-checkbox-background,
+.mat-checkbox-checked.mat-warn .mat-checkbox-background {
     background-color: #f44336
 }
 
-.mat-checkbox-disabled.mat-checkbox-checked .mat-checkbox-background,.mat-checkbox-disabled.mat-checkbox-indeterminate .mat-checkbox-background {
+.mat-checkbox-disabled.mat-checkbox-checked .mat-checkbox-background,
+.mat-checkbox-disabled.mat-checkbox-indeterminate .mat-checkbox-background {
     background-color: #b0b0b0
 }
 
@@ -1740,15 +1920,18 @@ textarea.cdk-textarea-autosize-measuring-firefox {
     background-color: #000
 }
 
-.mat-checkbox-checked:not(.mat-checkbox-disabled).mat-primary .mat-ripple-element,.mat-checkbox:active:not(.mat-checkbox-disabled).mat-primary .mat-ripple-element {
+.mat-checkbox-checked:not(.mat-checkbox-disabled).mat-primary .mat-ripple-element,
+.mat-checkbox:active:not(.mat-checkbox-disabled).mat-primary .mat-ripple-element {
     background: #673ab7
 }
 
-.mat-checkbox-checked:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element,.mat-checkbox:active:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element {
+.mat-checkbox-checked:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element,
+.mat-checkbox:active:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element {
     background: #ffd740
 }
 
-.mat-checkbox-checked:not(.mat-checkbox-disabled).mat-warn .mat-ripple-element,.mat-checkbox:active:not(.mat-checkbox-disabled).mat-warn .mat-ripple-element {
+.mat-checkbox-checked:not(.mat-checkbox-disabled).mat-warn .mat-ripple-element,
+.mat-checkbox:active:not(.mat-checkbox-disabled).mat-warn .mat-ripple-element {
     background: #f44336
 }
 
@@ -1763,7 +1946,7 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 }
 
 .mat-chip.mat-standard-chip:not(.mat-chip-disabled):active {
-    box-shadow: 0 3px 3px -2px #0003,0 3px 4px #00000024,0 1px 8px #0000001f
+    box-shadow: 0 3px 3px -2px #0003, 0 3px 4px #00000024, 0 1px 8px #0000001f
 }
 
 .mat-chip.mat-standard-chip:not(.mat-chip-disabled) .mat-chip-remove:hover {
@@ -1824,11 +2007,25 @@ textarea.cdk-textarea-autosize-measuring-firefox {
     background: #fff
 }
 
-.mat-table thead,.mat-table tbody,.mat-table tfoot,mat-header-row,mat-row,mat-footer-row,[mat-header-row],[mat-row],[mat-footer-row],.mat-table-sticky {
+.mat-table thead,
+.mat-table tbody,
+.mat-table tfoot,
+mat-header-row,
+mat-row,
+mat-footer-row,
+[mat-header-row],
+[mat-row],
+[mat-footer-row],
+.mat-table-sticky {
     background: inherit
 }
 
-mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-footer-cell {
+mat-row,
+mat-header-row,
+mat-footer-row,
+th.mat-header-cell,
+td.mat-cell,
+td.mat-footer-cell {
     border-bottom-color: #0000001f
 }
 
@@ -1836,7 +2033,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #0000008a
 }
 
-.mat-cell,.mat-footer-cell {
+.mat-cell,
+.mat-footer-cell {
     color: #000000de
 }
 
@@ -1844,19 +2042,23 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     fill: #0000008a
 }
 
-.mat-datepicker-toggle,.mat-datepicker-content .mat-calendar-next-button,.mat-datepicker-content .mat-calendar-previous-button {
+.mat-datepicker-toggle,
+.mat-datepicker-content .mat-calendar-next-button,
+.mat-datepicker-content .mat-calendar-previous-button {
     color: #0000008a
 }
 
 .mat-calendar-table-header-divider:after {
-    background: rgba(0,0,0,.12)
+    background: rgba(0, 0, 0, .12)
 }
 
-.mat-calendar-table-header,.mat-calendar-body-label {
+.mat-calendar-table-header,
+.mat-calendar-body-label {
     color: #0000008a
 }
 
-.mat-calendar-body-cell-content,.mat-date-range-input-separator {
+.mat-calendar-body-cell-content,
+.mat-date-range-input-separator {
     color: #000000de;
     border-color: transparent
 }
@@ -1882,26 +2084,31 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .mat-calendar-body-in-range:before {
-    background: rgba(103,58,183,.2)
+    background: rgba(103, 58, 183, .2)
 }
 
-.mat-calendar-body-comparison-identical,.mat-calendar-body-in-comparison-range:before {
-    background: rgba(249,171,0,.2)
+.mat-calendar-body-comparison-identical,
+.mat-calendar-body-in-comparison-range:before {
+    background: rgba(249, 171, 0, .2)
 }
 
-.mat-calendar-body-comparison-bridge-start:before,[dir=rtl] .mat-calendar-body-comparison-bridge-end:before {
-    background: linear-gradient(to right,rgba(103,58,183,.2) 50%,rgba(249,171,0,.2) 50%)
+.mat-calendar-body-comparison-bridge-start:before,
+[dir=rtl] .mat-calendar-body-comparison-bridge-end:before {
+    background: linear-gradient(to right, rgba(103, 58, 183, .2) 50%, rgba(249, 171, 0, .2) 50%)
 }
 
-.mat-calendar-body-comparison-bridge-end:before,[dir=rtl] .mat-calendar-body-comparison-bridge-start:before {
-    background: linear-gradient(to left,rgba(103,58,183,.2) 50%,rgba(249,171,0,.2) 50%)
+.mat-calendar-body-comparison-bridge-end:before,
+[dir=rtl] .mat-calendar-body-comparison-bridge-start:before {
+    background: linear-gradient(to left, rgba(103, 58, 183, .2) 50%, rgba(249, 171, 0, .2) 50%)
 }
 
-.mat-calendar-body-in-range>.mat-calendar-body-comparison-identical,.mat-calendar-body-in-comparison-range.mat-calendar-body-in-range:after {
+.mat-calendar-body-in-range>.mat-calendar-body-comparison-identical,
+.mat-calendar-body-in-comparison-range.mat-calendar-body-in-range:after {
     background: #a8dab5
 }
 
-.mat-calendar-body-comparison-identical.mat-calendar-body-selected,.mat-calendar-body-in-comparison-range>.mat-calendar-body-selected {
+.mat-calendar-body-comparison-identical.mat-calendar-body-selected,
+.mat-calendar-body-in-comparison-range>.mat-calendar-body-selected {
     background: #46a35e
 }
 
@@ -1918,43 +2125,49 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     box-shadow: inset 0 0 0 1px #fff
 }
 
-.cdk-keyboard-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical),.cdk-program-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+.cdk-keyboard-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical),
+.cdk-program-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
     background-color: #673ab74d
 }
 
 @media (hover: hover) {
     .mat-calendar-body-cell:not(.mat-calendar-body-disabled):hover>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
-        background-color:#673ab74d
+        background-color: #673ab74d
     }
 }
 
 .mat-datepicker-content {
-    box-shadow: 0 2px 4px -1px #0003,0 4px 5px #00000024,0 1px 10px #0000001f;
+    box-shadow: 0 2px 4px -1px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
     background-color: #fff;
     color: #000000de
 }
 
 .mat-datepicker-content.mat-accent .mat-calendar-body-in-range:before {
-    background: rgba(255,215,64,.2)
+    background: rgba(255, 215, 64, .2)
 }
 
-.mat-datepicker-content.mat-accent .mat-calendar-body-comparison-identical,.mat-datepicker-content.mat-accent .mat-calendar-body-in-comparison-range:before {
-    background: rgba(249,171,0,.2)
+.mat-datepicker-content.mat-accent .mat-calendar-body-comparison-identical,
+.mat-datepicker-content.mat-accent .mat-calendar-body-in-comparison-range:before {
+    background: rgba(249, 171, 0, .2)
 }
 
-.mat-datepicker-content.mat-accent .mat-calendar-body-comparison-bridge-start:before,.mat-datepicker-content.mat-accent [dir=rtl] .mat-calendar-body-comparison-bridge-end:before {
-    background: linear-gradient(to right,rgba(255,215,64,.2) 50%,rgba(249,171,0,.2) 50%)
+.mat-datepicker-content.mat-accent .mat-calendar-body-comparison-bridge-start:before,
+.mat-datepicker-content.mat-accent [dir=rtl] .mat-calendar-body-comparison-bridge-end:before {
+    background: linear-gradient(to right, rgba(255, 215, 64, .2) 50%, rgba(249, 171, 0, .2) 50%)
 }
 
-.mat-datepicker-content.mat-accent .mat-calendar-body-comparison-bridge-end:before,.mat-datepicker-content.mat-accent [dir=rtl] .mat-calendar-body-comparison-bridge-start:before {
-    background: linear-gradient(to left,rgba(255,215,64,.2) 50%,rgba(249,171,0,.2) 50%)
+.mat-datepicker-content.mat-accent .mat-calendar-body-comparison-bridge-end:before,
+.mat-datepicker-content.mat-accent [dir=rtl] .mat-calendar-body-comparison-bridge-start:before {
+    background: linear-gradient(to left, rgba(255, 215, 64, .2) 50%, rgba(249, 171, 0, .2) 50%)
 }
 
-.mat-datepicker-content.mat-accent .mat-calendar-body-in-range>.mat-calendar-body-comparison-identical,.mat-datepicker-content.mat-accent .mat-calendar-body-in-comparison-range.mat-calendar-body-in-range:after {
+.mat-datepicker-content.mat-accent .mat-calendar-body-in-range>.mat-calendar-body-comparison-identical,
+.mat-datepicker-content.mat-accent .mat-calendar-body-in-comparison-range.mat-calendar-body-in-range:after {
     background: #a8dab5
 }
 
-.mat-datepicker-content.mat-accent .mat-calendar-body-comparison-identical.mat-calendar-body-selected,.mat-datepicker-content.mat-accent .mat-calendar-body-in-comparison-range>.mat-calendar-body-selected {
+.mat-datepicker-content.mat-accent .mat-calendar-body-comparison-identical.mat-calendar-body-selected,
+.mat-datepicker-content.mat-accent .mat-calendar-body-in-comparison-range>.mat-calendar-body-selected {
     background: #46a35e
 }
 
@@ -1971,37 +2184,43 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     box-shadow: inset 0 0 0 1px #000000de
 }
 
-.mat-datepicker-content.mat-accent .cdk-keyboard-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical),.mat-datepicker-content.mat-accent .cdk-program-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+.mat-datepicker-content.mat-accent .cdk-keyboard-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical),
+.mat-datepicker-content.mat-accent .cdk-program-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
     background-color: #ffd7404d
 }
 
 @media (hover: hover) {
     .mat-datepicker-content.mat-accent .mat-calendar-body-cell:not(.mat-calendar-body-disabled):hover>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
-        background-color:#ffd7404d
+        background-color: #ffd7404d
     }
 }
 
 .mat-datepicker-content.mat-warn .mat-calendar-body-in-range:before {
-    background: rgba(244,67,54,.2)
+    background: rgba(244, 67, 54, .2)
 }
 
-.mat-datepicker-content.mat-warn .mat-calendar-body-comparison-identical,.mat-datepicker-content.mat-warn .mat-calendar-body-in-comparison-range:before {
-    background: rgba(249,171,0,.2)
+.mat-datepicker-content.mat-warn .mat-calendar-body-comparison-identical,
+.mat-datepicker-content.mat-warn .mat-calendar-body-in-comparison-range:before {
+    background: rgba(249, 171, 0, .2)
 }
 
-.mat-datepicker-content.mat-warn .mat-calendar-body-comparison-bridge-start:before,.mat-datepicker-content.mat-warn [dir=rtl] .mat-calendar-body-comparison-bridge-end:before {
-    background: linear-gradient(to right,rgba(244,67,54,.2) 50%,rgba(249,171,0,.2) 50%)
+.mat-datepicker-content.mat-warn .mat-calendar-body-comparison-bridge-start:before,
+.mat-datepicker-content.mat-warn [dir=rtl] .mat-calendar-body-comparison-bridge-end:before {
+    background: linear-gradient(to right, rgba(244, 67, 54, .2) 50%, rgba(249, 171, 0, .2) 50%)
 }
 
-.mat-datepicker-content.mat-warn .mat-calendar-body-comparison-bridge-end:before,.mat-datepicker-content.mat-warn [dir=rtl] .mat-calendar-body-comparison-bridge-start:before {
-    background: linear-gradient(to left,rgba(244,67,54,.2) 50%,rgba(249,171,0,.2) 50%)
+.mat-datepicker-content.mat-warn .mat-calendar-body-comparison-bridge-end:before,
+.mat-datepicker-content.mat-warn [dir=rtl] .mat-calendar-body-comparison-bridge-start:before {
+    background: linear-gradient(to left, rgba(244, 67, 54, .2) 50%, rgba(249, 171, 0, .2) 50%)
 }
 
-.mat-datepicker-content.mat-warn .mat-calendar-body-in-range>.mat-calendar-body-comparison-identical,.mat-datepicker-content.mat-warn .mat-calendar-body-in-comparison-range.mat-calendar-body-in-range:after {
+.mat-datepicker-content.mat-warn .mat-calendar-body-in-range>.mat-calendar-body-comparison-identical,
+.mat-datepicker-content.mat-warn .mat-calendar-body-in-comparison-range.mat-calendar-body-in-range:after {
     background: #a8dab5
 }
 
-.mat-datepicker-content.mat-warn .mat-calendar-body-comparison-identical.mat-calendar-body-selected,.mat-datepicker-content.mat-warn .mat-calendar-body-in-comparison-range>.mat-calendar-body-selected {
+.mat-datepicker-content.mat-warn .mat-calendar-body-comparison-identical.mat-calendar-body-selected,
+.mat-datepicker-content.mat-warn .mat-calendar-body-in-comparison-range>.mat-calendar-body-selected {
     background: #46a35e
 }
 
@@ -2018,18 +2237,19 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     box-shadow: inset 0 0 0 1px #fff
 }
 
-.mat-datepicker-content.mat-warn .cdk-keyboard-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical),.mat-datepicker-content.mat-warn .cdk-program-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+.mat-datepicker-content.mat-warn .cdk-keyboard-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical),
+.mat-datepicker-content.mat-warn .cdk-program-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
     background-color: #f443364d
 }
 
 @media (hover: hover) {
     .mat-datepicker-content.mat-warn .mat-calendar-body-cell:not(.mat-calendar-body-disabled):hover>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
-        background-color:#f443364d
+        background-color: #f443364d
     }
 }
 
 .mat-datepicker-content-touch {
-    box-shadow: 0 11px 15px -7px #0003,0 24px 38px 3px #00000024,0 9px 46px 8px #0000001f
+    box-shadow: 0 11px 15px -7px #0003, 0 24px 38px 3px #00000024, 0 9px 46px 8px #0000001f
 }
 
 .mat-datepicker-toggle-active {
@@ -2049,7 +2269,7 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .mat-dialog-container {
-    box-shadow: 0 11px 15px -7px #0003,0 24px 38px 3px #00000024,0 9px 46px 8px #0000001f;
+    box-shadow: 0 11px 15px -7px #0003, 0 24px 38px 3px #00000024, 0 9px 46px 8px #0000001f;
     background: #fff;
     color: #000000de
 }
@@ -2068,20 +2288,22 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .mat-expansion-panel:not([class*=mat-elevation-z]) {
-    box-shadow: 0 3px 1px -2px #0003,0 2px 2px #00000024,0 1px 5px #0000001f
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f
 }
 
 .mat-action-row {
     border-top-color: #0000001f
 }
 
-.mat-expansion-panel .mat-expansion-panel-header.cdk-keyboard-focused:not([aria-disabled=true]),.mat-expansion-panel .mat-expansion-panel-header.cdk-program-focused:not([aria-disabled=true]),.mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-header:hover:not([aria-disabled=true]) {
-    background: rgba(0,0,0,.04)
+.mat-expansion-panel .mat-expansion-panel-header.cdk-keyboard-focused:not([aria-disabled=true]),
+.mat-expansion-panel .mat-expansion-panel-header.cdk-program-focused:not([aria-disabled=true]),
+.mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-header:hover:not([aria-disabled=true]) {
+    background: rgba(0, 0, 0, .04)
 }
 
 @media (hover: none) {
     .mat-expansion-panel:not(.mat-expanded):not([aria-disabled=true]) .mat-expansion-panel-header:hover {
-        background:#fff
+        background: #fff
     }
 }
 
@@ -2089,7 +2311,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #000000de
 }
 
-.mat-expansion-panel-header-description,.mat-expansion-indicator:after {
+.mat-expansion-panel-header-description,
+.mat-expansion-indicator:after {
     color: #0000008a
 }
 
@@ -2097,7 +2320,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #00000042
 }
 
-.mat-expansion-panel-header[aria-disabled=true] .mat-expansion-panel-header-title,.mat-expansion-panel-header[aria-disabled=true] .mat-expansion-panel-header-description {
+.mat-expansion-panel-header[aria-disabled=true] .mat-expansion-panel-header-title,
+.mat-expansion-panel-header[aria-disabled=true] .mat-expansion-panel-header-description {
     color: inherit
 }
 
@@ -2109,7 +2333,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     height: 64px
 }
 
-.mat-form-field-label,.mat-hint {
+.mat-form-field-label,
+.mat-hint {
     color: #0009
 }
 
@@ -2157,11 +2382,14 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #f44336
 }
 
-.mat-form-field.mat-form-field-invalid .mat-form-field-label,.mat-form-field.mat-form-field-invalid .mat-form-field-label.mat-accent,.mat-form-field.mat-form-field-invalid .mat-form-field-label .mat-form-field-required-marker {
+.mat-form-field.mat-form-field-invalid .mat-form-field-label,
+.mat-form-field.mat-form-field-invalid .mat-form-field-label.mat-accent,
+.mat-form-field.mat-form-field-invalid .mat-form-field-label .mat-form-field-required-marker {
     color: #f44336
 }
 
-.mat-form-field.mat-form-field-invalid .mat-form-field-ripple,.mat-form-field.mat-form-field-invalid .mat-form-field-ripple.mat-accent {
+.mat-form-field.mat-form-field-invalid .mat-form-field-ripple,
+.mat-form-field.mat-form-field-invalid .mat-form-field-ripple.mat-accent {
     background-color: #f44336
 }
 
@@ -2169,7 +2397,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #f44336
 }
 
-.mat-form-field-appearance-legacy .mat-form-field-label,.mat-form-field-appearance-legacy .mat-hint {
+.mat-form-field-appearance-legacy .mat-form-field-label,
+.mat-form-field-appearance-legacy .mat-hint {
     color: #0000008a
 }
 
@@ -2178,7 +2407,7 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .mat-form-field-appearance-legacy.mat-form-field-disabled .mat-form-field-underline {
-    background-image: linear-gradient(to right,rgba(0,0,0,.42) 0%,rgba(0,0,0,.42) 33%,transparent 0%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .42) 0%, rgba(0, 0, 0, .42) 33%, transparent 0%);
     background-size: 4px 100%;
     background-repeat: repeat-x
 }
@@ -2188,7 +2417,7 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .mat-form-field-appearance-standard.mat-form-field-disabled .mat-form-field-underline {
-    background-image: linear-gradient(to right,rgba(0,0,0,.42) 0%,rgba(0,0,0,.42) 33%,transparent 0%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .42) 0%, rgba(0, 0, 0, .42) 33%, transparent 0%);
     background-size: 4px 100%;
     background-repeat: repeat-x
 }
@@ -2229,7 +2458,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #ffd740
 }
 
-.mat-form-field-appearance-outline.mat-focused.mat-warn .mat-form-field-outline-thick,.mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid .mat-form-field-outline-thick {
+.mat-form-field-appearance-outline.mat-focused.mat-warn .mat-form-field-outline-thick,
+.mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid .mat-form-field-outline-thick {
     color: #f44336
 }
 
@@ -2257,7 +2487,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #0000008a
 }
 
-.mat-input-element:disabled,.mat-form-field-type-mat-native-select.mat-form-field-disabled .mat-form-field-infix:after {
+.mat-input-element:disabled,
+.mat-form-field-type-mat-native-select.mat-form-field-disabled .mat-form-field-infix:after {
     color: #00000061
 }
 
@@ -2285,7 +2516,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     caret-color: #ffd740
 }
 
-.mat-form-field.mat-warn .mat-input-element,.mat-form-field-invalid .mat-input-element {
+.mat-form-field.mat-warn .mat-input-element,
+.mat-form-field-invalid .mat-input-element {
     caret-color: #f44336
 }
 
@@ -2293,7 +2525,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #f44336
 }
 
-.mat-list-base .mat-list-item,.mat-list-base .mat-list-option {
+.mat-list-base .mat-list-item,
+.mat-list-base .mat-list-option {
     color: #000000de
 }
 
@@ -2306,12 +2539,19 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #00000061
 }
 
-.mat-list-option:hover,.mat-list-option:focus,.mat-nav-list .mat-list-item:hover,.mat-nav-list .mat-list-item:focus,.mat-action-list .mat-list-item:hover,.mat-action-list .mat-list-item:focus {
-    background: rgba(0,0,0,.04)
+.mat-list-option:hover,
+.mat-list-option:focus,
+.mat-nav-list .mat-list-item:hover,
+.mat-nav-list .mat-list-item:focus,
+.mat-action-list .mat-list-item:hover,
+.mat-action-list .mat-list-item:focus {
+    background: rgba(0, 0, 0, .04)
 }
 
-.mat-list-single-selected-option,.mat-list-single-selected-option:hover,.mat-list-single-selected-option:focus {
-    background: rgba(0,0,0,.12)
+.mat-list-single-selected-option,
+.mat-list-single-selected-option:hover,
+.mat-list-single-selected-option:focus {
+    background: rgba(0, 0, 0, .12)
 }
 
 .mat-menu-panel {
@@ -2319,7 +2559,7 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .mat-menu-panel:not([class*=mat-elevation-z]) {
-    box-shadow: 0 2px 4px -1px #0003,0 4px 5px #00000024,0 1px 10px #0000001f
+    box-shadow: 0 2px 4px -1px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f
 }
 
 .mat-menu-item {
@@ -2327,36 +2567,48 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #000000de
 }
 
-.mat-menu-item[disabled],.mat-menu-item[disabled] .mat-menu-submenu-icon,.mat-menu-item[disabled] .mat-icon-no-color {
+.mat-menu-item[disabled],
+.mat-menu-item[disabled] .mat-menu-submenu-icon,
+.mat-menu-item[disabled] .mat-icon-no-color {
     color: #00000061
 }
 
-.mat-menu-item .mat-icon-no-color,.mat-menu-submenu-icon {
+.mat-menu-item .mat-icon-no-color,
+.mat-menu-submenu-icon {
     color: #0000008a
 }
 
-.mat-menu-item:hover:not([disabled]),.mat-menu-item.cdk-program-focused:not([disabled]),.mat-menu-item.cdk-keyboard-focused:not([disabled]),.mat-menu-item-highlighted:not([disabled]) {
-    background: rgba(0,0,0,.04)
+.mat-menu-item:hover:not([disabled]),
+.mat-menu-item.cdk-program-focused:not([disabled]),
+.mat-menu-item.cdk-keyboard-focused:not([disabled]),
+.mat-menu-item-highlighted:not([disabled]) {
+    background: rgba(0, 0, 0, .04)
 }
 
 .mat-paginator {
     background: #fff
 }
 
-.mat-paginator,.mat-paginator-page-size .mat-select-trigger {
+.mat-paginator,
+.mat-paginator-page-size .mat-select-trigger {
     color: #0000008a
 }
 
-.mat-paginator-decrement,.mat-paginator-increment {
-    border-top: 2px solid rgba(0,0,0,.54);
-    border-right: 2px solid rgba(0,0,0,.54)
+.mat-paginator-decrement,
+.mat-paginator-increment {
+    border-top: 2px solid rgba(0, 0, 0, .54);
+    border-right: 2px solid rgba(0, 0, 0, .54)
 }
 
-.mat-paginator-first,.mat-paginator-last {
-    border-top: 2px solid rgba(0,0,0,.54)
+.mat-paginator-first,
+.mat-paginator-last {
+    border-top: 2px solid rgba(0, 0, 0, .54)
 }
 
-.mat-icon-button[disabled] .mat-paginator-decrement,.mat-icon-button[disabled] .mat-paginator-increment,.mat-icon-button[disabled] .mat-paginator-first,.mat-icon-button[disabled] .mat-paginator-last {
+.mat-icon-button[disabled] .mat-paginator-decrement,
+.mat-icon-button[disabled] .mat-paginator-increment,
+.mat-icon-button[disabled] .mat-paginator-first,
+.mat-icon-button[disabled] .mat-paginator-last {
     border-color: #00000061
 }
 
@@ -2400,15 +2652,18 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     background-color: #f44336
 }
 
-.mat-progress-spinner circle,.mat-spinner circle {
+.mat-progress-spinner circle,
+.mat-spinner circle {
     stroke: #673ab7
 }
 
-.mat-progress-spinner.mat-accent circle,.mat-spinner.mat-accent circle {
+.mat-progress-spinner.mat-accent circle,
+.mat-spinner.mat-accent circle {
     stroke: #ffd740
 }
 
-.mat-progress-spinner.mat-warn circle,.mat-spinner.mat-warn circle {
+.mat-progress-spinner.mat-warn circle,
+.mat-spinner.mat-warn circle {
     stroke: #f44336
 }
 
@@ -2420,7 +2675,10 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     border-color: #673ab7
 }
 
-.mat-radio-button.mat-primary .mat-radio-inner-circle,.mat-radio-button.mat-primary .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple),.mat-radio-button.mat-primary.mat-radio-checked .mat-radio-persistent-ripple,.mat-radio-button.mat-primary:active .mat-radio-persistent-ripple {
+.mat-radio-button.mat-primary .mat-radio-inner-circle,
+.mat-radio-button.mat-primary .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple),
+.mat-radio-button.mat-primary.mat-radio-checked .mat-radio-persistent-ripple,
+.mat-radio-button.mat-primary:active .mat-radio-persistent-ripple {
     background-color: #673ab7
 }
 
@@ -2428,7 +2686,10 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     border-color: #ffd740
 }
 
-.mat-radio-button.mat-accent .mat-radio-inner-circle,.mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple),.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple,.mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+.mat-radio-button.mat-accent .mat-radio-inner-circle,
+.mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple),
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple,
+.mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
     background-color: #ffd740
 }
 
@@ -2436,15 +2697,20 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     border-color: #f44336
 }
 
-.mat-radio-button.mat-warn .mat-radio-inner-circle,.mat-radio-button.mat-warn .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple),.mat-radio-button.mat-warn.mat-radio-checked .mat-radio-persistent-ripple,.mat-radio-button.mat-warn:active .mat-radio-persistent-ripple {
+.mat-radio-button.mat-warn .mat-radio-inner-circle,
+.mat-radio-button.mat-warn .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple),
+.mat-radio-button.mat-warn.mat-radio-checked .mat-radio-persistent-ripple,
+.mat-radio-button.mat-warn:active .mat-radio-persistent-ripple {
     background-color: #f44336
 }
 
-.mat-radio-button.mat-radio-disabled.mat-radio-checked .mat-radio-outer-circle,.mat-radio-button.mat-radio-disabled .mat-radio-outer-circle {
+.mat-radio-button.mat-radio-disabled.mat-radio-checked .mat-radio-outer-circle,
+.mat-radio-button.mat-radio-disabled .mat-radio-outer-circle {
     border-color: #00000061
 }
 
-.mat-radio-button.mat-radio-disabled .mat-radio-ripple .mat-ripple-element,.mat-radio-button.mat-radio-disabled .mat-radio-inner-circle {
+.mat-radio-button.mat-radio-disabled .mat-radio-ripple .mat-ripple-element,
+.mat-radio-button.mat-radio-disabled .mat-radio-inner-circle {
     background-color: #00000061
 }
 
@@ -2477,11 +2743,11 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .mat-select-panel:not([class*=mat-elevation-z]) {
-    box-shadow: 0 2px 4px -1px #0003,0 4px 5px #00000024,0 1px 10px #0000001f
+    box-shadow: 0 2px 4px -1px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f
 }
 
 .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple) {
-    background: rgba(0,0,0,.12)
+    background: rgba(0, 0, 0, .12)
 }
 
 .mat-form-field.mat-focused.mat-primary .mat-select-arrow {
@@ -2492,7 +2758,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #ffd740
 }
 
-.mat-form-field.mat-focused.mat-warn .mat-select-arrow,.mat-form-field .mat-select.mat-select-invalid .mat-select-arrow {
+.mat-form-field.mat-focused.mat-warn .mat-select-arrow,
+.mat-form-field .mat-select.mat-select-invalid .mat-select-arrow {
     color: #f44336
 }
 
@@ -2515,21 +2782,22 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .mat-drawer:not(.mat-drawer-side) {
-    box-shadow: 0 8px 10px -5px #0003,0 16px 24px 2px #00000024,0 6px 30px 5px #0000001f
+    box-shadow: 0 8px 10px -5px #0003, 0 16px 24px 2px #00000024, 0 6px 30px 5px #0000001f
 }
 
 .mat-drawer-side {
-    border-right: solid 1px rgba(0,0,0,.12)
+    border-right: solid 1px rgba(0, 0, 0, .12)
 }
 
-.mat-drawer-side.mat-drawer-end,[dir=rtl] .mat-drawer-side {
-    border-left: solid 1px rgba(0,0,0,.12);
+.mat-drawer-side.mat-drawer-end,
+[dir=rtl] .mat-drawer-side {
+    border-left: solid 1px rgba(0, 0, 0, .12);
     border-right: none
 }
 
 [dir=rtl] .mat-drawer-side.mat-drawer-end {
     border-left: none;
-    border-right: solid 1px rgba(0,0,0,.12)
+    border-right: solid 1px rgba(0, 0, 0, .12)
 }
 
 .mat-drawer-backdrop.mat-drawer-shown {
@@ -2577,7 +2845,7 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .mat-slide-toggle-thumb {
-    box-shadow: 0 2px 1px -1px #0003,0 1px 1px #00000024,0 1px 3px #0000001f;
+    box-shadow: 0 2px 1px -1px #0003, 0 1px 1px #00000024, 0 1px 3px #0000001f;
     background-color: #fafafa
 }
 
@@ -2589,7 +2857,9 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     background-color: #00000042
 }
 
-.mat-slider.mat-primary .mat-slider-track-fill,.mat-slider.mat-primary .mat-slider-thumb,.mat-slider.mat-primary .mat-slider-thumb-label {
+.mat-slider.mat-primary .mat-slider-track-fill,
+.mat-slider.mat-primary .mat-slider-thumb,
+.mat-slider.mat-primary .mat-slider-thumb-label {
     background-color: #673ab7
 }
 
@@ -2601,7 +2871,9 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     background-color: #673ab733
 }
 
-.mat-slider.mat-accent .mat-slider-track-fill,.mat-slider.mat-accent .mat-slider-thumb,.mat-slider.mat-accent .mat-slider-thumb-label {
+.mat-slider.mat-accent .mat-slider-track-fill,
+.mat-slider.mat-accent .mat-slider-thumb,
+.mat-slider.mat-accent .mat-slider-thumb-label {
     background-color: #ffd740
 }
 
@@ -2613,7 +2885,9 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     background-color: #ffd74033
 }
 
-.mat-slider.mat-warn .mat-slider-track-fill,.mat-slider.mat-warn .mat-slider-thumb,.mat-slider.mat-warn .mat-slider-thumb-label {
+.mat-slider.mat-warn .mat-slider-track-fill,
+.mat-slider.mat-warn .mat-slider-thumb,
+.mat-slider.mat-warn .mat-slider-thumb-label {
     background-color: #f44336
 }
 
@@ -2625,11 +2899,15 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     background-color: #f4433633
 }
 
-.mat-slider:hover .mat-slider-track-background,.mat-slider.cdk-focused .mat-slider-track-background {
+.mat-slider:hover .mat-slider-track-background,
+.mat-slider.cdk-focused .mat-slider-track-background {
     background-color: #00000061
 }
 
-.mat-slider.mat-slider-disabled .mat-slider-track-background,.mat-slider.mat-slider-disabled .mat-slider-track-fill,.mat-slider.mat-slider-disabled .mat-slider-thumb,.mat-slider.mat-slider-disabled:hover .mat-slider-track-background {
+.mat-slider.mat-slider-disabled .mat-slider-track-background,
+.mat-slider.mat-slider-disabled .mat-slider-track-fill,
+.mat-slider.mat-slider-disabled .mat-slider-thumb,
+.mat-slider.mat-slider-disabled:hover .mat-slider-track-background {
     background-color: #00000042
 }
 
@@ -2637,11 +2915,13 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     background-color: #0000001f
 }
 
-.mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing .mat-slider-thumb,.mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing .mat-slider-thumb-label {
+.mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing .mat-slider-thumb,
+.mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing .mat-slider-thumb-label {
     background-color: #000000de
 }
 
-.mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing.cdk-focused .mat-slider-thumb,.mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing.cdk-focused .mat-slider-thumb-label {
+.mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing.cdk-focused .mat-slider-thumb,
+.mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing.cdk-focused .mat-slider-thumb-label {
     background-color: #00000042
 }
 
@@ -2650,11 +2930,13 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     background-color: transparent
 }
 
-.mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing):hover .mat-slider-thumb,.mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing).cdk-focused .mat-slider-thumb {
+.mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing):hover .mat-slider-thumb,
+.mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing).cdk-focused .mat-slider-thumb {
     border-color: #00000061
 }
 
-.mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing):hover.mat-slider-disabled .mat-slider-thumb,.mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing).cdk-focused.mat-slider-disabled .mat-slider-thumb {
+.mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing):hover.mat-slider-disabled .mat-slider-thumb,
+.mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing).cdk-focused.mat-slider-disabled .mat-slider-thumb {
     border-color: #00000042
 }
 
@@ -2663,15 +2945,18 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .mat-slider-horizontal .mat-slider-ticks {
-    background-image: repeating-linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,.7) 2px,transparent 0,transparent);
-    background-image: -moz-repeating-linear-gradient(.0001deg,rgba(0,0,0,.7),rgba(0,0,0,.7) 2px,transparent 0,transparent)
+    background-image: repeating-linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7) 2px, transparent 0, transparent);
+    background-image: -moz-repeating-linear-gradient(.0001deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7) 2px, transparent 0, transparent)
 }
 
 .mat-slider-vertical .mat-slider-ticks {
-    background-image: repeating-linear-gradient(to bottom,rgba(0,0,0,.7),rgba(0,0,0,.7) 2px,transparent 0,transparent)
+    background-image: repeating-linear-gradient(to bottom, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7) 2px, transparent 0, transparent)
 }
 
-.mat-step-header.cdk-keyboard-focused,.mat-step-header.cdk-program-focused,.mat-step-header:hover:not([aria-disabled]),.mat-step-header:hover[aria-disabled=false] {
+.mat-step-header.cdk-keyboard-focused,
+.mat-step-header.cdk-program-focused,
+.mat-step-header:hover:not([aria-disabled]),
+.mat-step-header:hover[aria-disabled=false] {
     background-color: #0000000a
 }
 
@@ -2681,11 +2966,12 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 
 @media (hover: none) {
     .mat-step-header:hover {
-        background:none
+        background: none
     }
 }
 
-.mat-step-header .mat-step-label,.mat-step-header .mat-step-optional {
+.mat-step-header .mat-step-label,
+.mat-step-header .mat-step-optional {
     color: #0000008a
 }
 
@@ -2694,7 +2980,9 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #fff
 }
 
-.mat-step-header .mat-step-icon-selected,.mat-step-header .mat-step-icon-state-done,.mat-step-header .mat-step-icon-state-edit {
+.mat-step-header .mat-step-icon-selected,
+.mat-step-header .mat-step-icon-state-done,
+.mat-step-header .mat-step-icon-state-edit {
     background-color: #673ab7;
     color: #fff
 }
@@ -2703,7 +2991,9 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #000000de
 }
 
-.mat-step-header.mat-accent .mat-step-icon-selected,.mat-step-header.mat-accent .mat-step-icon-state-done,.mat-step-header.mat-accent .mat-step-icon-state-edit {
+.mat-step-header.mat-accent .mat-step-icon-selected,
+.mat-step-header.mat-accent .mat-step-icon-state-done,
+.mat-step-header.mat-accent .mat-step-icon-state-edit {
     background-color: #ffd740;
     color: #000000de
 }
@@ -2712,7 +3002,9 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #fff
 }
 
-.mat-step-header.mat-warn .mat-step-icon-selected,.mat-step-header.mat-warn .mat-step-icon-state-done,.mat-step-header.mat-warn .mat-step-icon-state-edit {
+.mat-step-header.mat-warn .mat-step-icon-selected,
+.mat-step-header.mat-warn .mat-step-icon-state-done,
+.mat-step-header.mat-warn .mat-step-icon-state-edit {
     background-color: #f44336;
     color: #fff
 }
@@ -2730,7 +3022,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #f44336
 }
 
-.mat-stepper-horizontal,.mat-stepper-vertical {
+.mat-stepper-horizontal,
+.mat-stepper-vertical {
     background-color: #fff
 }
 
@@ -2738,7 +3031,9 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     border-left-color: #0000001f
 }
 
-.mat-horizontal-stepper-header:before,.mat-horizontal-stepper-header:after,.mat-stepper-horizontal-line {
+.mat-horizontal-stepper-header:before,
+.mat-horizontal-stepper-header:after,
+.mat-stepper-horizontal-line {
     border-top-color: #0000001f
 }
 
@@ -2746,7 +3041,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     height: 72px
 }
 
-.mat-stepper-label-position-bottom .mat-horizontal-stepper-header,.mat-vertical-stepper-header {
+.mat-stepper-label-position-bottom .mat-horizontal-stepper-header,
+.mat-vertical-stepper-header {
     padding: 24px
 }
 
@@ -2755,7 +3051,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     bottom: -16px
 }
 
-.mat-stepper-label-position-bottom .mat-horizontal-stepper-header:after,.mat-stepper-label-position-bottom .mat-horizontal-stepper-header:before {
+.mat-stepper-label-position-bottom .mat-horizontal-stepper-header:after,
+.mat-stepper-label-position-bottom .mat-horizontal-stepper-header:before {
     top: 36px
 }
 
@@ -2767,20 +3064,24 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #757575
 }
 
-.mat-tab-nav-bar,.mat-tab-header {
-    border-bottom: 1px solid rgba(0,0,0,.12)
+.mat-tab-nav-bar,
+.mat-tab-header {
+    border-bottom: 1px solid rgba(0, 0, 0, .12)
 }
 
-.mat-tab-group-inverted-header .mat-tab-nav-bar,.mat-tab-group-inverted-header .mat-tab-header {
-    border-top: 1px solid rgba(0,0,0,.12);
+.mat-tab-group-inverted-header .mat-tab-nav-bar,
+.mat-tab-group-inverted-header .mat-tab-header {
+    border-top: 1px solid rgba(0, 0, 0, .12);
     border-bottom: none
 }
 
-.mat-tab-label,.mat-tab-link {
+.mat-tab-label,
+.mat-tab-link {
     color: #000000de
 }
 
-.mat-tab-label.mat-tab-disabled,.mat-tab-link.mat-tab-disabled {
+.mat-tab-label.mat-tab-disabled,
+.mat-tab-link.mat-tab-disabled {
     color: #00000061
 }
 
@@ -2792,133 +3093,266 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     border-color: #00000061
 }
 
-.mat-tab-group[class*=mat-background-]>.mat-tab-header,.mat-tab-nav-bar[class*=mat-background-] {
+.mat-tab-group[class*=mat-background-]>.mat-tab-header,
+.mat-tab-nav-bar[class*=mat-background-] {
     border-bottom: none;
     border-top: none
 }
 
-.mat-tab-group.mat-primary .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-group.mat-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-group.mat-primary .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-group.mat-primary .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-primary .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-primary .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-primary .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+.mat-tab-group.mat-primary .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-primary .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-primary .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-primary .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-primary .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-primary .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
     background-color: #d1c4e94d
 }
 
-.mat-tab-group.mat-primary .mat-ink-bar,.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+.mat-tab-group.mat-primary .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
     background-color: #673ab7
 }
 
-.mat-tab-group.mat-primary.mat-background-primary>.mat-tab-header .mat-ink-bar,.mat-tab-group.mat-primary.mat-background-primary>.mat-tab-link-container .mat-ink-bar,.mat-tab-nav-bar.mat-primary.mat-background-primary>.mat-tab-header .mat-ink-bar,.mat-tab-nav-bar.mat-primary.mat-background-primary>.mat-tab-link-container .mat-ink-bar {
+.mat-tab-group.mat-primary.mat-background-primary>.mat-tab-header .mat-ink-bar,
+.mat-tab-group.mat-primary.mat-background-primary>.mat-tab-link-container .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary.mat-background-primary>.mat-tab-header .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary.mat-background-primary>.mat-tab-link-container .mat-ink-bar {
     background-color: #fff
 }
 
-.mat-tab-group.mat-accent .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-group.mat-accent .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-group.mat-accent .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-group.mat-accent .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-accent .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-accent .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-accent .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-accent .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+.mat-tab-group.mat-accent .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-accent .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-accent .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-accent .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-accent .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-accent .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-accent .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-accent .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
     background-color: #ffe57f4d
 }
 
-.mat-tab-group.mat-accent .mat-ink-bar,.mat-tab-nav-bar.mat-accent .mat-ink-bar {
+.mat-tab-group.mat-accent .mat-ink-bar,
+.mat-tab-nav-bar.mat-accent .mat-ink-bar {
     background-color: #ffd740
 }
 
-.mat-tab-group.mat-accent.mat-background-accent>.mat-tab-header .mat-ink-bar,.mat-tab-group.mat-accent.mat-background-accent>.mat-tab-link-container .mat-ink-bar,.mat-tab-nav-bar.mat-accent.mat-background-accent>.mat-tab-header .mat-ink-bar,.mat-tab-nav-bar.mat-accent.mat-background-accent>.mat-tab-link-container .mat-ink-bar {
+.mat-tab-group.mat-accent.mat-background-accent>.mat-tab-header .mat-ink-bar,
+.mat-tab-group.mat-accent.mat-background-accent>.mat-tab-link-container .mat-ink-bar,
+.mat-tab-nav-bar.mat-accent.mat-background-accent>.mat-tab-header .mat-ink-bar,
+.mat-tab-nav-bar.mat-accent.mat-background-accent>.mat-tab-link-container .mat-ink-bar {
     background-color: #000000de
 }
 
-.mat-tab-group.mat-warn .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-group.mat-warn .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-group.mat-warn .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-group.mat-warn .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-warn .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-warn .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-warn .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-warn .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+.mat-tab-group.mat-warn .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-warn .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-warn .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-warn .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-warn .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-warn .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-warn .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-warn .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
     background-color: #ffcdd24d
 }
 
-.mat-tab-group.mat-warn .mat-ink-bar,.mat-tab-nav-bar.mat-warn .mat-ink-bar {
+.mat-tab-group.mat-warn .mat-ink-bar,
+.mat-tab-nav-bar.mat-warn .mat-ink-bar {
     background-color: #f44336
 }
 
-.mat-tab-group.mat-warn.mat-background-warn>.mat-tab-header .mat-ink-bar,.mat-tab-group.mat-warn.mat-background-warn>.mat-tab-link-container .mat-ink-bar,.mat-tab-nav-bar.mat-warn.mat-background-warn>.mat-tab-header .mat-ink-bar,.mat-tab-nav-bar.mat-warn.mat-background-warn>.mat-tab-link-container .mat-ink-bar {
+.mat-tab-group.mat-warn.mat-background-warn>.mat-tab-header .mat-ink-bar,
+.mat-tab-group.mat-warn.mat-background-warn>.mat-tab-link-container .mat-ink-bar,
+.mat-tab-nav-bar.mat-warn.mat-background-warn>.mat-tab-header .mat-ink-bar,
+.mat-tab-nav-bar.mat-warn.mat-background-warn>.mat-tab-link-container .mat-ink-bar {
     background-color: #fff
 }
 
-.mat-tab-group.mat-background-primary .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-group.mat-background-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-group.mat-background-primary .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-group.mat-background-primary .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-background-primary .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-background-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-background-primary .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-background-primary .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+.mat-tab-group.mat-background-primary .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-background-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-background-primary .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-background-primary .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-background-primary .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-background-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-background-primary .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-background-primary .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
     background-color: #d1c4e94d
 }
 
-.mat-tab-group.mat-background-primary>.mat-tab-header,.mat-tab-group.mat-background-primary>.mat-tab-link-container,.mat-tab-group.mat-background-primary>.mat-tab-header-pagination,.mat-tab-nav-bar.mat-background-primary>.mat-tab-header,.mat-tab-nav-bar.mat-background-primary>.mat-tab-link-container,.mat-tab-nav-bar.mat-background-primary>.mat-tab-header-pagination {
+.mat-tab-group.mat-background-primary>.mat-tab-header,
+.mat-tab-group.mat-background-primary>.mat-tab-link-container,
+.mat-tab-group.mat-background-primary>.mat-tab-header-pagination,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-header,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-link-container,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-header-pagination {
     background-color: #673ab7
 }
 
-.mat-tab-group.mat-background-primary>.mat-tab-header .mat-tab-label,.mat-tab-group.mat-background-primary>.mat-tab-link-container .mat-tab-link,.mat-tab-nav-bar.mat-background-primary>.mat-tab-header .mat-tab-label,.mat-tab-nav-bar.mat-background-primary>.mat-tab-link-container .mat-tab-link {
+.mat-tab-group.mat-background-primary>.mat-tab-header .mat-tab-label,
+.mat-tab-group.mat-background-primary>.mat-tab-link-container .mat-tab-link,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-header .mat-tab-label,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-link-container .mat-tab-link {
     color: #fff
 }
 
-.mat-tab-group.mat-background-primary>.mat-tab-header .mat-tab-label.mat-tab-disabled,.mat-tab-group.mat-background-primary>.mat-tab-link-container .mat-tab-link.mat-tab-disabled,.mat-tab-nav-bar.mat-background-primary>.mat-tab-header .mat-tab-label.mat-tab-disabled,.mat-tab-nav-bar.mat-background-primary>.mat-tab-link-container .mat-tab-link.mat-tab-disabled {
+.mat-tab-group.mat-background-primary>.mat-tab-header .mat-tab-label.mat-tab-disabled,
+.mat-tab-group.mat-background-primary>.mat-tab-link-container .mat-tab-link.mat-tab-disabled,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-header .mat-tab-label.mat-tab-disabled,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-link-container .mat-tab-link.mat-tab-disabled {
     color: #fff6
 }
 
-.mat-tab-group.mat-background-primary>.mat-tab-header .mat-tab-header-pagination-chevron,.mat-tab-group.mat-background-primary>.mat-tab-header-pagination .mat-tab-header-pagination-chevron,.mat-tab-group.mat-background-primary>.mat-tab-link-container .mat-focus-indicator:before,.mat-tab-group.mat-background-primary>.mat-tab-header .mat-focus-indicator:before,.mat-tab-nav-bar.mat-background-primary>.mat-tab-header .mat-tab-header-pagination-chevron,.mat-tab-nav-bar.mat-background-primary>.mat-tab-header-pagination .mat-tab-header-pagination-chevron,.mat-tab-nav-bar.mat-background-primary>.mat-tab-link-container .mat-focus-indicator:before,.mat-tab-nav-bar.mat-background-primary>.mat-tab-header .mat-focus-indicator:before {
+.mat-tab-group.mat-background-primary>.mat-tab-header .mat-tab-header-pagination-chevron,
+.mat-tab-group.mat-background-primary>.mat-tab-header-pagination .mat-tab-header-pagination-chevron,
+.mat-tab-group.mat-background-primary>.mat-tab-link-container .mat-focus-indicator:before,
+.mat-tab-group.mat-background-primary>.mat-tab-header .mat-focus-indicator:before,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-header .mat-tab-header-pagination-chevron,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-header-pagination .mat-tab-header-pagination-chevron,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-link-container .mat-focus-indicator:before,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-header .mat-focus-indicator:before {
     border-color: #fff
 }
 
-.mat-tab-group.mat-background-primary>.mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,.mat-tab-group.mat-background-primary>.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,.mat-tab-nav-bar.mat-background-primary>.mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,.mat-tab-nav-bar.mat-background-primary>.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
+.mat-tab-group.mat-background-primary>.mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.mat-tab-group.mat-background-primary>.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
     border-color: #fff;
     opacity: .4
 }
 
-.mat-tab-group.mat-background-primary>.mat-tab-header .mat-ripple-element,.mat-tab-group.mat-background-primary>.mat-tab-link-container .mat-ripple-element,.mat-tab-group.mat-background-primary>.mat-tab-header-pagination .mat-ripple-element,.mat-tab-nav-bar.mat-background-primary>.mat-tab-header .mat-ripple-element,.mat-tab-nav-bar.mat-background-primary>.mat-tab-link-container .mat-ripple-element,.mat-tab-nav-bar.mat-background-primary>.mat-tab-header-pagination .mat-ripple-element {
+.mat-tab-group.mat-background-primary>.mat-tab-header .mat-ripple-element,
+.mat-tab-group.mat-background-primary>.mat-tab-link-container .mat-ripple-element,
+.mat-tab-group.mat-background-primary>.mat-tab-header-pagination .mat-ripple-element,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-header .mat-ripple-element,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-link-container .mat-ripple-element,
+.mat-tab-nav-bar.mat-background-primary>.mat-tab-header-pagination .mat-ripple-element {
     background-color: #fff;
     opacity: .12
 }
 
-.mat-tab-group.mat-background-accent .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-group.mat-background-accent .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-group.mat-background-accent .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-group.mat-background-accent .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-background-accent .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-background-accent .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-background-accent .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-background-accent .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+.mat-tab-group.mat-background-accent .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-background-accent .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-background-accent .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-background-accent .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-background-accent .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-background-accent .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-background-accent .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-background-accent .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
     background-color: #ffe57f4d
 }
 
-.mat-tab-group.mat-background-accent>.mat-tab-header,.mat-tab-group.mat-background-accent>.mat-tab-link-container,.mat-tab-group.mat-background-accent>.mat-tab-header-pagination,.mat-tab-nav-bar.mat-background-accent>.mat-tab-header,.mat-tab-nav-bar.mat-background-accent>.mat-tab-link-container,.mat-tab-nav-bar.mat-background-accent>.mat-tab-header-pagination {
+.mat-tab-group.mat-background-accent>.mat-tab-header,
+.mat-tab-group.mat-background-accent>.mat-tab-link-container,
+.mat-tab-group.mat-background-accent>.mat-tab-header-pagination,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-header,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-link-container,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-header-pagination {
     background-color: #ffd740
 }
 
-.mat-tab-group.mat-background-accent>.mat-tab-header .mat-tab-label,.mat-tab-group.mat-background-accent>.mat-tab-link-container .mat-tab-link,.mat-tab-nav-bar.mat-background-accent>.mat-tab-header .mat-tab-label,.mat-tab-nav-bar.mat-background-accent>.mat-tab-link-container .mat-tab-link {
+.mat-tab-group.mat-background-accent>.mat-tab-header .mat-tab-label,
+.mat-tab-group.mat-background-accent>.mat-tab-link-container .mat-tab-link,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-header .mat-tab-label,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-link-container .mat-tab-link {
     color: #000000de
 }
 
-.mat-tab-group.mat-background-accent>.mat-tab-header .mat-tab-label.mat-tab-disabled,.mat-tab-group.mat-background-accent>.mat-tab-link-container .mat-tab-link.mat-tab-disabled,.mat-tab-nav-bar.mat-background-accent>.mat-tab-header .mat-tab-label.mat-tab-disabled,.mat-tab-nav-bar.mat-background-accent>.mat-tab-link-container .mat-tab-link.mat-tab-disabled {
+.mat-tab-group.mat-background-accent>.mat-tab-header .mat-tab-label.mat-tab-disabled,
+.mat-tab-group.mat-background-accent>.mat-tab-link-container .mat-tab-link.mat-tab-disabled,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-header .mat-tab-label.mat-tab-disabled,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-link-container .mat-tab-link.mat-tab-disabled {
     color: #0006
 }
 
-.mat-tab-group.mat-background-accent>.mat-tab-header .mat-tab-header-pagination-chevron,.mat-tab-group.mat-background-accent>.mat-tab-header-pagination .mat-tab-header-pagination-chevron,.mat-tab-group.mat-background-accent>.mat-tab-link-container .mat-focus-indicator:before,.mat-tab-group.mat-background-accent>.mat-tab-header .mat-focus-indicator:before,.mat-tab-nav-bar.mat-background-accent>.mat-tab-header .mat-tab-header-pagination-chevron,.mat-tab-nav-bar.mat-background-accent>.mat-tab-header-pagination .mat-tab-header-pagination-chevron,.mat-tab-nav-bar.mat-background-accent>.mat-tab-link-container .mat-focus-indicator:before,.mat-tab-nav-bar.mat-background-accent>.mat-tab-header .mat-focus-indicator:before {
+.mat-tab-group.mat-background-accent>.mat-tab-header .mat-tab-header-pagination-chevron,
+.mat-tab-group.mat-background-accent>.mat-tab-header-pagination .mat-tab-header-pagination-chevron,
+.mat-tab-group.mat-background-accent>.mat-tab-link-container .mat-focus-indicator:before,
+.mat-tab-group.mat-background-accent>.mat-tab-header .mat-focus-indicator:before,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-header .mat-tab-header-pagination-chevron,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-header-pagination .mat-tab-header-pagination-chevron,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-link-container .mat-focus-indicator:before,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-header .mat-focus-indicator:before {
     border-color: #000000de
 }
 
-.mat-tab-group.mat-background-accent>.mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,.mat-tab-group.mat-background-accent>.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,.mat-tab-nav-bar.mat-background-accent>.mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,.mat-tab-nav-bar.mat-background-accent>.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
+.mat-tab-group.mat-background-accent>.mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.mat-tab-group.mat-background-accent>.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
     border-color: #000;
     opacity: .4
 }
 
-.mat-tab-group.mat-background-accent>.mat-tab-header .mat-ripple-element,.mat-tab-group.mat-background-accent>.mat-tab-link-container .mat-ripple-element,.mat-tab-group.mat-background-accent>.mat-tab-header-pagination .mat-ripple-element,.mat-tab-nav-bar.mat-background-accent>.mat-tab-header .mat-ripple-element,.mat-tab-nav-bar.mat-background-accent>.mat-tab-link-container .mat-ripple-element,.mat-tab-nav-bar.mat-background-accent>.mat-tab-header-pagination .mat-ripple-element {
+.mat-tab-group.mat-background-accent>.mat-tab-header .mat-ripple-element,
+.mat-tab-group.mat-background-accent>.mat-tab-link-container .mat-ripple-element,
+.mat-tab-group.mat-background-accent>.mat-tab-header-pagination .mat-ripple-element,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-header .mat-ripple-element,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-link-container .mat-ripple-element,
+.mat-tab-nav-bar.mat-background-accent>.mat-tab-header-pagination .mat-ripple-element {
     background-color: #000;
     opacity: .12
 }
 
-.mat-tab-group.mat-background-warn .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-group.mat-background-warn .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-group.mat-background-warn .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-group.mat-background-warn .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-background-warn .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-background-warn .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-background-warn .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),.mat-tab-nav-bar.mat-background-warn .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+.mat-tab-group.mat-background-warn .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-background-warn .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-background-warn .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-group.mat-background-warn .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-background-warn .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-background-warn .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-background-warn .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.mat-tab-nav-bar.mat-background-warn .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
     background-color: #ffcdd24d
 }
 
-.mat-tab-group.mat-background-warn>.mat-tab-header,.mat-tab-group.mat-background-warn>.mat-tab-link-container,.mat-tab-group.mat-background-warn>.mat-tab-header-pagination,.mat-tab-nav-bar.mat-background-warn>.mat-tab-header,.mat-tab-nav-bar.mat-background-warn>.mat-tab-link-container,.mat-tab-nav-bar.mat-background-warn>.mat-tab-header-pagination {
+.mat-tab-group.mat-background-warn>.mat-tab-header,
+.mat-tab-group.mat-background-warn>.mat-tab-link-container,
+.mat-tab-group.mat-background-warn>.mat-tab-header-pagination,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-header,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-link-container,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-header-pagination {
     background-color: #f44336
 }
 
-.mat-tab-group.mat-background-warn>.mat-tab-header .mat-tab-label,.mat-tab-group.mat-background-warn>.mat-tab-link-container .mat-tab-link,.mat-tab-nav-bar.mat-background-warn>.mat-tab-header .mat-tab-label,.mat-tab-nav-bar.mat-background-warn>.mat-tab-link-container .mat-tab-link {
+.mat-tab-group.mat-background-warn>.mat-tab-header .mat-tab-label,
+.mat-tab-group.mat-background-warn>.mat-tab-link-container .mat-tab-link,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-header .mat-tab-label,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-link-container .mat-tab-link {
     color: #fff
 }
 
-.mat-tab-group.mat-background-warn>.mat-tab-header .mat-tab-label.mat-tab-disabled,.mat-tab-group.mat-background-warn>.mat-tab-link-container .mat-tab-link.mat-tab-disabled,.mat-tab-nav-bar.mat-background-warn>.mat-tab-header .mat-tab-label.mat-tab-disabled,.mat-tab-nav-bar.mat-background-warn>.mat-tab-link-container .mat-tab-link.mat-tab-disabled {
+.mat-tab-group.mat-background-warn>.mat-tab-header .mat-tab-label.mat-tab-disabled,
+.mat-tab-group.mat-background-warn>.mat-tab-link-container .mat-tab-link.mat-tab-disabled,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-header .mat-tab-label.mat-tab-disabled,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-link-container .mat-tab-link.mat-tab-disabled {
     color: #fff6
 }
 
-.mat-tab-group.mat-background-warn>.mat-tab-header .mat-tab-header-pagination-chevron,.mat-tab-group.mat-background-warn>.mat-tab-header-pagination .mat-tab-header-pagination-chevron,.mat-tab-group.mat-background-warn>.mat-tab-link-container .mat-focus-indicator:before,.mat-tab-group.mat-background-warn>.mat-tab-header .mat-focus-indicator:before,.mat-tab-nav-bar.mat-background-warn>.mat-tab-header .mat-tab-header-pagination-chevron,.mat-tab-nav-bar.mat-background-warn>.mat-tab-header-pagination .mat-tab-header-pagination-chevron,.mat-tab-nav-bar.mat-background-warn>.mat-tab-link-container .mat-focus-indicator:before,.mat-tab-nav-bar.mat-background-warn>.mat-tab-header .mat-focus-indicator:before {
+.mat-tab-group.mat-background-warn>.mat-tab-header .mat-tab-header-pagination-chevron,
+.mat-tab-group.mat-background-warn>.mat-tab-header-pagination .mat-tab-header-pagination-chevron,
+.mat-tab-group.mat-background-warn>.mat-tab-link-container .mat-focus-indicator:before,
+.mat-tab-group.mat-background-warn>.mat-tab-header .mat-focus-indicator:before,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-header .mat-tab-header-pagination-chevron,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-header-pagination .mat-tab-header-pagination-chevron,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-link-container .mat-focus-indicator:before,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-header .mat-focus-indicator:before {
     border-color: #fff
 }
 
-.mat-tab-group.mat-background-warn>.mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,.mat-tab-group.mat-background-warn>.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,.mat-tab-nav-bar.mat-background-warn>.mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,.mat-tab-nav-bar.mat-background-warn>.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
+.mat-tab-group.mat-background-warn>.mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.mat-tab-group.mat-background-warn>.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
     border-color: #fff;
     opacity: .4
 }
 
-.mat-tab-group.mat-background-warn>.mat-tab-header .mat-ripple-element,.mat-tab-group.mat-background-warn>.mat-tab-link-container .mat-ripple-element,.mat-tab-group.mat-background-warn>.mat-tab-header-pagination .mat-ripple-element,.mat-tab-nav-bar.mat-background-warn>.mat-tab-header .mat-ripple-element,.mat-tab-nav-bar.mat-background-warn>.mat-tab-link-container .mat-ripple-element,.mat-tab-nav-bar.mat-background-warn>.mat-tab-header-pagination .mat-ripple-element {
+.mat-tab-group.mat-background-warn>.mat-tab-header .mat-ripple-element,
+.mat-tab-group.mat-background-warn>.mat-tab-link-container .mat-ripple-element,
+.mat-tab-group.mat-background-warn>.mat-tab-header-pagination .mat-ripple-element,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-header .mat-ripple-element,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-link-container .mat-ripple-element,
+.mat-tab-nav-bar.mat-background-warn>.mat-tab-header-pagination .mat-ripple-element {
     background-color: #fff;
     opacity: .12
 }
@@ -2943,11 +3377,17 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     color: #fff
 }
 
-.mat-toolbar .mat-form-field-underline,.mat-toolbar .mat-form-field-ripple,.mat-toolbar .mat-focused .mat-form-field-ripple {
+.mat-toolbar .mat-form-field-underline,
+.mat-toolbar .mat-form-field-ripple,
+.mat-toolbar .mat-focused .mat-form-field-ripple {
     background-color: currentColor
 }
 
-.mat-toolbar .mat-form-field-label,.mat-toolbar .mat-focused .mat-form-field-label,.mat-toolbar .mat-select-value,.mat-toolbar .mat-select-arrow,.mat-toolbar .mat-form-field.mat-focused .mat-select-arrow {
+.mat-toolbar .mat-form-field-label,
+.mat-toolbar .mat-focused .mat-form-field-label,
+.mat-toolbar .mat-select-value,
+.mat-toolbar .mat-select-arrow,
+.mat-toolbar .mat-form-field.mat-focused .mat-select-arrow {
     color: inherit
 }
 
@@ -2959,29 +3399,32 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     min-height: 64px
 }
 
-.mat-toolbar-row,.mat-toolbar-single-row {
+.mat-toolbar-row,
+.mat-toolbar-single-row {
     height: 64px
 }
 
 @media (max-width: 599px) {
     .mat-toolbar-multiple-rows {
-        min-height:56px
+        min-height: 56px
     }
 
-    .mat-toolbar-row,.mat-toolbar-single-row {
+    .mat-toolbar-row,
+    .mat-toolbar-single-row {
         height: 56px
     }
 }
 
 .mat-tooltip {
-    background: rgba(97,97,97,.9)
+    background: rgba(97, 97, 97, .9)
 }
 
 .mat-tree {
     background: #fff
 }
 
-.mat-tree-node,.mat-nested-tree-node {
+.mat-tree-node,
+.mat-nested-tree-node {
     color: #000000de
 }
 
@@ -2992,7 +3435,7 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 .mat-snack-bar-container {
     color: #ffffffb3;
     background: #323232;
-    box-shadow: 0 3px 5px -1px #0003,0 6px 10px #00000024,0 1px 18px #0000001f
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f
 }
 
 .mat-simple-snackbar-action {
@@ -3166,7 +3609,8 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
     padding-right: 5px
 }
 
-.ng-select.ng-select-multiple .ng-select-container .ng-value-container .ng-value .ng-value-label,.ng-select.ng-select-multiple .ng-select-container .ng-value-container .ng-value .ng-value-icon {
+.ng-select.ng-select-multiple .ng-select-container .ng-value-container .ng-value .ng-value-label,
+.ng-select.ng-select-multiple .ng-select-container .ng-value-container .ng-value .ng-value-icon {
     display: inline-block;
     padding: 0 5px
 }
@@ -3186,7 +3630,7 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 .ng-select .ng-clear-wrapper {
     opacity: 0;
     color: #a6a6a6;
-    background: rgba(0,0,0,.25);
+    background: rgba(0, 0, 0, .25);
     width: 12px;
     height: 12px;
     text-align: center;
@@ -3203,7 +3647,7 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .ng-select .ng-clear-wrapper:hover {
-    background: rgba(0,0,0,.45)
+    background: rgba(0, 0, 0, .45)
 }
 
 .ng-select .ng-clear-wrapper .ng-clear {
@@ -3376,24 +3820,24 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .ng-select .ng-arrow-wrapper {
-    width: 20px!important;
-    height: 20px!important;
+    width: 20px !important;
+    height: 20px !important;
     transition: transform .3s
 }
 
 .ng-select .ng-arrow-wrapper .ng-arrow {
     border-style: solid;
     border-width: .2rem .2rem 0 0;
-    height: 8px!important;
-    width: 8px!important;
-    top: -2px!important;
+    height: 8px !important;
+    width: 8px !important;
+    top: -2px !important;
     transform: rotate(135deg);
     color: #7b8182
 }
 
 .ng-select .ng-select-container {
     border: 1px solid #7B8182;
-    padding: 7px 12px!important
+    padding: 7px 12px !important
 }
 
 .ng-select.ng-select-opened>.ng-select-container {
@@ -3411,7 +3855,7 @@ mat-row,mat-header-row,mat-footer-row,th.mat-header-cell,td.mat-cell,td.mat-foot
 }
 
 .ng-select .ng-select-container .ng-value-container .ng-placeholder {
-    color: #b0b3b4!important
+    color: #b0b3b4 !important
 }
 
 body {
@@ -3424,7 +3868,11 @@ body {
     border: 1px solid black
 }
 
-.base-container .modal,.main-container .modal,.notes-blur-container .modal,.plan-details .modal,.marrow-header-pro .modal {
+.base-container .modal,
+.main-container .modal,
+.notes-blur-container .modal,
+.plan-details .modal,
+.marrow-header-pro .modal {
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px)
 }
@@ -3446,7 +3894,8 @@ body {
     opacity: .5
 }
 
-.modal.modal-multi-bookmark-intro .modal-dialog,.modal.marrow-modal-2 .modal-dialog {
+.modal.modal-multi-bookmark-intro .modal-dialog,
+.modal.marrow-modal-2 .modal-dialog {
     margin-top: 225px;
     width: 250px
 }
@@ -3469,7 +3918,8 @@ body {
     border: 0
 }
 
-.modal.marrow-modal-1 .modal-dialog,.modal.tandc-modal .modal-dialog {
+.modal.marrow-modal-1 .modal-dialog,
+.modal.tandc-modal .modal-dialog {
     margin: 25% auto 0;
     max-width: 375px
 }
@@ -3479,7 +3929,8 @@ body {
     margin-top: 125px
 }
 
-.modal.marrow-modal-1 .modal-content,.modal.modal-report .modal-content {
+.modal.marrow-modal-1 .modal-content,
+.modal.modal-report .modal-content {
     background-color: transparent;
     box-shadow: none;
     border: none;
@@ -3501,7 +3952,8 @@ body {
     border-radius: 6px
 }
 
-.modal.marrow-modal-1 .modal-body,.modal.modal-report .modal-body {
+.modal.marrow-modal-1 .modal-body,
+.modal.modal-report .modal-body {
     background-color: #fff;
     padding: 15px 30px
 }
@@ -3535,7 +3987,7 @@ body {
 }
 
 .modal.modal-test.in .modal-dialog {
-    transform: translateY(-50%)!important
+    transform: translateY(-50%) !important
 }
 
 .body-video-promotion {
@@ -3555,7 +4007,18 @@ body {
     padding-top: 80px
 }
 
-a:focus,a:hover,a:active,button:focus,button:hover,button:active,select:focus,select:hover,select:active,.btn:focus,.btn:active,.btn:active:focus {
+a:focus,
+a:hover,
+a:active,
+button:focus,
+button:hover,
+button:active,
+select:focus,
+select:hover,
+select:active,
+.btn:focus,
+.btn:active,
+.btn:active:focus {
     outline: none
 }
 
@@ -3565,7 +4028,8 @@ a {
     text-decoration: none
 }
 
-a:hover,a:focus {
+a:hover,
+a:focus {
     text-decoration: none
 }
 
@@ -3623,8 +4087,8 @@ a:hover,a:focus {
     margin: 8px;
     border: 6px solid #fff;
     border-radius: 50%;
-    -webkit-animation: lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;
-    animation: lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;
+    -webkit-animation: lds-ring 1.2s cubic-bezier(.5, 0, .5, 1) infinite;
+    animation: lds-ring 1.2s cubic-bezier(.5, 0, .5, 1) infinite;
     border-color: #62cdf8 transparent transparent transparent
 }
 
@@ -3727,7 +4191,7 @@ a:hover,a:focus {
 }
 
 .text-12 {
-    font-size: 12px!important
+    font-size: 12px !important
 }
 
 .text-14 {
@@ -3761,7 +4225,8 @@ a:hover,a:focus {
     color: #979797
 }
 
-.alert-yello,.alert-yellow {
+.alert-yello,
+.alert-yellow {
     background-color: #fdfded
 }
 
@@ -3791,7 +4256,7 @@ a:hover,a:focus {
 }
 
 .brand-logo {
-    padding: 30px 20px 10px 30px!important;
+    padding: 30px 20px 10px 30px !important;
     position: static;
     width: 100%;
     margin-bottom: 20px
@@ -3821,9 +4286,11 @@ a:hover,a:focus {
     top: 40px
 }
 
-.profile-sidebar .hamburger>i.fa-bars:active,.profile-sidebar .hamburger>i.fa-bars:focus,.profile-sidebar .hamburger>i.fa-bars:hover {
+.profile-sidebar .hamburger>i.fa-bars:active,
+.profile-sidebar .hamburger>i.fa-bars:focus,
+.profile-sidebar .hamburger>i.fa-bars:hover {
     box-shadow: 0 2px 4px #00000017;
-    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.09);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .09);
     transform: scale(1.2)
 }
 
@@ -3864,7 +4331,7 @@ a:hover,a:focus {
     width: 36px;
     height: 36px;
     border: 1px solid #979797;
-    border-radius: 50%!important
+    border-radius: 50% !important
 }
 
 .profile-usertitle {
@@ -3895,7 +4362,8 @@ a:hover,a:focus {
     padding: 10px 0
 }
 
-a.profile-usertitle-name:hover,a.profile-usertitle-name:focus {
+a.profile-usertitle-name:hover,
+a.profile-usertitle-name:focus {
     color: #fff
 }
 
@@ -3939,11 +4407,11 @@ a.profile-usertitle-name:hover,a.profile-usertitle-name:focus {
 }
 
 .profile-usermenu ul .test {
-    padding-top: 18px!important
+    padding-top: 18px !important
 }
 
 .profile-usermenu ul .test-fmge {
-    padding-bottom: 18px!important
+    padding-bottom: 18px !important
 }
 
 .profile-usermenu ul li span.icon {
@@ -4042,10 +4510,11 @@ a.profile-usertitle-name:hover,a.profile-usertitle-name:focus {
 }
 
 .profile-usermenu ul>li.active>a.no-border {
-    border-left: none!important
+    border-left: none !important
 }
 
-.profile-usermenu .nav>li>a:focus,.profile-usermenu .nav>li>a:hover {
+.profile-usermenu .nav>li>a:focus,
+.profile-usermenu .nav>li>a:hover {
     background-color: #073640;
     color: #fff;
     border-left: 4px solid #fff;
@@ -4066,13 +4535,15 @@ a.profile-usertitle-name:hover,a.profile-usertitle-name:focus {
     padding-left: 60px
 }
 
-.profile-content,.profile-content-2 {
+.profile-content,
+.profile-content-2 {
     padding: 0;
     display: inline-block;
     width: 100%
 }
 
-.profile-content .container-left,.profile-content .mcq-container-left {
+.profile-content .container-left,
+.profile-content .mcq-container-left {
     width: 64%;
     float: left;
     position: relative;
@@ -4093,7 +4564,8 @@ a.profile-usertitle-name:hover,a.profile-usertitle-name:focus {
     background-color: #fdfdfd
 }
 
-.profile-content .container-right,.profile-content .mcq-container-right {
+.profile-content .container-right,
+.profile-content .mcq-container-right {
     width: 35%;
     float: left;
     position: relative;
@@ -4106,7 +4578,9 @@ a.profile-usertitle-name:hover,a.profile-usertitle-name:focus {
     padding-left: 30px
 }
 
-.qbank-2,.minuicon-1,.minuicon-2 {
+.qbank-2,
+.minuicon-1,
+.minuicon-2 {
     width: 13px;
     height: 14px;
     -o-object-fit: contain;
@@ -4124,7 +4598,7 @@ a.profile-usertitle-name:hover,a.profile-usertitle-name:focus {
 .panel.marrow-panel {
     border: 0;
     box-shadow: 0 4px 25px #0003;
-    -webkit-box-shadow: 0 4px 25px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 4px 25px rgba(0, 0, 0, .2);
     width: 100%
 }
 
@@ -4202,7 +4676,12 @@ a.profile-usertitle-name:hover,a.profile-usertitle-name:focus {
     cursor: pointer
 }
 
-.container-left.padded,.container-right.padded,.mcq-container-right.padded,.container-left.test-box,.container-left.pearl-box,.container-left.pearl-list-box {
+.container-left.padded,
+.container-right.padded,
+.mcq-container-right.padded,
+.container-left.test-box,
+.container-left.pearl-box,
+.container-left.pearl-list-box {
     padding-top: 30px
 }
 
@@ -4210,7 +4689,9 @@ a.profile-usertitle-name:hover,a.profile-usertitle-name:focus {
     padding-top: 30px
 }
 
-.speciality-title,.review-title,.test-title {
+.speciality-title,
+.review-title,
+.test-title {
     font-size: 24px;
     color: #979797;
     margin-bottom: 14px
@@ -4249,7 +4730,10 @@ a.profile-usertitle-name:hover,a.profile-usertitle-name:focus {
     padding: 20px 15px
 }
 
-a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,button.list-group-item:hover {
+a.list-group-item:focus,
+a.list-group-item:hover,
+button.list-group-item:focus,
+button.list-group-item:hover {
     background-color: #fcfcfc;
     color: #62c8df
 }
@@ -4259,7 +4743,12 @@ a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,but
     box-shadow: 0 2px 4px #00000017
 }
 
-.list-group>.list-group-item.completed:focus,.list-group>.list-group-item.completed:active,.list-group>.list-group-item.completed:hover,.list-group>a.list-group-item.completed:focus,.list-group>a.list-group-item.completed:active,.list-group>a.list-group-item.completed:hover {
+.list-group>.list-group-item.completed:focus,
+.list-group>.list-group-item.completed:active,
+.list-group>.list-group-item.completed:hover,
+.list-group>a.list-group-item.completed:focus,
+.list-group>a.list-group-item.completed:active,
+.list-group>a.list-group-item.completed:hover {
     background-color: #f7f7f7
 }
 
@@ -4271,11 +4760,14 @@ a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,but
     border-bottom-style: none
 }
 
-.list-group>.list-group-item:focus .list-group-item-heading,.list-group>.list-group-item:hover .list-group-item-heading {
+.list-group>.list-group-item:focus .list-group-item-heading,
+.list-group>.list-group-item:hover .list-group-item-heading {
     color: #62c8df
 }
 
-.list-group>.list-group-item.active,.list-group>.list-group-item.active:focus,.list-group>.list-group-item.active:hover {
+.list-group>.list-group-item.active,
+.list-group>.list-group-item.active:focus,
+.list-group>.list-group-item.active:hover {
     color: #62c8df;
     background-color: #fff;
     border-color: #ddd
@@ -4287,7 +4779,8 @@ a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,but
     float: left
 }
 
-.speciality-list .list-group>.list-group-item>.list-group-item-left,.test-list .list-group>.list-group-item>.list-group-item-left {
+.speciality-list .list-group>.list-group-item>.list-group-item-left,
+.test-list .list-group>.list-group-item>.list-group-item-left {
     display: inline-block;
     padding-right: 15px;
     float: left
@@ -4325,17 +4818,18 @@ a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,but
 .module-list .list-group>.list-group-item .list-group-item-text>.rating-text {
     margin-left: 4px;
     margin-right: 10px;
-    color: #979797!important
+    color: #979797 !important
 }
 
 .module-list .list-group>.list-group-item .list-group-item-text>.mcq-count {
     margin-left: 10px;
     margin-right: 10px;
-    color: #979797!important
+    color: #979797 !important
 }
 
-.speciality-list .list-group>.list-group-item .list-group-item-text>.speciality-module-info,.test-list .list-group>.list-group-item .list-group-item-text>.speciality-module-info {
-    color: #979797!important
+.speciality-list .list-group>.list-group-item .list-group-item-text>.speciality-module-info,
+.test-list .list-group>.list-group-item .list-group-item-text>.speciality-module-info {
+    color: #979797 !important
 }
 
 .p-a-0 {
@@ -4488,7 +4982,7 @@ a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,but
 }
 
 .m-l-minus-60 {
-    margin-left: -60px!important
+    margin-left: -60px !important
 }
 
 .speciality-thumbnail-icon {
@@ -4554,7 +5048,8 @@ a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,but
     margin-bottom: 10px
 }
 
-.panel.panel-type-1 .panel-text,.panel.panel-type-1 .panel-button {
+.panel.panel-type-1 .panel-text,
+.panel.panel-type-1 .panel-button {
     font-size: 14px;
     color: #000;
     margin-bottom: 15px
@@ -4624,24 +5119,27 @@ a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,but
     color: #fff;
     background-color: transparent;
     border-radius: 4px;
-    box-shadow: none!important;
+    box-shadow: none !important;
     padding: 10px 20px
 }
 
-.btn-marrow-1:hover,.btn-marrow-1:focus,.btn-marrow-1:active {
-    color: #72a1ab!important;
+.btn-marrow-1:hover,
+.btn-marrow-1:focus,
+.btn-marrow-1:active {
+    color: #72a1ab !important;
     box-shadow: 0 2px 6px 2px #0000001a;
-    background-color: #f7f7f7!important
+    background-color: #f7f7f7 !important
 }
 
 .bold {
     font-weight: 700
 }
 
-.btn-marrow-2:hover,.btn-marrow-2:active {
-    color: #fff!important;
+.btn-marrow-2:hover,
+.btn-marrow-2:active {
+    color: #fff !important;
     box-shadow: 0 2px 6px 2px #0000001a;
-    background-color: #72a1ab!important;
+    background-color: #72a1ab !important;
     transition: .2s ease-in
 }
 
@@ -4649,17 +5147,19 @@ a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,but
     color: #fff
 }
 
-.btn-marrow-4:hover,.btn-marrow-4:active {
-    color: #62c8df!important;
+.btn-marrow-4:hover,
+.btn-marrow-4:active {
+    color: #62c8df !important;
     transition: .2s ease-in;
-    background-color: transparent!important
+    background-color: transparent !important
 }
 
 .btn-marrow-4:focus {
     color: #62c8df
 }
 
-.btn-marrow-1.btn-small,.btn-marrow-2.btn-small {
+.btn-marrow-1.btn-small,
+.btn-marrow-2.btn-small {
     padding: 8px 20px
 }
 
@@ -4675,7 +5175,9 @@ a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,but
     border: 0px
 }
 
-.btn-marrow-3:hover,.btn-marrow-3:focus,.btn-marrow-3:active {
+.btn-marrow-3:hover,
+.btn-marrow-3:focus,
+.btn-marrow-3:active {
     color: #fff;
     border-radius: 23px;
     background-color: #62c8df;
@@ -4724,10 +5226,11 @@ a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,but
     color: #05272e
 }
 
-select.soflow,select.soflow-color {
+select.soflow,
+select.soflow-color {
     -webkit-appearance: button;
     -webkit-border-radius: 0px;
-    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, .1);
     -webkit-padding-end: 20px;
     -webkit-padding-start: 2px;
     -webkit-user-select: none;
@@ -4792,7 +5295,9 @@ select.soflow,select.soflow-color {
     font-weight: 400
 }
 
-.question-options a.list-group-item.freezed:hover,.question-options a.list-group-item.freezed:active,.question-options a.list-group-item.freezed:focus {
+.question-options a.list-group-item.freezed:hover,
+.question-options a.list-group-item.freezed:active,
+.question-options a.list-group-item.freezed:focus {
     color: #000
 }
 
@@ -4897,7 +5402,12 @@ select.soflow,select.soflow-color {
     right: -20px
 }
 
-.mcq-box mcq-bookmark .mcq-save:hover+.bookmark-states,.mcq-box mcq-bookmark .bookmark-states:hover,.pearl-detail-box pearl-bookmark .mcq-save:hover+.bookmark-states,.pearl-detail-box pearl-bookmark .bookmark-states:hover,.mcq-box-2 mcq-bookmark .mcq-save:hover+.bookmark-states,.mcq-box-2 mcq-bookmark .bookmark-states:hover {
+.mcq-box mcq-bookmark .mcq-save:hover+.bookmark-states,
+.mcq-box mcq-bookmark .bookmark-states:hover,
+.pearl-detail-box pearl-bookmark .mcq-save:hover+.bookmark-states,
+.pearl-detail-box pearl-bookmark .bookmark-states:hover,
+.mcq-box-2 mcq-bookmark .mcq-save:hover+.bookmark-states,
+.mcq-box-2 mcq-bookmark .bookmark-states:hover {
     display: block;
     position: absolute;
     top: -40px;
@@ -4909,7 +5419,10 @@ select.soflow,select.soflow-color {
     z-index: 1000
 }
 
-.list-group-item mcq-bookmark .mcq-save:hover+.bookmark-states,.list-group-item mcq-bookmark .bookmark-states:hover,.list-group-item pearl-bookmark .mcq-save:hover+.bookmark-states,.list-group-item pearl-bookmark .bookmark-states:hover {
+.list-group-item mcq-bookmark .mcq-save:hover+.bookmark-states,
+.list-group-item mcq-bookmark .bookmark-states:hover,
+.list-group-item pearl-bookmark .mcq-save:hover+.bookmark-states,
+.list-group-item pearl-bookmark .bookmark-states:hover {
     display: block;
     position: absolute;
     top: -35px;
@@ -4921,11 +5434,13 @@ select.soflow,select.soflow-color {
     z-index: 2
 }
 
-.list-group-item pearl-bookmark .mcq-save:hover+.bookmark-states,.list-group-item pearl-bookmark .bookmark-states:hover {
+.list-group-item pearl-bookmark .mcq-save:hover+.bookmark-states,
+.list-group-item pearl-bookmark .bookmark-states:hover {
     left: -25px
 }
 
-.mcq-pearl pearl-bookmark .mcq-save:hover+.bookmark-states,.mcq-pearl pearl-bookmark .bookmark-states:hover {
+.mcq-pearl pearl-bookmark .mcq-save:hover+.bookmark-states,
+.mcq-pearl pearl-bookmark .bookmark-states:hover {
     display: block;
     position: absolute;
     top: -40px;
@@ -4945,7 +5460,10 @@ select.soflow,select.soflow-color {
     margin: 0 10px
 }
 
-.mcq-box mcq-bookmark .mcq-save,.mcq-box-2 mcq-bookmark .mcq-save,.pearl-detail-box pearl-bookmark .mcq-save,.mcq-pearl pearl-bookmark .mcq-save {
+.mcq-box mcq-bookmark .mcq-save,
+.mcq-box-2 mcq-bookmark .mcq-save,
+.pearl-detail-box pearl-bookmark .mcq-save,
+.mcq-pearl pearl-bookmark .mcq-save {
     border-top: 20px solid transparent;
     border-right: 50px solid transparent;
     position: relative;
@@ -4956,7 +5474,8 @@ select.soflow,select.soflow-color {
     border-right: 10px solid transparent
 }
 
-.list-group-item mcq-bookmark .mcq-save,.list-group-item pearl-bookmark .mcq-save {
+.list-group-item mcq-bookmark .mcq-save,
+.list-group-item pearl-bookmark .mcq-save {
     border-top: 10px solid transparent;
     border-right: 25px solid transparent;
     border-left: 25px solid transparent;
@@ -5038,20 +5557,24 @@ select.soflow,select.soflow-color {
     margin-left: -42px
 }
 
-.answered-correct,.answered-incorrect {
+.answered-correct,
+.answered-incorrect {
     font-weight: 400;
     margin-left: 10px
 }
 
-.answered-correct>.fa,.answered-incorrect>.fa {
+.answered-correct>.fa,
+.answered-incorrect>.fa {
     margin-right: 4px
 }
 
-.answered>.fa-check,.answered-correct {
+.answered>.fa-check,
+.answered-correct {
     color: #3dbf2f
 }
 
-.answered>.fa-times,.answered-incorrect {
+.answered>.fa-times,
+.answered-incorrect {
     color: #f74040
 }
 
@@ -5107,7 +5630,10 @@ select.soflow,select.soflow-color {
     margin-bottom: 10px
 }
 
-.mcq-list>.list-group>li.active a,.mcq-list>.list-group>li:hover a,.mcq-list>.list-group>li:focus a,.mcq-list>.list-group>li.active>a {
+.mcq-list>.list-group>li.active a,
+.mcq-list>.list-group>li:hover a,
+.mcq-list>.list-group>li:focus a,
+.mcq-list>.list-group>li.active>a {
     color: #4a90e2
 }
 
@@ -5178,11 +5704,15 @@ select.soflow,select.soflow-color {
     background: white
 }
 
-.pagination.pagination-mcq>li>a,.pagination.pagination-mcq>li>span {
+.pagination.pagination-mcq>li>a,
+.pagination.pagination-mcq>li>span {
     color: #000
 }
 
-.pagination.pagination-mcq>li:hover a,.pagination.pagination-mcq>li:focus a,.pagination.pagination-mcq>li:hover span,.pagination.pagination-mcq>li:focus span {
+.pagination.pagination-mcq>li:hover a,
+.pagination.pagination-mcq>li:focus a,
+.pagination.pagination-mcq>li:hover span,
+.pagination.pagination-mcq>li:focus span {
     color: #4a90e2
 }
 
@@ -5190,7 +5720,8 @@ select.soflow,select.soflow-color {
     border-radius: 0
 }
 
-.modal.modal-report .modal-header,.modal.modal-report .modal-footer {
+.modal.modal-report .modal-header,
+.modal.modal-report .modal-footer {
     border: 0px
 }
 
@@ -5233,7 +5764,8 @@ select.soflow,select.soflow-color {
     margin: 20px
 }
 
-.modal.modal-download .modal-header,.modal.modal-download .modal-footer {
+.modal.modal-download .modal-header,
+.modal.modal-download .modal-footer {
     border: 0px
 }
 
@@ -5342,7 +5874,8 @@ select.soflow,select.soflow-color {
     margin-right: -20px
 }
 
-.modal.modal-exit .modal-body button,.modal.modal-exit .modal-body a {
+.modal.modal-exit .modal-body button,
+.modal.modal-exit .modal-body a {
     margin-bottom: 10px
 }
 
@@ -5411,17 +5944,17 @@ select.soflow,select.soflow-color {
 }
 
 .stats-circles-text {
-    font-size: 21px!important;
+    font-size: 21px !important;
     font-weight: 600
 }
 
 .rankers-circle-wrapper .rankers-circle-text {
-    font-size: 11px!important;
+    font-size: 11px !important;
     font-weight: 600
 }
 
 .rankers-circle-wrapper .rankers-circle-test-text {
-    font-size: 18px!important;
+    font-size: 18px !important;
     font-weight: 500
 }
 
@@ -5445,7 +5978,8 @@ hr.line-2-2p {
     width: 100%
 }
 
-.group>.group-item>.group-item-left,.group>.group-item>.group-item-right {
+.group>.group-item>.group-item-left,
+.group>.group-item>.group-item-right {
     display: inline-block;
     padding: 8px;
     vertical-align: middle
@@ -5465,7 +5999,7 @@ section.main {
 .juspay-close {
     position: absolute;
     right: 0;
-    padding: 15px!important;
+    padding: 15px !important;
     font-weight: 500;
     font-size: 20px
 }
@@ -5479,13 +6013,13 @@ section.main {
 
 @media screen and (max-width: 768px) {
     section.main {
-        padding-top:5rem
+        padding-top: 5rem
     }
 }
 
 @media screen and (max-width: 576px) {
     section.main {
-        padding-top:3rem
+        padding-top: 3rem
     }
 }
 
@@ -5507,14 +6041,15 @@ section.main {
 
 @media screen and (max-width: 576px) {
     .panel-signup>.panel-body {
-        padding:20px
+        padding: 20px
     }
 
     .panel-signup {
         margin-bottom: 40px
     }
 
-    .panel-signup.screen-1>.panel-body,.panel-signup.login-screen>.panel-body {
+    .panel-signup.screen-1>.panel-body,
+    .panel-signup.login-screen>.panel-body {
         padding: 30px 20px
     }
 }
@@ -5535,13 +6070,13 @@ section.main {
 
 @media screen and (max-width: 768px) {
     .panel-signup .padded-content {
-        padding:30px
+        padding: 30px
     }
 }
 
 @media screen and (max-width: 576px) {
     .panel-signup .padded-content {
-        padding:20px
+        padding: 20px
     }
 }
 
@@ -5604,7 +6139,7 @@ section.main {
 }
 
 .panel-login>.panel-body {
-    padding: 80px 70px!important
+    padding: 80px 70px !important
 }
 
 .login-heading {
@@ -5640,26 +6175,26 @@ section.main {
 }
 
 input::-webkit-input-placeholder {
-    color: #979797!important
+    color: #979797 !important
 }
 
 input:-moz-placeholder {
-    color: #979797!important
+    color: #979797 !important
 }
 
 input::-moz-placeholder {
-    color: #979797!important
+    color: #979797 !important
 }
 
 input:-ms-input-placeholder {
-    color: #979797!important
+    color: #979797 !important
 }
 
 .marrow-form>.form-group>input.form-control:focus {
     border-color: #62c8df;
     border-bottom: 1px solid #62c8df;
     outline: 0;
-    box-shadow: inset 0 4px 4px -4px #62c8df13,0 4px 4px -4px #62c8df13!important
+    box-shadow: inset 0 4px 4px -4px #62c8df13, 0 4px 4px -4px #62c8df13 !important
 }
 
 .pearl-title {
@@ -5677,12 +6212,14 @@ input:-ms-input-placeholder {
     font-size: 16px
 }
 
-.pearl-description sup,.pearl-description sub {
+.pearl-description sup,
+.pearl-description sub {
     font-size: .75em;
     line-height: 0
 }
 
-.pearl-description table,.pearl-table table {
+.pearl-description table,
+.pearl-table table {
     border-collapse: collapse;
     text-align: left;
     width: 100%;
@@ -5690,11 +6227,17 @@ input:-ms-input-placeholder {
     overflow-x: scroll
 }
 
-.pearl-description table ul,.pearl-description table ol,.pearl-table table ul,.pearl-table table ol {
+.pearl-description table ul,
+.pearl-description table ol,
+.pearl-table table ul,
+.pearl-table table ol {
     margin-left: 0
 }
 
-.pearl-description table td,.pearl-description table th,.pearl-table table td,.pearl-table table th {
+.pearl-description table td,
+.pearl-description table th,
+.pearl-table table td,
+.pearl-table table th {
     padding: 7.5px;
     font-size: 14px
 }
@@ -5705,37 +6248,45 @@ input:-ms-input-placeholder {
     font-weight: 400
 }
 
-.pearl-description tr:nth-child(even),.pearl-table tr:nth-child(even) {
+.pearl-description tr:nth-child(even),
+.pearl-table tr:nth-child(even) {
     background-color: #effafc
 }
 
-.pearl-description tr:nth-child(2n+3),.pearl-table tr:nth-child(2n+3) {
+.pearl-description tr:nth-child(2n+3),
+.pearl-table tr:nth-child(2n+3) {
     background-color: #fff
 }
 
-.pearl-description tr:nth-child(1),.pearl-table tr:nth-child(1) {
+.pearl-description tr:nth-child(1),
+.pearl-table tr:nth-child(1) {
     background-color: #62c8df80;
     color: #000
 }
 
-.pearl-description tr:last-child,.pearl-table tr:last-child {
+.pearl-description tr:last-child,
+.pearl-table tr:last-child {
     border-bottom: 1px solid #62c8df
 }
 
-.pearl-description td:nth-child(1),.pearl-table td:nth-child(1) {
+.pearl-description td:nth-child(1),
+.pearl-table td:nth-child(1) {
     padding-left: 12px
 }
 
-.pearl-description td:last-child,.pearl-table td:last-child {
+.pearl-description td:last-child,
+.pearl-table td:last-child {
     padding-right: 12px
 }
 
-.pearl-description td:nth-child(even),.pearl-table td:nth-child(even) {
+.pearl-description td:nth-child(even),
+.pearl-table td:nth-child(even) {
     border-left: 2px solid #ebf0f1;
     border-right: 2px solid #ebf0f1
 }
 
-.pearl-description td:last-child,.pearl-table td:last-child {
+.pearl-description td:last-child,
+.pearl-table td:last-child {
     border-right: none
 }
 
@@ -5759,7 +6310,11 @@ input:-ms-input-placeholder {
     vertical-align: baseline
 }
 
-.pearl-description td,.pearl-description td>p,.pearl-description td p,.pearl-table td p,.pearl-table td span {
+.pearl-description td,
+.pearl-description td>p,
+.pearl-description td p,
+.pearl-table td p,
+.pearl-table td span {
     color: #425b61
 }
 
@@ -5767,11 +6322,15 @@ input:-ms-input-placeholder {
     font-weight: 600
 }
 
-.pearl-description td,.pearl-description p {
+.pearl-description td,
+.pearl-description p {
     line-height: 1.3125
 }
 
-.btn.disabled,.btn[disabled],a.disabled,a[disabled] {
+.btn.disabled,
+.btn[disabled],
+a.disabled,
+a[disabled] {
     box-shadow: 0 2px 4px #00000017
 }
 
@@ -5832,7 +6391,9 @@ input:-ms-input-placeholder {
     font-weight: 600
 }
 
-.list-group.list-group-type-2>.list-group-item:active,.list-group.list-group-type-2>.list-group-item:hover,.list-group.list-group-type-2>.list-group-item:focus {
+.list-group.list-group-type-2>.list-group-item:active,
+.list-group.list-group-type-2>.list-group-item:hover,
+.list-group.list-group-type-2>.list-group-item:focus {
     color: #62c8df;
     background-color: #fcfcfc
 }
@@ -5865,7 +6426,8 @@ input:-ms-input-placeholder {
     padding: 40px 55px 40px 25px
 }
 
-.intermed-screen .col-1,.intermed-screen .col-2 {
+.intermed-screen .col-1,
+.intermed-screen .col-2 {
     float: left;
     display: inline-block
 }
@@ -5892,7 +6454,8 @@ input:-ms-input-placeholder {
     margin-bottom: 20px
 }
 
-.intermed-screen .total-q,.intermed-screen .total-t {
+.intermed-screen .total-q,
+.intermed-screen .total-t {
     font-size: 15px;
     font-weight: 700;
     color: #4a4a4a;
@@ -5921,7 +6484,7 @@ input:-ms-input-placeholder {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-weight: 400;
     color: #979797;
     text-transform: uppercase
@@ -6018,25 +6581,25 @@ input:-ms-input-placeholder {
 
 @media screen and (min-width: 992px) {
     .qbank-document {
-        padding:50px 115px
+        padding: 50px 115px
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .qbank-document {
-        padding:50px 90px
+        padding: 50px 90px
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
     .qbank-document {
-        padding:40px
+        padding: 40px
     }
 }
 
 @media screen and (max-width: 576px) {
     .qbank-document {
-        padding:20px
+        padding: 20px
     }
 }
 
@@ -6088,7 +6651,7 @@ input:-ms-input-placeholder {
 
 .modal.modal-campaign {
     text-align: center;
-    padding: 0!important
+    padding: 0 !important
 }
 
 .modal.modal-campaign:before {
@@ -6154,7 +6717,7 @@ input:-ms-input-placeholder {
 
 @media screen and (max-width: 767px) {
     .modal.modal-campaign .modal-dialog {
-        margin:0
+        margin: 0
     }
 
     .modal.modal-campaign .modal-body .col-left {
@@ -6207,12 +6770,14 @@ input:-ms-input-placeholder {
     -moz-appearance: textfield
 }
 
-.mobile-otp-form input[type=number]::-webkit-inner-spin-button,.mobile-otp-form input[type=number]::-webkit-outer-spin-button {
+.mobile-otp-form input[type=number]::-webkit-inner-spin-button,
+.mobile-otp-form input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0
 }
 
-.modal.modal-padded .modal-header,.modal.modal-padded .modal-body {
+.modal.modal-padded .modal-header,
+.modal.modal-padded .modal-body {
     padding-left: 25px;
     padding-right: 25px
 }
@@ -6272,7 +6837,11 @@ input:-ms-input-placeholder {
     max-height: 21px
 }
 
-.topics-label,.difficulty-level-label,.mode-label,.subject-label,.tag-label {
+.topics-label,
+.difficulty-level-label,
+.mode-label,
+.subject-label,
+.tag-label {
     position: relative;
     top: -4px;
     font-family: Arial;
@@ -6309,8 +6878,8 @@ input:-ms-input-placeholder {
 }
 
 .blurry-text {
-    color: transparent!important;
-    text-shadow: 0 0 5px rgba(0,0,0,.5)
+    color: transparent !important;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .5)
 }
 
 .vertical-scroll {
@@ -6372,7 +6941,7 @@ input:-ms-input-placeholder {
 
 @media screen and (max-width: 768px) {
     .modal.share-modal .success-block .message {
-        font-size:26px
+        font-size: 26px
     }
 
     .modal.share-modal .success-block .sub-message {
@@ -6380,15 +6949,21 @@ input:-ms-input-placeholder {
     }
 }
 
-.notify-modal .modal-body,.reset-pass-modal .modal-body,.share-cm-modal .modal-body {
+.notify-modal .modal-body,
+.reset-pass-modal .modal-body,
+.share-cm-modal .modal-body {
     padding-top: 0
 }
 
-.notify-modal .modal-header,.reset-pass-modal .modal-header,.share-cm-modal .modal-header {
+.notify-modal .modal-header,
+.reset-pass-modal .modal-header,
+.share-cm-modal .modal-header {
     border-bottom: 0px
 }
 
-.notify-modal .modal-dialog,.reset-pass-modal .modal-dialog,.share-cm-modal .modal-dialog {
+.notify-modal .modal-dialog,
+.reset-pass-modal .modal-dialog,
+.share-cm-modal .modal-dialog {
     width: 416px;
     display: flex;
     justify-content: center;
@@ -6396,11 +6971,14 @@ input:-ms-input-placeholder {
     top: 50%
 }
 
-.notify-modal.in .modal-dialog,.reset-pass-modal.in .modal-dialog,.share-cm-modal.in .modal-dialog {
-    transform: translateY(-50%)!important
+.notify-modal.in .modal-dialog,
+.reset-pass-modal.in .modal-dialog,
+.share-cm-modal.in .modal-dialog {
+    transform: translateY(-50%) !important
 }
 
-.notify-modal .modal-content,.reset-pass-modal .modal-content {
+.notify-modal .modal-content,
+.reset-pass-modal .modal-content {
     display: grid;
     height: 304px;
     border: 0px;
@@ -6426,12 +7004,12 @@ input:-ms-input-placeholder {
 
 .paper-bottom {
     background: inherit;
-    box-shadow: 0 .5px 1px #00000014,0 12px 0 -6px #f7f7f7,0 12px .5px -5px #00000014,0 24px 0 -12px #f7f7f7,0 24px .5px -11px #00000014!important
+    box-shadow: 0 .5px 1px #00000014, 0 12px 0 -6px #f7f7f7, 0 12px .5px -5px #00000014, 0 24px 0 -12px #f7f7f7, 0 24px .5px -11px #00000014 !important
 }
 
 .paper-top {
     background: inherit;
-    box-shadow: 0 -.1px 1px #00000014,0 -12px 0 -6px #f7f7f7,0 -12px .5px -5px #00000014,0 -24px 0 -12px #f7f7f7,0 -24px .5px -11px #00000014!important
+    box-shadow: 0 -.1px 1px #00000014, 0 -12px 0 -6px #f7f7f7, 0 -12px .5px -5px #00000014, 0 -24px 0 -12px #f7f7f7, 0 -24px .5px -11px #00000014 !important
 }
 
 app-marrow-top-nav.header-pro-page .marrow-navbar-landing.marrow-navbar-fixed-top {
@@ -6473,7 +7051,8 @@ app-marrow-top-nav.header-year-page .marrow-navbar-landing.marrow-navbar-fixed-t
     min-width: 145px
 }
 
-.custom-module-form custom-filter .custom-filter,.module-filter custom-filter .custom-filter {
+.custom-module-form custom-filter .custom-filter,
+.module-filter custom-filter .custom-filter {
     display: inline-flex;
     min-width: 100px;
     margin-top: 15px;
@@ -6522,8 +7101,9 @@ app-marrow-top-nav.header-year-page .marrow-navbar-landing.marrow-navbar-fixed-t
     margin-left: -6px
 }
 
-.cmode-manual custom-filter .custom-filter:hover+.custom-select-type,.cmode-manual custom-filter .custom-select-type:hover {
-    display: block!important;
+.cmode-manual custom-filter .custom-filter:hover+.custom-select-type,
+.cmode-manual custom-filter .custom-select-type:hover {
+    display: block !important;
     margin-left: 10px
 }
 
@@ -6563,7 +7143,7 @@ app-marrow-top-nav.header-year-page .marrow-navbar-landing.marrow-navbar-fixed-t
 
 @media screen and (min-width: 768px) {
     app-marrow-top-nav.header-pro-page .marrow-navbar-landing.marrow-navbar-fixed-top {
-        background-color:red;
+        background-color: red;
         position: absolute
     }
 
@@ -6627,12 +7207,12 @@ app-marrow-top-nav.header-year-page .marrow-navbar-landing.marrow-navbar-fixed-t
 }
 
 .mcq-desc .question-options_pr {
-    display: block!important;
-    margin-right: 0!important
+    display: block !important;
+    margin-right: 0 !important
 }
 
 .mcq-desc .list-group-item.correct {
-    background-color: #fff!important
+    background-color: #fff !important
 }
 
 .mcq-desc .list-group-item {
@@ -6641,19 +7221,23 @@ app-marrow-top-nav.header-year-page .marrow-navbar-landing.marrow-navbar-fixed-t
     box-shadow: none
 }
 
-.mcq-desc .list-group-item.correct .mcq-options,.mcq-desc .list-group-item.correct .mcq-options .answered-correct {
+.mcq-desc .list-group-item.correct .mcq-options,
+.mcq-desc .list-group-item.correct .mcq-options .answered-correct {
     color: #55aa2f
 }
 
-.mcq-desc .list-group-item.correct .mcq-options .answered-correct br,.mcq-desc .list-group-item.correct .mcq-options .answered-correct span {
-    display: none!important
+.mcq-desc .list-group-item.correct .mcq-options .answered-correct br,
+.mcq-desc .list-group-item.correct .mcq-options .answered-correct span {
+    display: none !important
 }
 
-.mcq-desc .mcq-options>div:first-child,.mcq-desc .mcq-options>div:nth-child(3) {
-    display: none!important
+.mcq-desc .mcq-options>div:first-child,
+.mcq-desc .mcq-options>div:nth-child(3) {
+    display: none !important
 }
 
-.mcq-desc .mcq-content .question-correctness,.mcq-desc .mcq-content div .copyright-content {
+.mcq-desc .mcq-content .question-correctness,
+.mcq-desc .mcq-content div .copyright-content {
     margin-bottom: 20px
 }
 
@@ -6671,34 +7255,36 @@ app-marrow-top-nav.header-year-page .marrow-navbar-landing.marrow-navbar-fixed-t
     flex-wrap: wrap
 }
 
-.mat-progress-spinner circle,.mat-spinner circle {
-    stroke: #62c8df!important
+.mat-progress-spinner circle,
+.mat-spinner circle {
+    stroke: #62c8df !important
 }
 
 .mcq-box.mcq-desc .mcq-bookmark {
     right: auto
 }
 
-.ngx-pagination .pagination-previous.disabled:before,.ngx-pagination .pagination-next.disabled:after {
+.ngx-pagination .pagination-previous.disabled:before,
+.ngx-pagination .pagination-next.disabled:after {
     padding: 8px 10px
 }
 
 .mat-drawer-content {
-    height: unset!important
+    height: unset !important
 }
 
 .ngx-pagination .pagination-previous.disabled:before {
     content: "\2039";
     display: inline-block;
     margin-right: .5rem;
-    color: #979797!important
+    color: #979797 !important
 }
 
 .ngx-pagination .pagination-next.disabled:after {
     content: "\203a";
     display: inline-block;
     margin-left: .5rem;
-    color: #979797!important
+    color: #979797 !important
 }
 
 .max-limit {
@@ -6707,7 +7293,7 @@ app-marrow-top-nav.header-year-page .marrow-navbar-landing.marrow-navbar-fixed-t
     font-size: 12px;
     display: flex;
     line-height: 11px;
-    color: #fff!important;
+    color: #fff !important;
     align-items: center
 }
 
@@ -6716,7 +7302,7 @@ app-marrow-top-nav.header-year-page .marrow-navbar-landing.marrow-navbar-fixed-t
 }
 
 .mt-3 {
-    margin-top: 3px!important
+    margin-top: 3px !important
 }
 
 .mt-3>.tooltip-inner {
@@ -6724,44 +7310,46 @@ app-marrow-top-nav.header-year-page .marrow-navbar-landing.marrow-navbar-fixed-t
 }
 
 .cdk-overlay-container {
-    z-index: 1060!important
+    z-index: 1060 !important
 }
 
-.mode-filter svg,.num-filter svg {
-    display: none!important
+.mode-filter svg,
+.num-filter svg {
+    display: none !important
 }
 
 .mode-filter>.custom-select-type {
-    margin-left: 10px!important;
-    padding: 20px 0 10px!important;
-    position: relative!important
+    margin-left: 10px !important;
+    padding: 20px 0 10px !important;
+    position: relative !important
 }
 
 .mode-filter>.custom-select-type div {
-    padding: 5px 28px!important
+    padding: 5px 28px !important
 }
 
 .mode-filter>.custom-filter {
-    width: 108px!important
+    width: 108px !important
 }
 
 .num-filter>.custom-select-type {
-    margin-left: 10px!important;
-    padding: 20px 3px 10px!important;
-    position: relative!important
+    margin-left: 10px !important;
+    padding: 20px 3px 10px !important;
+    position: relative !important
 }
 
 .num-filter>.custom-select-type>.select-single {
-    width: 94px!important
+    width: 94px !important
 }
 
 @media only print {
     * {
-        display: none!important
+        display: none !important
     }
 }
 
-html,body {
+html,
+body {
     min-height: 100%
 }
 
@@ -6854,14 +7442,14 @@ body.dark-theme {
 
 @media only screen and (max-width: 880px) {
     .success-container .mat-expansion-indicator:after {
-        border-width:0 2px 2px 0;
+        border-width: 0 2px 2px 0;
         padding: 3px
     }
 }
 
 @media only screen and (min-width: 768px) {
     .agree-modal .modal-content {
-        width:410px;
+        width: 410px;
         height: 100%;
         padding: 20px 40px
     }
@@ -6884,8 +7472,10 @@ body.dark-theme {
     justify-content: space-between;
     padding: 10px;
     margin: 5px 0;
-    background-color: #f0f4ff; /* Light blue background */
-    border: 1px solid #b3c7e6; /* Soft blue border */
+    background-color: #f0f4ff;
+    /* Light blue background */
+    border: 1px solid #b3c7e6;
+    /* Soft blue border */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -6899,7 +7489,8 @@ body.dark-theme {
 .file-label {
     flex: 1;
     font-size: 16px;
-    color: #333; /* Dark text color */
+    color: #333;
+    /* Dark text color */
 }
 
 /* Rename input styling */
@@ -6907,14 +7498,16 @@ body.dark-theme {
     flex: 1;
     padding: 8px;
     margin-right: 10px;
-    border: 1px solid #007BFF; /* Blue border */
+    border: 1px solid #007BFF;
+    /* Blue border */
     border-radius: 4px;
     transition: border-color 0.3s;
 }
 
 /* Focus effect for the input field */
 .rename-input:focus {
-    border-color: #0056b3; /* Darker blue on focus */
+    border-color: #0056b3;
+    /* Darker blue on focus */
     outline: none;
 }
 
@@ -6929,8 +7522,10 @@ body.dark-theme {
 
 /* Icon image styles */
 .icon-button img {
-    width: 24px; /* Adjust icon size */
-    height: 24px; /* Adjust icon size */
+    width: 24px;
+    /* Adjust icon size */
+    height: 24px;
+    /* Adjust icon size */
 }
 
 /* Hover effect for buttons */
@@ -6940,19 +7535,23 @@ body.dark-theme {
 
 /* Rename button color */
 .rename-button {
-    color: #28a745; /* Green color for rename */
+    color: #28a745;
+    /* Green color for rename */
 }
 
 /* Delete button color */
 .delete-button {
-    color: #dc3545; /* Red color for delete */
+    color: #dc3545;
+    /* Red color for delete */
 }
 
 /* Button hover effects */
 .rename-button:hover {
-    color: #218838; /* Darker green on hover */
+    color: #218838;
+    /* Darker green on hover */
 }
 
 .delete-button:hover {
-    color: #c82333; /* Darker red on hover */
+    color: #c82333;
+    /* Darker red on hover */
 }

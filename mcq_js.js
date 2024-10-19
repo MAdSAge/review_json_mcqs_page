@@ -134,8 +134,8 @@ function filterPopulate() {
     }
     if (SkippedList.checked) {
         megaData = megaData.concat(filterDataFromList(daata, "stauts", "Skipped"));
-    } 
-    if(imageQ.checked){
+    }
+    if (imageQ.checked) {
         megaData = filterDataByImages(megaData, "question_imag", "");
 
     }
@@ -289,11 +289,11 @@ function filterDataFromList(data, key, value) {
     return data.filter(item => item[key] && item[key].toLowerCase() === value.toLowerCase());
 }
 //filter data by images
-function filterDataByImages(data, key, value){
+function filterDataByImages(data, key, value) {
 
-        return data.filter(item => item[key] && item[key] !== "");
-    
-    
+    return data.filter(item => item[key] && item[key] !== "");
+
+
 
 }
 
