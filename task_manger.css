@@ -1,0 +1,78 @@
+body {
+    background-color: #f8f9fa; /* Light grey */
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid #e0e0e0; /* Light grey border */
+}
+
+.card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.timer-container {
+    position: relative;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+}
+
+.timer-circle {
+    position: relative;
+    border-radius: 50%;
+    border: 10px solid #007bff; /* Primary blue */
+    width: 100%;
+    height: 100%;
+}
+
+.timer-fill {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(0, 123, 255, 0.3); /* Light blue */
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 50%, 100% 0, 100% 100%);
+    transition: transform 1s linear;
+}
+
+.timer-display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40; /* Dark grey */
+}
+
+.input-group {
+    margin-top: 20px;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    color: #6c757d; /* Medium grey */
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Adjust the gap between buttons as needed */
+}
+
+.button-container button {
+    flex: 1;
+    border-radius: 5px; /* Rounded corners for buttons */
+}
+
+.button-container .btn-info {
+    background-color: #17a2b8; /* Info blue */
+    border-color: #17a2b8;
+}
+
+.button-container .btn-danger {
+    background-color: #dc3545; /* Danger red */
+    border-color: #dc3545;
+}

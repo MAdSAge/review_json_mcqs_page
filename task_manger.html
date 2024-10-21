@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager with Pomodoro Timer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="task_manger.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <div class="container py-5">
+        
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5>Task Manager</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="input-group mb-3">
+                            <input type="text" id="taskInput" class="form-control" placeholder="Enter your task">
+                            <button class="btn btn-primary" id="addTaskBtn">Add Task</button>
+                        </div>
+                        <ul id="taskList" class="list-group mb-4"></ul>
+                        <p>Streak Count: <span id="streakCount">0</span></p>
+
+                        <h6>Completed Tasks</h6>
+                        <ul id="taskHistory" class="list-group"></ul>
+                        <div class="button-container">
+                            <button id="exportCompletedBtn" class="btn btn-info">Export Completed Tasks</button>
+                            <button id="deleteCompletedBtn" class="btn btn-danger">Delete Completed Tasks</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h5>Pomodoro Timer</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="timer-container">
+                            <div class="timer-circle" id="timerCircle">
+                                <div class="timer-fill" id="timerFill"></div>
+                                <p id="timerDisplay" class="timer-display">25:00</p>
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="number" id="customTimerInput" class="form-control" placeholder="Set custom time (min)">
+                            <button class="btn btn-secondary" id="setCustomTimerBtn">Set Timer</button>
+                        </div>
+                        <button class="btn btn-warning" id="startTimerBtn">Start</button>
+                        <button class="btn btn-danger" id="resetTimerBtn">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="taskmanger.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
