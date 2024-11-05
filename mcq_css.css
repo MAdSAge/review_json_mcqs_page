@@ -5266,11 +5266,15 @@ select.soflow-color {
     font-weight: 400
 }
 
-.question-title {
+.question {
     font-size: 21px;
     font-weight: 700;
-    color: #4a4a4a
+    color: #4a4a4a;
+    display: inline-block;
+    width: 90%;
 }
+
+
 
 .question-options {
     margin-bottom: 20px;
@@ -5280,6 +5284,51 @@ select.soflow-color {
 .question-options input[type=radio] {
     margin: 3px 13px 8px 8px;
     vertical-align: top
+}
+
+.options {
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.option:hover {
+    border-color: #999;
+}
+
+.option.selected {
+    border-color: #007bff;
+    font-weight: bold;
+}
+
+.option .choice {
+    margin-right: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.option .choice.correct {
+    color: green;
+}
+
+.option .choice.incorrect {
+    color: red;
+}
+
+.option .label {
+    flex-grow: 1;
 }
 
 .question-options .list-group>.list-group-item {
@@ -7555,4 +7604,3 @@ body.dark-theme {
     color: #c82333;
     /* Darker red on hover */
 }
-

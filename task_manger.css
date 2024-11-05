@@ -38,6 +38,14 @@ body {
     transition: transform 1s linear;
 }
 
+
+.question{
+    font-size: 21px;
+    font-weight: 700;
+    color: #4a4a4a;
+    display: inline-block;
+    width: 90%;
+}
 .timer-display {
     position: absolute;
     top: 50%;
