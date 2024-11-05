@@ -172,7 +172,7 @@ function populateMcqs(data) {
 
         const question = document.createElement("div");
         question.className = 'question';
-        question.innerHTML = currentMCq['question_title'] + currentMCq['question_ADD'] + currentMCq['question_imag'];
+        question.innerHTML = currentMCq['question_title'] + currentMCq['question_ADD']+"<br>" + currentMCq['question_imag'];
 
         const options = document.createElement("div");
         options.id = `options${i}`;
